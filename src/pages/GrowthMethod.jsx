@@ -3,15 +3,16 @@ import Header from '../components/Header'
 import MainBanner from '../components/MainBanner';
 import mainbg from "../assets/images/mainbg.png";
 import InfoSection from '../components/InfoSection'
-import KeySystemFeatures from '../components/Features'
+import Features from '../components/Features'
 import GrowthMethodPhases from '../components/Growth';
 import GrowthSystemsGrid from '../components/GrowthSystem';
 import WhoItsFor from '../components/Whosection';
-import  OutcomesOfDeployment from '../components/Deployment';
+import OutcomesOfDeployment from '../components/Deployment';
 import GrowthMethodBanner from '../components/Private';
 import Footer from '../components/Footer';
 import photo from '../assets/images/photo.png'
 import image from '../assets/images/2nd.png'
+import one from '../assets/images/IMG.png';
 const GrowthMethod = () => {
     return (
         <>
@@ -24,24 +25,52 @@ const GrowthMethod = () => {
             />
             <InfoSection
                 title="What It Is"
-                description="The E-Gnite Growth Method is a proprietary AI-powered architecture that replaces addependency, sales team overload, and manual fulfillment with logic-based automation and intelligent systems."
-                subDescription="Each deployment becomes its own infrastructure — tailored to how your business acquires, communicates, and delivers."
+                description={
+                    <>
+                        The E-Gnite Growth Method is a proprietary AI-powered
+                        <br />
+                        architecture that replaces addependency, sales team <br /> overload, and
+                        manual fulfillment with logic-based <br /> automation and intelligent systems.
+                    </>
+                }
+                subDescription={
+                    <>Each deployment becomes its own infrastructure — <br /> tailored to how your business acquires, communicates, <br /> and delivers.</>}
                 buttonText="Book Your Consultation"
                 buttonLink="#"
                 image1={photo}   // bada wala upar
                 image2={image}   // chhota wala neeche overlap me
             />
-            <KeySystemFeatures
+            <Features
                 title="Key System Features"
-                description="The E-Gnite Growth Method is a proprietary AI-powered architecture that replaces addependency, sales team overload, and manual fulfillment with logic-based automation and intelligent systems."
                 features={[
-                    "AI-Powered Automation",
-                    "Scalable Infrastructure",
-                    "Data-Driven Insights",
-                    "Customizable Solutions",
-                    "24/7 Support"
+                    {
+                        title: "AI-Powered Lead Generation",
+                        description: "No ads, no platforms",
+                        image: "src/assets/images/IMG.png",
+                    },
+                    {
+                        title: "Multi-Channel Outreach",
+                        description: "Email, SMS, LinkedIn, AI voice",
+                        image: "src/assets/images/image 92.png",
+                    },
+                    {
+                        title: "Autonomous Nurturing",
+                        description: "Adaptive sequences based on behavior",
+                        image: "src/assets/images/IMG (1).png",
+                    },
+                    {
+                        title: "Operational Fulfillment",
+                        description: "Automated scheduling, service logic",
+                        image: "src/assets/images/IMG (2).png",
+                    },
+                    {
+                        title: "Human-AI Hybrid Logic",
+                        description: "Inserted where strategic value requires it",
+                        image: "src/assets/images/IMG (3).png",
+                    },
                 ]}
             />
+
             <GrowthMethodPhases />
             <GrowthSystemsGrid />
             <WhoItsFor
@@ -53,13 +82,14 @@ const GrowthMethod = () => {
                     "Service Providers",
                     "Startups",
                     "Established Corporations"
-                ]}/>
-            < OutcomesOfDeployment/>
+                ]} />
+            < OutcomesOfDeployment />
             <GrowthMethodBanner
-                />
+            />
             <Footer />
-           
 
-           </>
-    )}
-    export default GrowthMethod;
+
+        </>
+    )
+}
+export default GrowthMethod;

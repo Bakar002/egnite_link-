@@ -10,7 +10,7 @@ export default function WhoItsFor() {
     },
     {
       id: 2,
-      title: "Founders scaling permanent systems",
+      title: "Founders seeking permanent systems",
       position: "left",
       delay: "200ms"
     },
@@ -28,7 +28,7 @@ export default function WhoItsFor() {
     },
     {
       id: 5,
-      title: "Agencies tired of 'trying everything'",
+      title: "Agencies tired of \"trying everything\"",
       position: "bottom-right",
       delay: "800ms"
     }
@@ -37,109 +37,117 @@ export default function WhoItsFor() {
   const getPositionClasses = (position) => {
     switch (position) {
       case "top":
-        return "top-0 left-1/2 transform -translate-x-1/2 -translate-y-4";
+        return "top-0 left-1/2 -translate-x-1/2 -translate-y-12";
       case "left":
-        return "left-0 top-1/2 transform -translate-x-4 -translate-y-1/2";
+        return "left-0 top-1/2 -translate-x-12 -translate-y-1/2";
       case "right":
-        return "right-0 top-1/2 transform translate-x-4 -translate-y-1/2";
+        return "right-0 top-1/2 translate-x-12 -translate-y-1/2";
       case "bottom-left":
-        return "bottom-0 left-1/4 transform -translate-x-4 translate-y-4";
+        return "bottom-0 left-1/3 -translate-x-8 translate-y-12";
       case "bottom-right":
-        return "bottom-0 right-1/4 transform translate-x-4 translate-y-4";
+        return "bottom-0 right-1/3 translate-x-8 translate-y-12";
       default:
         return "";
     }
   };
 
-  const getConnectorClasses = (position) => {
+  const getLineClasses = (position) => {
     switch (position) {
       case "top":
-        return "absolute top-1/2 left-1/2 w-px h-20 bg-gradient-to-t from-cyan-400 to-transparent transform -translate-x-0.5 -translate-y-full";
+        return "absolute top-1/2 left-1/2 w-0.5 h-12 bg-gradient-to-t from-cyan-400/60 to-transparent -translate-x-0.5 -translate-y-full";
       case "left":
-        return "absolute top-1/2 left-1/2 w-20 h-px bg-gradient-to-l from-cyan-400 to-transparent transform -translate-y-0.5 -translate-x-full";
+        return "absolute top-1/2 left-1/2 h-0.5 w-12 bg-gradient-to-l from-cyan-400/60 to-transparent -translate-y-0.5 -translate-x-full";
       case "right":
-        return "absolute top-1/2 right-1/2 w-20 h-px bg-gradient-to-r from-cyan-400 to-transparent transform -translate-y-0.5 translate-x-full";
+        return "absolute top-1/2 right-1/2 h-0.5 w-12 bg-gradient-to-r from-cyan-400/60 to-transparent -translate-y-0.5 translate-x-full";
       case "bottom-left":
-        return "absolute bottom-1/2 left-3/4 w-16 h-16 border-l border-b border-cyan-400 transform translate-y-1/2 -translate-x-1/2 rounded-bl-lg opacity-60";
+        return "absolute bottom-1/2 left-3/4 w-0.5 h-12 bg-gradient-to-b from-cyan-400/60 to-transparent transform -translate-x-0.5 translate-y-full rotate-45 origin-top";
       case "bottom-right":
-        return "absolute bottom-1/2 right-3/4 w-16 h-16 border-r border-b border-cyan-400 transform translate-y-1/2 translate-x-1/2 rounded-br-lg opacity-60";
+        return "absolute bottom-1/2 right-3/4 w-0.5 h-12 bg-gradient-to-b from-cyan-400/60 to-transparent transform -translate-x-0.5 translate-y-full -rotate-45 origin-top";
       default:
         return "";
     }
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-8">
-      <div className="relative w-full max-w-4xl h-96">
-        {/* Central Hub */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-          <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
-            <div className="relative bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl px-8 py-6 border border-slate-600 shadow-2xl backdrop-blur-sm">
-              <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-b-2xl"></div>
-              <h2 className="text-2xl font-bold text-white text-center whitespace-nowrap">
+    <div className="min-h-screen bg-black flex items-center justify-center p-8 relative overflow-hidden">
+      {/* Background grid pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `
+            linear-gradient(rgba(34, 197, 94, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(34, 197, 94, 0.1) 1px, transparent 1px)
+          `,
+          backgroundSize: '50px 50px'
+        }}></div>
+      </div>
+
+      <div className="relative w-full max-w-6xl h-[28rem]">
+        {/* Connecting Lines */}
+        {audiences.map((audience) => (
+          <div key={`line-${audience.id}`} className={getLineClasses(audience.position)}></div>
+        ))}
+
+        {/* Center Box with Glow */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+          <div className="relative">
+            {/* Blue glow effect */}
+            <div className="absolute inset-0 bg-cyan-400 blur-2xl opacity-60 rounded-3xl scale-150"></div>
+            <div className="absolute inset-0 bg-blue-500 blur-xl opacity-40 rounded-3xl scale-125"></div>
+
+            {/* Main container */}
+            <div className="relative bg-gradient-to-b from-gray-800 via-gray-850 to-gray-900 rounded-3xl px-12 py-8 shadow-2xl border border-gray-700/50">
+              <h2 className="text-4xl font-bold text-white text-center whitespace-nowrap">
                 Who It's For
               </h2>
             </div>
           </div>
         </div>
 
-        {/* Audience Cards */}
+        {/* Cards */}
         {audiences.map((audience) => (
-          <div key={audience.id} className="absolute">
-            {/* Connector Line */}
-            <div className={getConnectorClasses(audience.position)}></div>
-            
-            {/* Audience Card */}
-            <div 
-              className={`${getPositionClasses(audience.position)} animate-fade-in-up`}
-              style={{ animationDelay: audience.delay }}
-            >
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-600 to-slate-700 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300 scale-110"></div>
-                <div className="relative bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl p-4 border border-slate-600 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 max-w-xs">
-                  <div className="flex items-start space-x-3">
-                    <div className="flex-shrink-0">
-                      <div className="w-8 h-8 bg-slate-600 rounded-full flex items-center justify-center">
-                        <User className="w-4 h-4 text-slate-300" />
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <p className="text-sm text-slate-200 leading-relaxed">
-                        {audience.title}
-                      </p>
-                    </div>
-                  </div>
-                  
-                  {/* Hover glow effect */}
-                  <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-cyan-500/10 to-blue-500/10"></div>
+          <div
+            key={audience.id}
+            className={`absolute ${getPositionClasses(audience.position)} animate-fade-in-up z-10`}
+            style={{ animationDelay: audience.delay }}
+          >
+            <div className={`bg-gradient-to-b from-gray-700 to-gray-800 rounded-2xl border border-gray-600/50 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 backdrop-blur-sm ${audience.position === 'left' || audience.position === 'right'
+              ? 'px-5 py-8 w-72 h-32'
+              : 'px-6 py-5 w-80 h-24'
+              }`}>
+              <div className="flex items-center space-x-4 h-full">
+                <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center flex-shrink-0">
+                  <User className="w-5 h-5 text-gray-300" />
                 </div>
+                <p className="text-sm text-gray-200 leading-relaxed font-medium flex-1">
+                  {audience.title}
+                </p>
               </div>
             </div>
           </div>
         ))}
 
-        {/* Ambient background effects */}
+        {/* Additional background effects */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "2s" }}></div>
+          <div className="absolute top-1/3 left-1/3 w-40 h-40 bg-cyan-500/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/3 right-1/3 w-48 h-48 bg-blue-500/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/4 right-1/4 w-32 h-32 bg-teal-500/5 rounded-full blur-2xl"></div>
         </div>
       </div>
-      
+
+      {/* Animations */}
       <style jsx>{`
         @keyframes fade-in-up {
           from {
             opacity: 0;
-            transform: translateY(20px);
+            transform: translateY(30px);
           }
           to {
             opacity: 1;
             transform: translateY(0);
           }
         }
-        
         .animate-fade-in-up {
-          animation: fade-in-up 0.6s ease-out forwards;
+          animation: fade-in-up 0.8s ease-out forwards;
           opacity: 0;
         }
       `}</style>

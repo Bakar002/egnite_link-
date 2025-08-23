@@ -1,13 +1,44 @@
 import React, { useState } from 'react';
 import { Brain, Users, Smile, Upload, X } from 'lucide-react';
-import top from '../assets/images/top.png'
 
-const AIPyramid = () => {
-    const [images, setImages] = useState({
+const AIPyramid = ({ 
+    topImage,
+    customStaffTitle = "Custom AI Staff",
+    customStaffDescription = "These are custom-trained agents, crafted to execute key roles inside your business.",
+    aiCards = [
+        {
+            title: "Sales AI",
+            description: "Answers objections, guides qualification, follows logic trees",
+            icon: Brain
+        },
+        {
+            title: "Support AI", 
+            description: "Responds to tickets, FAQs, resolution logic",
+            icon: Users
+        },
+        {
+            title: "Onboarding AI",
+            description: "Guides clients through multi-step processes", 
+            icon: Smile
+        },
+        {
+            title: "Fulfillment AI",
+            description: "Coordinates delivery, updates, progress reports",
+            icon: Upload
+        },
+        {
+            title: "Fulfillment AI",
+            description: "Coordinates delivery, updates, progress reports",
+            icon: Upload
+        }
+    ],
+    images: initialImages = {
         mirrorAI: null,
         customStaff: null,
         standardRoles: null
-    });
+    }
+}) => {
+    const [images, setImages] = useState(initialImages);
 
     const handleImageUpload = (level, event) => {
         const file = event.target.files[0];
@@ -72,7 +103,7 @@ const AIPyramid = () => {
 
             <div className="relative z-10">
                 {/* Mirror AI - Top Level */}
-               <img src={top} alt="" />
+               {topImage && <img src={topImage} alt="" />}
 
               
 

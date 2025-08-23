@@ -6,6 +6,7 @@ import GrowthMethod from "./pages/GrowthMethod";
 import ProintellectSystem from "./pages/ProintellectSystem";
 import AiWorkface from "./pages/AiWorkface";
 import Aionfaces from "./pages/Aionfaces";
+import IntelligenceSystem from "./pages/IntelligenceSystem";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/prointellect" element={< ProintellectSystem/>} />
         <Route path="/ai-workforce" element={< AiWorkface/>} />
         <Route path="/aion-faces" element={< Aionfaces/>} />
+        <Route path="/intelligence-systems" element={< IntelligenceSystem/>} />
       </Routes>
     </Router>
   );

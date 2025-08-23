@@ -1,34 +1,30 @@
+import React from "react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/1hero.png";
-import AIPyramid from "../components/Mirror Ai";
+import mainbg from "../assets/images/robot-6753999.png";
+import photo from "../assets/images/life-5130779_1920.png";
 import InfoSection from "../components/InfoSection";
-import photo from "../assets/images/2150834131 1.png";
-import image from "../assets/images/2M.png";
-import CustomAIStaff from "../components/Custom Ai";
+import CoreIntelligenceModules from "../components/Coreintelligence";
+import { Bot, Calendar, FileText, MessageCircle, BookOpen } from "lucide-react";
 import AIRolesDesign from "../components/standard Ai";
-import Footer from "../components/Footer";
-import OutcomesOfDeployment from "../components/Deployment";
-import WorkforceHero from "../components/Build Your";
-import { Brain,Calendar, Users,FileText,MessageCircle,BookOpen, Smile, Upload } from 'lucide-react';
+import AIAutomationComponent from "../components/AIAutomation";
 
-function AiWorkface() {
+const IntelligenceSystem = () => {
   return (
     <>
       <Header />
       <MainBanner
         heading={
           <>
-            Labor Without Burnout. <br /> Fulfillment Without <br /> Limits.
+            Your Systems Are Smart. <br /> This Is What Makes <br /> Them
+            Smarter.
           </>
         }
-        subHeading="AI Workforce™ is your operational division of intelligent agents — trained to fulfill tasks, communicate with clients, manage backend workflows, and scale your capacity without hiring or fatigue. This is not virtual assistance. This is intelligent labor architecture."
+        subHeading="Intelligence Systems™ is the meta-layer that analyzes, optimizes, and orchestrates every E-Gnite deployment — detecting friction, amplifying winning paths, and aligning performance with live market behavior. It’s not analytics. It’s evolution logic."
         buttonText="Start Building Your Workforce"
         backgroundImage={mainbg}
       />
-<AIPyramid 
-   
-/>      <InfoSection
+      <InfoSection
         title="What It Is"
         description={
           <>
@@ -47,10 +43,9 @@ function AiWorkface() {
         }
         buttonText="Book Your Consultation"
         buttonLink="#"
-        image1={photo} // bada wala upar
-        image2={image} // chhota wala neeche overlap me
+        image1={photo}
       />
-      <CustomAIStaff />
+      <CoreIntelligenceModules />
       <AIRolesDesign
         title="Custom AI Roles"
         subtitle="Advanced Features"
@@ -73,11 +68,10 @@ function AiWorkface() {
             text: "Manages booking conflicts, follow-up logic",
           },
         ]}
-      />{" "}
-      <OutcomesOfDeployment />
-      <WorkforceHero />
-      <Footer />
+      />
+      <AIAutomationComponent />
     </>
   );
-}
-export default AiWorkface;
+};
+
+export default IntelligenceSystem;

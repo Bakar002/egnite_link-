@@ -9,7 +9,7 @@ import DeploymentUseCases from "../components/UseCases";
 import OwnershipLicensing from "../components/Ownership";
 import OutcomesOfDeployment from "../components/Deployment";
 import InfluenceAtScale from "../components/Influence";
-import Footer from "../components/Footer";
+import ProfessionalFooter from "../components/HomeFooter";
 
 const Aionfaces = () => {
   return (
@@ -28,7 +28,7 @@ const Aionfaces = () => {
       <OwnershipLicensing />
       <OutcomesOfDeployment />
       <InfluenceAtScale />
-      <Footer />
+      <ProfessionalFooter />
     </>
   );
 };

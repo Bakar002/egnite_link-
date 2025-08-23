@@ -5,6 +5,8 @@ import AIPyramid from "../components/Mirror Ai";
 import InfoSection from "../components/InfoSection";
 import photo from '../assets/images/photo.png'
 import image from '../assets/images/2nd.png'
+import CustomAIStaff from "../components/Custom Ai";
+import AIRolesDesign from "../components/standard Ai";
 
 
 function AiWorkface() {
@@ -35,6 +37,8 @@ function AiWorkface() {
                             image1={photo}   // bada wala upar
                             image2={image}   // chhota wala neeche overlap me
                         />
+                        <CustomAIStaff />
+                        <AIRolesDesign />
             
     </>
   );

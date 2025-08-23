@@ -37,15 +37,15 @@ export default function WhoItsFor() {
   const getPositionClasses = (position) => {
     switch (position) {
       case "top":
-        return "top-0 left-1/2 -translate-x-1/2 -translate-y-12";
+        return "top-8 left-1/2 -translate-x-1/2";
       case "left":
-        return "left-0 top-1/2 -translate-x-12 -translate-y-1/2";
+        return "left-8 top-1/2 -translate-y-1/2";
       case "right":
-        return "right-0 top-1/2 translate-x-12 -translate-y-1/2";
+        return "right-8 top-1/2 -translate-y-1/2";
       case "bottom-left":
-        return "bottom-0 left-1/3 -translate-x-8 translate-y-12";
+        return "bottom-8 left-1/2 -translate-x-full -translate-x-4";
       case "bottom-right":
-        return "bottom-0 right-1/3 translate-x-8 translate-y-12";
+        return "bottom-8 left-1/2 translate-x-4";
       default:
         return "";
     }
@@ -54,15 +54,15 @@ export default function WhoItsFor() {
   const getLineClasses = (position) => {
     switch (position) {
       case "top":
-        return "absolute top-1/2 left-1/2 w-0.5 h-12 bg-gradient-to-t from-cyan-400/60 to-transparent -translate-x-0.5 -translate-y-full";
+        return "absolute top-1/2 left-1/2 w-0.5 h-16 bg-gradient-to-t from-cyan-400/60 to-transparent -translate-x-0.5 -translate-y-full";
       case "left":
-        return "absolute top-1/2 left-1/2 h-0.5 w-12 bg-gradient-to-l from-cyan-400/60 to-transparent -translate-y-0.5 -translate-x-full";
+        return "absolute top-1/2 left-1/2 h-0.5 w-16 bg-gradient-to-l from-cyan-400/60 to-transparent -translate-y-0.5 -translate-x-full";
       case "right":
-        return "absolute top-1/2 right-1/2 h-0.5 w-12 bg-gradient-to-r from-cyan-400/60 to-transparent -translate-y-0.5 translate-x-full";
+        return "absolute top-1/2 right-1/2 h-0.5 w-16 bg-gradient-to-r from-cyan-400/60 to-transparent -translate-y-0.5 translate-x-full";
       case "bottom-left":
-        return "absolute bottom-1/2 left-3/4 w-0.5 h-12 bg-gradient-to-b from-cyan-400/60 to-transparent transform -translate-x-0.5 translate-y-full rotate-45 origin-top";
+        return "absolute bottom-1/2 left-2/3 w-0.5 h-16 bg-gradient-to-b from-cyan-400/60 to-transparent transform -translate-x-0.5 translate-y-full rotate-45 origin-top";
       case "bottom-right":
-        return "absolute bottom-1/2 right-3/4 w-0.5 h-12 bg-gradient-to-b from-cyan-400/60 to-transparent transform -translate-x-0.5 translate-y-full -rotate-45 origin-top";
+        return "absolute bottom-1/2 right-2/3 w-0.5 h-16 bg-gradient-to-b from-cyan-400/60 to-transparent transform -translate-x-0.5 translate-y-full -rotate-45 origin-top";
       default:
         return "";
     }

@@ -3,8 +3,8 @@ import MainBanner from "../components/MainBanner";
 import mainbg from "../assets/images/1hero.png";
 import AIPyramid from "../components/Mirror Ai";
 import InfoSection from "../components/InfoSection";
-import photo from '../assets/images/1.png'
-import image from '../assets/images/2.png'
+import photo from '../assets/images/2150834131 1.png'
+import image from '../assets/images/2M.png'
 import CustomAIStaff from "../components/Custom Ai";
 import AIRolesDesign from "../components/standard Ai";
 import Footer from "../components/Footer";

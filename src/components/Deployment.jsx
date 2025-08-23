@@ -1,11 +1,10 @@
 import React from 'react';
-import {  FileText, Target, Lightbulb, Server } from 'lucide-react';
-import im from '../assets/images/1M.png'; 
+import { Calendar, FileText, Target, Lightbulb, Server } from 'lucide-react';
 
 const OutcomesOfDeployment = () => {
   const outcomes = [
     {
-      icon: im,
+      icon: <Calendar className="w-6 h-6" />,
       title: "Predictable, calendar-ready load flow"
     },
     {

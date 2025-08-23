@@ -10,6 +10,7 @@ import StrategicUseCases from "../components/Strategic";
 import OutcomesOfDeployment from "../components/Deployment";
 import NetworkGlobe from "../components/NetworkGlobe";
 import Footer from "../components/Footer";
+import SmartAdvisorsComponent from "../components/Structurebegins";
 
 const ProintellectSystem = () => {
   return (
@@ -47,6 +48,7 @@ const ProintellectSystem = () => {
       <StrategicUseCases />
       < OutcomesOfDeployment />
       <NetworkGlobe />
+      <SmartAdvisorsComponent />
       <Footer />
 
     </>

@@ -77,7 +77,7 @@ const EmpowerBusinessComponent = ({
   };
 
   return (
-    <div className="min-h-screen  from-slate-900 via-slate-800 to-slate-900 py-16 px-8" style={{backgroundColor:'#000000'}}>
+    <div className="min-h-screen  from-slate-900 via-slate-800 to-slate-900  px-8" style={{backgroundColor:'#000000'}}>
       <div className="max-w-7xl mx-auto">
         
         {/* Header Section */}

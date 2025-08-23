@@ -25,9 +25,7 @@ const ModernFeatureComponent = ({
       <div className="max-w-6xl mx-auto">
         {/* Main Content Container */}
         <div className="relative">
-          {/* Background Glow Effects */}
-          <div className="absolute top-1/4 left-1/4 w-96 h-96  rounded-full filter blur-3xl"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-purple-500/15 rounded-full filter blur-3xl"></div>
+         
           
           {/* Main Grid Layout */}
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -37,8 +35,7 @@ const ModernFeatureComponent = ({
               
               {/* Main Central Image with Glow */}
               <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-96">
-                {/* Glow Effect Behind Image */}
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 rounded-2xl filter blur-xl opacity-60 scale-110"></div>
+                
                 
                 {/* Main Image Container */}
                 <div className="relative w-full h-full rounded-2xl overflow-hidden border border-blue-400/30 bg-slate-800/50 backdrop-blur-sm">
@@ -122,7 +119,7 @@ const ModernFeatureComponent = ({
               
               {/* CTA Button */}
               <div className="pt-4">
-                <button className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25">
+                <button className="group relative inline-flex items-center gap-3 bg-[linear-gradient(339.19deg,#05BDF1_28.07%,#01375F_81.2%)]  hover:from-blue-600 hover:to-blue-700 text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25">
                   <span>{item?.buttonText || "Advanced Code Architecture"}</span>
                   <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

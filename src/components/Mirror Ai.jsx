@@ -74,10 +74,8 @@ const AIPyramid = () => {
                 {/* Mirror AI - Top Level */}
                <img src={top} alt="" />
 
-                {/* Custom AI Staff - Middle Level */}
               
 
-                {/* Standard AI Roles - Bottom Level */}
                 
             </div>
 

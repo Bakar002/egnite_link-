@@ -2,6 +2,7 @@ import React from 'react';
 import c1 from '../assets/images/c1.png';
 import c4 from '../assets/images/c4.png';
 import c5 from '../assets/images/c5.png';
+import c6 from '../assets/images/c6.png';
 
 const SixDivisionsComponent = ({ 
   data = {
@@ -32,13 +33,13 @@ const SixDivisionsComponent = ({
       },
       {
         id: 5,
-        image: c5,
+        image: c6,
         title: "Intelligence Systems™",
         description: "Analytics that inform decision-making through comprehensive data intelligence, providing insights that drive strategic advantages."
       },
       {
         id: 6,
-        image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=300&h=200&fit=crop",
+        image: c5,
         title: "Systems Engineering™",
         description: "Built to understand your infrastructure and deliver efficient solutions that scale with your growth and operational requirements."
       }

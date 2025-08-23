@@ -9,6 +9,7 @@ import CustomAIStaff from "../components/Custom Ai";
 import AIRolesDesign from "../components/standard Ai";
 import Footer from "../components/Footer";
 import OutcomesOfDeployment from "../components/Deployment";
+import WorkforceHero from "../components/Build Your";
 
 
 function AiWorkface() {
@@ -42,6 +43,7 @@ function AiWorkface() {
                         <CustomAIStaff />
                         <AIRolesDesign />
                         <OutcomesOfDeployment />
+                        <WorkforceHero />
                         <Footer />
 
             

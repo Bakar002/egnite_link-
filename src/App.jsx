@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/growth-method" element={<GrowthMethod />} />
         <Route path="/prointellect" element={< ProintellectSystem/>} />
         <Route path="/ai-workforce" element={< AiWorkface/>} />
-        <Route path="//aion-faces" element={< Aionfaces/>} />
+        <Route path="/aion-faces" element={< Aionfaces/>} />
       </Routes>
     </Router>
   );

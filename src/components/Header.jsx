@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png"; // Adjust the path as necessary
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Header = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <img
-                src="/logo.png" // apna logo yahan dalen
+                src={logo} // apna logo yahan dalen
                 alt="Logo"
                 className="h-10"
               />

@@ -1,12 +1,14 @@
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/mainbg.png";
+import mainbg from "../assets/images/1hero.png";
 import AIPyramid from "../components/Mirror Ai";
 import InfoSection from "../components/InfoSection";
-import photo from '../assets/images/photo.png'
-import image from '../assets/images/2nd.png'
+import photo from '../assets/images/1.png'
+import image from '../assets/images/2.png'
 import CustomAIStaff from "../components/Custom Ai";
 import AIRolesDesign from "../components/standard Ai";
+import Footer from "../components/Footer";
+import OutcomesOfDeployment from "../components/Deployment";
 
 
 function AiWorkface() {
@@ -14,9 +16,9 @@ function AiWorkface() {
     <>
      <Header />
             <MainBanner
-                heading="Intelligence You Can Deploy. Expertise That Doesn’t Expire"
-                subHeading="ProIntellect Systems™ equips your business with certified-grade AI professionals — designed to support legal, financial, operational, medical, and executive decisions with structure, speed, and stability."
-                buttonText="Request ProIntellect Consultation"
+                heading={<>Labor Without Burnout. <br /> Fulfillment Without <br /> Limits.</>}
+                subHeading="AI Workforce™ is your operational division of intelligent agents — trained to fulfill tasks, communicate with clients, manage backend workflows, and scale your capacity without hiring or fatigue. This is not virtual assistance. This is intelligent labor architecture."
+                buttonText="Start Building Your Workforce"
                 backgroundImage={mainbg}
             />
             <AIPyramid />
@@ -39,6 +41,9 @@ function AiWorkface() {
                         />
                         <CustomAIStaff />
                         <AIRolesDesign />
+                        <OutcomesOfDeployment />
+                        <Footer />
+
             
     </>
   );

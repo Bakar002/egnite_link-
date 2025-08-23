@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, MapPin } from 'lucide-react';
+import logo from '../assets/images/logo.png';
 
 const ProfessionalFooter = () => {
   return (
@@ -9,7 +10,9 @@ const ProfessionalFooter = () => {
           
           {/* Company Logo & Description */}
           <div className="lg:col-span-1 space-y-4">
-            <div className="flex items-center space-x-2">
+            <img src={logo} alt="" />
+
+            {/* <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-cyan-400 rounded-full flex items-center justify-center">
                 <span className="text-gray-900 font-bold text-sm">✧</span>
               </div>
@@ -17,7 +20,7 @@ const ProfessionalFooter = () => {
                 <h3 className="text-cyan-400 font-bold text-lg">E-UNITE LINK</h3>
                 <p className="text-xs text-gray-400 uppercase tracking-wider">SOLUTIONS</p>
               </div>
-            </div>
+            </div> */}
             
             <p className="text-gray-400 text-sm leading-relaxed">
               Intelligent Infrastructure for Business Growth.

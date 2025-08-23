@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from '../assets/images/logo.png';
 
 const Footer = () => {
   return (
@@ -9,15 +10,8 @@ const Footer = () => {
           
           {/* Company Section */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-blue-400">E-GNITE LINK</h3>
-                <p className="text-xs text-gray-400">SOLUTIONS</p>
-              </div>
-            </div>
+            <img src={logo} alt="" />
+           
             <p className="text-sm text-gray-300 leading-relaxed">
               Intelligent Infrastructure for Business Growth
             </p>

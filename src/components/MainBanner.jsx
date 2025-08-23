@@ -4,21 +4,21 @@ export default function MainBanner({ heading, subHeading, buttonText, background
   return (
     <div className="relative min-h-screen flex flex-col bg-gradient-to-b from-[#0000009d] via-[#0500265d] to-[#0000009d] text-white overflow-hidden">
       {/* Hero Content */}
-      <main className="flex flex-col items-center justify-center text-center px-6 py-12 flex-1">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+      <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
           {heading}
         </h1>
-        <p className="mt-6 text-gray-300 max-w-2xl">{subHeading}</p>
+        <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-gray-300 max-w-sm sm:max-w-2xl lg:max-w-3xl px-2 sm:px-0">{subHeading}</p>
 
         {/* CTA Button */}
         <a
           href="#"
-          className="mt-8 inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-400 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:opacity-90 transition"
+          className="mt-6 sm:mt-8 inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-cyan-400 to-blue-600 text-white text-sm sm:text-base font-semibold rounded-full shadow-lg hover:opacity-90 transition"
         >
           {buttonText}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="ml-2 h-5 w-5"
+            className="ml-2 h-4 w-4 sm:h-5 sm:w-5"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

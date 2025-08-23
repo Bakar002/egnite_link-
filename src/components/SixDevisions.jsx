@@ -47,7 +47,7 @@ const SixDivisionsComponent = ({
   }
 }) => {
   return (
-    <div className="min-h-screen  via-slate-800 to-slate-900 py-16 px-8" style={{backgroundColor:'#000000'}}>
+    <div className="min-h-screen  via-slate-800 to-slate-900  px-8" style={{backgroundColor:'#000000'}}>
       <div className="max-w-6xl mx-auto">
         
         {/* Header Section */}
@@ -65,7 +65,7 @@ const SixDivisionsComponent = ({
           {data.cards.map((card, index) => (
             <div key={card.id} className="group relative">
               {/* Card Container */}
-              <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 h-full hover:bg-slate-800/70 hover:border-slate-600/50 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10">
+              <div className="relative bg-[linear-gradient(335.99deg,#252525_9.77%,#424242_89.74%)]  backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 h-full hover:bg-slate-800/70 hover:border-slate-600/50 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10">
                 
                 {/* Hover Glow Effect */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/0 via-blue-500/5 to-purple-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

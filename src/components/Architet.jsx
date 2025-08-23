@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import k from '../assets/images/k.png';
 
 const GrowthInfrastructureComponent = () => {
   return (
@@ -7,10 +8,10 @@ const GrowthInfrastructureComponent = () => {
       <div className="max-w-6xl w-full bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 shadow-2xl">
         <div className="grid lg:grid-cols-2 items-center min-h-[600px]">
           {/* Left Column - Image */}
-          <div className="relative p-8 lg:p-12 flex items-center justify-center min-h-[400px] bg-gradient-to-br from-gray-800 to-gray-900">
+          <div className="relative p-8 lg:p-12 flex items-center justify-center min-h-[400px]  from-gray-800 to-gray-900">
             {/* Yahan aap apni image ka src dal dein */}
             <img 
-              src="your-image-path-here.png" 
+              src={k} 
               alt="Growth Infrastructure" 
               className="w-full h-auto max-w-sm object-contain"
             />

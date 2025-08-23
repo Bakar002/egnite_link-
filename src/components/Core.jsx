@@ -76,7 +76,7 @@ const CoreDoctrineComponent = ({
               
               {/* Card 1 - Systems Must Operate Independently */}
               <div className="group relative">
-                <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:bg-slate-800/70 hover:border-purple-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-purple-500/10">
+                <div className="relative bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:bg-slate-800/70 hover:border-purple-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-purple-500/10">
                   
                   {/* Hover Glow Effect */}
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-purple-500/0 via-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -106,7 +106,7 @@ const CoreDoctrineComponent = ({
               
               {/* Card 2 - Intelligence Must Replace Instruction */}
               <div className="group relative">
-                <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:bg-slate-800/70 hover:border-blue-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/10">
+                <div className="relative bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:bg-slate-800/70 hover:border-blue-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/10">
                   
                   {/* Hover Glow Effect */}
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-500/0 via-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -141,7 +141,7 @@ const CoreDoctrineComponent = ({
                 
                 {/* Card 3 - Infrastructure Must Outlive Strategy */}
                 <div className="group relative">
-                  <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:bg-slate-800/70 hover:border-cyan-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/10">
+                  <div className="relative bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:bg-slate-800/70 hover:border-cyan-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/10">
                     
                     {/* Hover Glow Effect */}
                     <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-cyan-500/0 via-cyan-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

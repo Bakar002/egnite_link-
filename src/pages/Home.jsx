@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Header />
       <MainBanner
-        heading="Intelligence You Can Deploy. Expertise That Doesn’t Expire"
+        heading={<>We Don’t Automate Businesses <br /> We Engineer Self-Sufficient <br /> Growth Architectures</>}
         subHeading="ProIntellect Systems™ equips your business with certified-grade AI professionals — designed to support legal, financial, operational, medical, and executive decisions with structure, speed, and stability."
         buttonText="Request ProIntellect Consultation"
         backgroundImage={mainbg}

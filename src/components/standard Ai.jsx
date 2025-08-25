@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bot, Calendar, FileText, MessageCircle, BookOpen } from 'lucide-react';
-import stai from '../assets/images/stai.png';
+import stai1 from '../assets/images/image-removebg-preview 2 copy.png';
 
 const AIRolesDesign = ({
     title,
@@ -9,7 +9,7 @@ const AIRolesDesign = ({
     features,
 }) => {
     return (
-        <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)' }}>
+        <div className="min-h-screen" style={{ background: '#000000' }}>
             <div className="flex items-center justify-center min-h-screen p-6 sm:p-8">
                 <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between max-w-6xl w-full gap-12">
 
@@ -23,7 +23,7 @@ const AIRolesDesign = ({
                             </div>
 
                             {/* Main Robot Container */}
-                            <img src={stai} alt="" className="w-full h-auto" />
+                            <img src={stai1} alt="" className="w-full h-auto" />
                         </div>
                     </div>
 

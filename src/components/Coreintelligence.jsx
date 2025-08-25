@@ -31,7 +31,7 @@ export default function CoreIntelligenceModules() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 p-8 flex items-center justify-center">
+    <div className="min-h-screen bg-black p-8 flex items-center justify-center">
       <div className="max-w-4xl w-full">
         {/* Header */}
         <div className="text-center mb-12">
@@ -52,13 +52,15 @@ export default function CoreIntelligenceModules() {
               key={module.id}
               className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300"
             >
-              <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
-                <Zap className="w-6 h-6 text-white" />
-              </div>
-              <h3 className="text-white font-semibold text-lg mb-3">
+               <div className="flex justify-center">
+  <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
+    <Zap className="w-6 h-6 text-white" />
+  </div>
+</div>
+              <h3 className="text-white text-center font-semibold text-lg mb-3">
                 {module.title}
               </h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
+              <p className="text-gray-400 text-center text-sm leading-relaxed">
                 {module.description}
               </p>
             </div>
@@ -72,13 +74,15 @@ export default function CoreIntelligenceModules() {
                   key={module.id}
                   className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300"
                 >
-                  <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
-                    <Zap className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="text-white font-semibold text-lg mb-3">
+                  <div className="flex justify-center">
+  <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
+    <Zap className="w-6 h-6 text-white" />
+  </div>
+</div>
+                  <h3 className="text-white text-center font-semibold text-lg mb-3">
                     {module.title}
                   </h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">
+                  <p className="text-gray-400 text-center text-sm leading-relaxed">
                     {module.description}
                   </p>
                 </div>

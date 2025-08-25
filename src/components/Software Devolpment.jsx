@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '../assets/images/11.png';
 export default function CustomSoftwareDevelopment() {
     return (
         <div className="min-h-screen bg-black text-white flex items-center justify-center p-8">
@@ -65,74 +65,8 @@ export default function CustomSoftwareDevelopment() {
                 </div>
 
                 {/* Right Visual */}
-                <div className="relative">
-                    <div className="bg-gradient-to-br from-cyan-400 to-blue-600 rounded-3xl p-8 relative overflow-hidden">
-                        {/* Background Decorative Elements */}
-                        <div className="absolute inset-0">
-                            {/* Floating particles/dots */}
-                            <div className="absolute top-4 left-4 w-2 h-2 bg-white/30 rounded-full"></div>
-                            <div className="absolute top-12 right-8 w-1 h-1 bg-white/40 rounded-full"></div>
-                            <div className="absolute bottom-16 left-8 w-1.5 h-1.5 bg-white/30 rounded-full"></div>
-                            <div className="absolute bottom-8 right-4 w-2 h-2 bg-white/20 rounded-full"></div>
-
-                            {/* Dotted lines */}
-                            <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2">
-                                <div className="flex space-x-1">
-                                    {[...Array(15)].map((_, i) => (
-                                        <div key={i} className="w-0.5 h-0.5 bg-white/30 rounded-full"></div>
-                                    ))}
-                                </div>
-                            </div>
-                            <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 rotate-45">
-                                <div className="flex space-x-1">
-                                    {[...Array(10)].map((_, i) => (
-                                        <div key={i} className="w-0.5 h-0.5 bg-white/20 rounded-full"></div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Central Laptop */}
-                        <div className="relative z-10 flex justify-center items-center h-64">
-                            <div className="bg-slate-800 rounded-lg p-4 transform -rotate-12 shadow-2xl">
-                                <div className="bg-black rounded-sm w-40 h-24 p-2">
-                                    {/* Dashboard mockup */}
-                                    <div className="grid grid-cols-3 gap-1 h-full">
-                                        <div className="bg-pink-500 rounded-sm"></div>
-                                        <div className="bg-cyan-400 rounded-sm"></div>
-                                        <div className="bg-purple-500 rounded-sm"></div>
-                                        <div className="bg-blue-500 rounded-sm col-span-2"></div>
-                                        <div className="bg-green-400 rounded-sm"></div>
-                                    </div>
-                                    {/* Charts representation */}
-                                    <div className="mt-1 flex space-x-1">
-                                        <div className="flex-1 bg-gradient-to-t from-purple-400 to-transparent h-3 rounded-sm"></div>
-                                        <div className="flex-1 bg-gradient-to-t from-cyan-400 to-transparent h-4 rounded-sm"></div>
-                                        <div className="flex-1 bg-gradient-to-t from-pink-400 to-transparent h-2 rounded-sm"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-slate-600 rounded-b-lg h-2 mt-1"></div>
-                            </div>
-                        </div>
-
-                        {/* Floating Icons */}
-                        <div className="absolute top-8 right-8 w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                            <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-                            </svg>
-                        </div>
-
-                        <div className="absolute bottom-8 left-8 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                            <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z" />
-                            </svg>
-                        </div>
-
-                        <div className="absolute top-1/2 right-4 w-8 h-8 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                            <div className="w-3 h-3 bg-cyan-300 rounded-full"></div>
-                        </div>
-                    </div>
-                </div>
+                <img src={img} alt="" />
+               
             </div>
         </div>
     );

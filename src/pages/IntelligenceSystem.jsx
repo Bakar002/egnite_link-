@@ -19,24 +19,24 @@ const IntelligenceSystem = () => {
   const aiStaffData = [
     {
       icon: Award,
-      title: "Sales AI",
+      title: "See across your  deployments",
       description:
-        "Answers objections, guides qualification, follows logic trees",
+        "",
     },
     {
       icon: Shield,
-      title: "Support AI",
-      description: "Responds to tickets, FAQs, resolution logic",
+      title: "Generate insights and instructions",
+      description: "",
     },
     {
       icon: UserCheck,
-      title: "Onboarding AI",
-      description: "Guides clients through multi-step processes",
+      title: "Trigger automated improvements or alert",
+      description: "",
     },
     {
       icon: Package,
-      title: "Fulfillment AI",
-      description: "Coordinates delivery, updates, progress reports",
+      title: "Propose scenario corrections based on learned outcomes",
+      description: "",
     },
     {
       icon: Truck,
@@ -50,8 +50,7 @@ const IntelligenceSystem = () => {
       <MainBanner
         heading={
           <>
-            Your Systems Are Smart. <br /> This Is What Makes <br /> Them
-            Smarter.
+            Your Systems Are Smart. <br /> This Is What Makes <br /> Them Smarter
           </>
         }
         subHeading="Intelligence Systems™ is the meta-layer that analyzes, optimizes, and orchestrates every E-Gnite deployment — detecting friction, amplifying winning paths, and aligning performance with live market behavior. It’s not analytics. It’s evolution logic."

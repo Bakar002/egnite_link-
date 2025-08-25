@@ -1,36 +1,42 @@
 import React from 'react';
+import c1 from '../assets/images/image.png';
+import c2 from '../assets/images/image (1).png';
+import c3 from '../assets/images/image (2).png';
+import c4 from '../assets/images/image (3).png';
+import c5 from '../assets/images/image (4).png';
+import c6 from '../assets/images/image (5).png';
 
 const StrategicUseCases = () => {
   const useCases = [
     {
       title: "Agencies",
       description: "AI creative content campaigns, manages client relationships and optimizes marketing operations.",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: c1,
     },
     {
       title: "Clinics",
       description: "AI helps schedule, manages workflows, helps patient care coordination and healthcare operations.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: c2,
     },
     {
       title: "Tech/SaaS",
       description: "AI supports roadmaps, data infrastructure, handles customer support and drives technical innovation.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: c3,
     },
     {
       title: "Real Estate",
       description: "AI manages property listings, client relationships and handles transactions end to end.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: c4,
     },
     {
       title: "Coaches/Edu",
       description: "AI creates personalized programs, manages student progress, and enhances educational delivery.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: c5,
     },
     {
       title: "Retail/E-Com",
       description: "AI optimizes inventory, manages customer experience, handles order fulfillment and boosts sales.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image:c6,
     }
   ];
 

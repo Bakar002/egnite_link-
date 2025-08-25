@@ -1,29 +1,32 @@
 import React from 'react';
-import { Brain, Zap, Shield, Eye } from 'lucide-react';
 
-export default function CustomAiONCreation() {
-  const features = [
+export default function CustomAiONCreation({
+  title,
+  subtitle ,
+   features = [
     {
-      icon: Brain,
-      title: "Task specific voice and information",
-      description: "Personalized AI assistant tailored to your specific needs and preferences"
+      icon,
+      title,
+      description
     },
     {
-      icon: Zap,
-      title: "Trained on your data for peak performance",
-      description: "Enhanced accuracy through custom training on your unique dataset"
+      icon,
+      title,
+      description
     },
     {
-      icon: Shield,
-      title: "Implemented with advanced security features",
-      description: "Enterprise-grade security protocols to protect your sensitive information"
+      icon,
+      title,
+      description
     },
     {
-      icon: Eye,
-      title: "Detailed usage tracking with analytics",
-      description: "Comprehensive insights into AI performance and user interactions"
+      icon,
+      title,
+      description
     }
-  ];
+  ]
+}) {
+   
 
   return (
     <div className="min-h-screen bg-gray-900 p-8 font-sans">
@@ -31,11 +34,10 @@ export default function CustomAiONCreation() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-white mb-4">
-            Custom AiON Creation
+            {title}
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Effortlessly build intelligent AI assistants customized to your specific needs 
-            by integrating with your preferred tools
+            {subtitle}
           </p>
         </div>
 

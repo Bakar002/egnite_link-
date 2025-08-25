@@ -114,8 +114,8 @@ const IntelligenceSystem = () => {
     "Your custom outcome 5"
   ]}
 />
-<ProfessionalFooter />
 <FuturisticHero />
+<ProfessionalFooter />
     </>
   );
 };

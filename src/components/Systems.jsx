@@ -1,4 +1,6 @@
 import React from 'react';
+import robotImage from '../assets/images/8c97de871364e759d21fa152e628f86d97e5937f.png'; // Replace with your 3D robot image path
+
 
 export default function FuturisticHero() {
   return (
@@ -20,67 +22,8 @@ export default function FuturisticHero() {
             <div className="absolute inset-0 bg-gradient-radial from-blue-500/20 via-cyan-500/10 to-transparent rounded-full blur-2xl scale-150"></div>
             
             {/* Robot container */}
-            <div className="relative z-10">
-              {/* Robot figure */}
-              <div className="relative w-80 h-96">
-                
-                {/* Head */}
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-28 h-32 bg-gradient-to-br from-slate-200 via-slate-300 to-slate-400 rounded-t-3xl rounded-b-xl shadow-2xl">
-                  {/* Face panel */}
-                  <div className="absolute inset-2 bg-gradient-to-br from-slate-100 to-slate-200 rounded-t-2xl rounded-b-lg">
-                    {/* Blue glowing eye */}
-                    <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full shadow-lg">
-                      <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full animate-pulse"></div>
-                      <div className="absolute top-1 left-1 w-4 h-4 bg-gradient-to-br from-blue-300 to-cyan-300 rounded-full"></div>
-                      <div className="absolute top-1.5 left-1.5 w-2 h-2 bg-white rounded-full opacity-80"></div>
-                    </div>
-                    
-                    {/* Facial lines */}
-                    <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 w-16 h-0.5 bg-slate-400 rounded"></div>
-                    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-12 h-0.5 bg-slate-400 rounded"></div>
-                  </div>
-                </div>
-                
-                {/* Neck */}
-                <div className="absolute top-28 left-1/2 transform -translate-x-1/2 w-16 h-8 bg-gradient-to-b from-slate-300 to-slate-400 rounded-lg shadow-lg"></div>
-                
-                {/* Torso */}
-                <div className="absolute top-32 left-1/2 transform -translate-x-1/2 w-40 h-48 bg-gradient-to-br from-slate-200 via-slate-300 to-slate-400 rounded-2xl shadow-2xl">
-                  {/* Chest panel */}
-                  <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-28 h-20 bg-gradient-to-br from-slate-100 to-slate-200 rounded-xl border border-slate-300/50">
-                    {/* Central core */}
-                    <div className="absolute top-3 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full animate-pulse">
-                      <div className="absolute inset-0.5 bg-gradient-to-r from-blue-300 to-cyan-300 rounded-full"></div>
-                    </div>
-                    {/* Tech lines */}
-                    <div className="absolute top-8 left-4 w-20 h-0.5 bg-slate-400 rounded"></div>
-                    <div className="absolute top-10 left-6 w-16 h-0.5 bg-slate-400 rounded"></div>
-                    <div className="absolute top-12 left-8 w-12 h-0.5 bg-slate-400 rounded"></div>
-                  </div>
-                  
-                  {/* Side panels */}
-                  <div className="absolute top-32 left-2 w-6 h-12 bg-gradient-to-b from-slate-300 to-slate-400 rounded-lg"></div>
-                  <div className="absolute top-32 right-2 w-6 h-12 bg-gradient-to-b from-slate-300 to-slate-400 rounded-lg"></div>
-                </div>
-                
-                {/* Left Shoulder */}
-                <div className="absolute top-36 left-8 w-12 h-16 bg-gradient-to-br from-slate-300 to-slate-400 rounded-xl shadow-xl transform -rotate-12"></div>
-                
-                {/* Right Shoulder */}
-                <div className="absolute top-36 right-8 w-12 h-16 bg-gradient-to-br from-slate-300 to-slate-400 rounded-xl shadow-xl transform rotate-12"></div>
-                
-                {/* Left Arm */}
-                <div className="absolute top-48 left-4 w-8 h-24 bg-gradient-to-b from-slate-300 to-slate-400 rounded-lg shadow-lg transform -rotate-6"></div>
-                
-                {/* Right Arm */}
-                <div className="absolute top-48 right-4 w-8 h-24 bg-gradient-to-b from-slate-300 to-slate-400 rounded-lg shadow-lg transform rotate-6"></div>
-                
-                {/* Glowing accents */}
-                <div className="absolute top-40 left-1/2 transform -translate-x-1/2 w-1 h-8 bg-gradient-to-b from-blue-400 to-cyan-400 rounded-full opacity-80 animate-pulse"></div>
-                <div className="absolute top-44 left-12 w-0.5 h-4 bg-gradient-to-b from-blue-400 to-cyan-400 rounded-full opacity-60 animate-pulse"></div>
-                <div className="absolute top-44 right-12 w-0.5 h-4 bg-gradient-to-b from-blue-400 to-cyan-400 rounded-full opacity-60 animate-pulse"></div>
-              </div>
-            </div>
+                      <img src={robotImage} alt=""  width={400} height={100}/>
+
           </div>
 
           {/* Right side - Content */}

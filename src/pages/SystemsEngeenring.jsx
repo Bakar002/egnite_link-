@@ -18,6 +18,7 @@ import AIRolesDesign from "../components/standard Ai";
 import StrategicUseCases from "../components/Strategic";
 import OwnershipLicensing from "../components/Ownership";
 import ProfessionalFooter from "../components/HomeFooter";
+import SpaceHeroSection from "../components/Another App";
 
 export default function SystemsEngeenring() {
   const customFeatures = [
@@ -143,6 +144,7 @@ Immediate Functionality"
               title="Custom Ownership & Licensing"
               cards={cardsData}
             />
+            <SpaceHeroSection />
             <ProfessionalFooter />
     </>
   );

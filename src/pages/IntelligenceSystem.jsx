@@ -12,6 +12,7 @@ import CustomAIStaff from "../components/Custom Ai";
 import {Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 import OutcomesOfDeployment from "../components/Deployment";
 import ProfessionalFooter from "../components/HomeFooter";
+import FuturisticHero from "../components/Systems";
 
 
 const IntelligenceSystem = () => {
@@ -115,6 +116,7 @@ const IntelligenceSystem = () => {
   ]}
 />
 <ProfessionalFooter />
+<FuturisticHero />
     </>
   );
 };

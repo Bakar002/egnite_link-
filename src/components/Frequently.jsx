@@ -77,27 +77,26 @@ const FAQComponent = ({
 
   return (
     <div
-      className="min-h-screen text-white p-6"
+      className="min-h-screen text-white p-4 sm:p-6 md:p-10"
       style={{ backgroundColor: "black" }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Left Sidebar */}
           <div className="lg:col-span-1">
             <div className="mb-8">
               {/* Logo/Image Section */}
-              <div className="flex items-center gap-3 mb-8">
-                <div className="w-16 h-16   rounded-2xl flex items-center justify-center shadow-lg">
-                 <img src={faq} alt="" />
+              <div className="flex items-center gap-3 mb-6 sm:mb-8">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center shadow-lg">
+                  <img src={faq} alt="" className="w-full h-full object-contain" />
                 </div>
-                
               </div>
 
-              <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 {title}
               </h1>
-              <p className="text-gray-400 text-base leading-relaxed">
-                {subtitle}  
+              <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
+                {subtitle}
               </p>
             </div>
 
@@ -106,17 +105,17 @@ const FAQComponent = ({
               {supportButtons.map((button, index) => (
                 <div
                   key={index}
-                  className="bg-gray-800/50 border border-gray-700/50 rounded-xl p-4 hover:bg-gray-700/50 hover:border-gray-600/50 transition-all duration-200 cursor-pointer group backdrop-blur-sm"
+                  className="bg-gray-800/50 border border-gray-700/50 rounded-xl p-3 sm:p-4 hover:bg-gray-700/50 hover:border-gray-600/50 transition-all duration-200 cursor-pointer group backdrop-blur-sm"
                 >
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 shadow-lg">
+                  <div className="flex items-center gap-3 sm:gap-4">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 shadow-lg">
                       {getIcon(button.icon)}
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-semibold text-white mb-1 group-hover:text-blue-300 transition-colors">
+                      <h3 className="font-semibold text-white text-sm sm:text-base mb-1 group-hover:text-blue-300 transition-colors">
                         {button.text}
                       </h3>
-                      <p className="text-gray-400 text-sm">{button.subtext}</p>
+                      <p className="text-gray-400 text-xs sm:text-sm">{button.subtext}</p>
                     </div>
                   </div>
                 </div>
@@ -128,19 +127,19 @@ const FAQComponent = ({
           <div className="lg:col-span-2">
             <div className="space-y-4">
               {faqs.map((faq, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="bg-gray-800/40 border border-gray-700/60 rounded-xl overflow-hidden backdrop-blur-sm hover:border-gray-600/70 transition-all duration-200"
                 >
                   <button
                     onClick={() => toggleFAQ(index)}
-                    className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-gray-700/30 transition-all duration-200 group"
+                    className="w-full px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between text-left hover:bg-gray-700/30 transition-all duration-200 group"
                   >
-                    <span className="font-medium text-white text-lg group-hover:text-blue-300 transition-colors pr-4">
+                    <span className="font-medium text-white text-base sm:text-lg group-hover:text-blue-300 transition-colors pr-2 sm:pr-4">
                       {faq.question}
                     </span>
                     <div className="flex-shrink-0">
-                      <div className="w-8 h-8 rounded-full bg-gray-700/50 flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
+                      <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gray-700/50 flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
                         {openFAQ === index ? (
                           <ChevronUp className="w-4 h-4 text-gray-400 group-hover:text-blue-400" />
                         ) : (
@@ -151,9 +150,9 @@ const FAQComponent = ({
                   </button>
 
                   {openFAQ === index && (
-                    <div className="px-6 pb-6">
-                      <div className="border-t border-gray-700/50 pt-5">
-                        <p className="text-gray-300 leading-relaxed text-base">
+                    <div className="px-4 sm:px-6 pb-4 sm:pb-6">
+                      <div className="border-t border-gray-700/50 pt-4 sm:pt-5">
+                        <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                           {faq.answer}
                         </p>
                       </div>

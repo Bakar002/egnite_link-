@@ -24,82 +24,97 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center p-6">
-      <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
+    <div className="min-h-screen bg-black text-white flex items-center justify-center p-4 sm:p-6">
+      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Side - Contact Info */}
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           <div>
-            <h1 className="text-5xl font-bold mb-6 leading-tight">Get In Touch With Us</h1>
-            <p className="text-gray-400 text-lg leading-relaxed">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
+              Get In Touch With Us
+            </h1>
+            <p className="text-gray-400 text-base sm:text-lg leading-relaxed">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
             </p>
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             {/* Location */}
-            <div className="flex items-start space-x-4">
-              <div className="w-12 h-12  rounded-lg flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-6 h-6 text-white" />
+            <div className="flex items-start space-x-3 sm:space-x-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
               <div>
-                <h3 className="font-semibold text-xl mb-2 text-white">Location</h3>
-                <p className="text-gray-400">Lorem ipsum dolor sit amet consectetur.</p>
+                <h3 className="font-semibold text-lg sm:text-xl mb-1 sm:mb-2 text-white">
+                  Location
+                </h3>
+                <p className="text-gray-400 text-sm sm:text-base">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
               </div>
             </div>
 
             {/* Support */}
-            <div className="flex items-start space-x-4">
-              <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Phone className="w-6 h-6 text-white" />
+            <div className="flex items-start space-x-3 sm:space-x-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
               <div>
-                <h3 className="font-semibold text-xl mb-2 text-white">Support</h3>
-                <p className="text-gray-400">+8800 65456789</p>
+                <h3 className="font-semibold text-lg sm:text-xl mb-1 sm:mb-2 text-white">
+                  Support
+                </h3>
+                <p className="text-gray-400 text-sm sm:text-base">
+                  +8800 65456789
+                </p>
               </div>
             </div>
 
             {/* Email */}
-            <div className="flex items-start space-x-4">
-              <div className="w-12 h-12  rounded-lg flex items-center justify-center flex-shrink-0">
-                <Mail className="w-6 h-6 text-white" />
+            <div className="flex items-start space-x-3 sm:space-x-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
               <div>
-                <h3 className="font-semibold text-xl mb-2 text-white">Email Us</h3>
-                <p className="text-gray-400">example@gmail.com</p>
+                <h3 className="font-semibold text-lg sm:text-xl mb-1 sm:mb-2 text-white">
+                  Email Us
+                </h3>
+                <p className="text-gray-400 text-sm sm:text-base">
+                  example@gmail.com
+                </p>
               </div>
             </div>
           </div>
 
           {/* Social Icons */}
-          <div className="flex space-x-3 pt-4">
+          <div className="flex flex-wrap gap-3 pt-4">
             <div
-              className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#1877F2" }}
             >
               <span className="text-white font-bold text-sm">f</span>
             </div>
             <div
-              className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#1DA1F2" }}
             >
               <span className="text-white font-bold text-sm">t</span>
             </div>
             <div
-              className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#DB4437" }}
             >
               <span className="text-white font-bold text-sm">G</span>
             </div>
             <div
-              className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#0A66C2" }}
             >
               <span className="text-white font-bold text-xs">in</span>
             </div>
             <div
-              className="w-10 h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#FF0000" }}
             >
               <span className="text-white font-bold text-sm">▶</span>
@@ -108,10 +123,10 @@ const ContactForm = () => {
         </div>
 
         {/* Right Side - Contact Form with Border */}
-        <div className="border border-gray-600 rounded-2xl p-8 bg-black/50 backdrop-blur-sm">
-          <div className="space-y-6">
+        <div className="border border-gray-600 rounded-2xl p-6 sm:p-8 bg-black/50 backdrop-blur-sm">
+          <div className="space-y-4 sm:space-y-6">
             {/* Name and Email Row */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <input
                   type="text"
@@ -119,7 +134,7 @@ const ContactForm = () => {
                   placeholder="Name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
+                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-3 sm:px-4 py-3 sm:py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
                   required
                 />
               </div>
@@ -130,14 +145,14 @@ const ContactForm = () => {
                   placeholder="Email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
+                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-3 sm:px-4 py-3 sm:py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
                   required
                 />
               </div>
             </div>
 
             {/* Phone and Subject Row */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <input
                   type="tel"
@@ -145,7 +160,7 @@ const ContactForm = () => {
                   placeholder="Primary Phone Point"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
+                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-3 sm:px-4 py-3 sm:py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
                 />
               </div>
               <div>
@@ -155,7 +170,7 @@ const ContactForm = () => {
                   placeholder="Business / Role"
                   value={formData.subject}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
+                  className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-3 sm:px-4 py-3 sm:py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
                 />
               </div>
             </div>
@@ -165,7 +180,7 @@ const ContactForm = () => {
               <input
                 type="tel"
                 placeholder="Primary Phone Point"
-                className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
+                className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-3 sm:px-4 py-3 sm:py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors text-sm"
               />
             </div>
 
@@ -177,7 +192,7 @@ const ContactForm = () => {
                 value={formData.message}
                 onChange={handleInputChange}
                 rows="5"
-                className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-4 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors resize-none text-sm"
+                className="w-full bg-gray-900/50 border border-gray-700 rounded-lg px-3 sm:px-4 py-3 sm:py-4 text-white placeholder-gray-500 focus:outline-none focus:border-gray-500 transition-colors resize-none text-sm"
                 required
               ></textarea>
             </div>
@@ -185,7 +200,7 @@ const ContactForm = () => {
             {/* Submit Button */}
             <button
               onClick={handleSubmit}
-              className="bg-cyan-500 hover:bg-cyan-400 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 flex items-center space-x-3 group w-fit"
+              className="bg-cyan-500 hover:bg-cyan-400 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-lg transition-all duration-300 flex items-center space-x-2 sm:space-x-3 group w-full sm:w-fit justify-center sm:justify-start"
             >
               <span>Request Consultation</span>
               <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

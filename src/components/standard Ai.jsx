@@ -3,27 +3,10 @@ import { Bot, Calendar, FileText, MessageCircle, BookOpen } from 'lucide-react';
 import stai from '../assets/images/stai.png';
 
 const AIRolesDesign = ({ 
-    title = "Standard AI Roles",
-    subtitle = "Immediate Functionality", 
-    description = "These pre-configured agents are available out of the box and deploy within any E-gnite system.",
-    features = [
-        {
-            icon: Calendar,
-            text: "Scheduling, intake logic, repetitive task automation"
-        },
-        {
-            icon: FileText,
-            text: "Writes, formats, and personalizes content blocks"
-        },
-        {
-            icon: MessageCircle,
-            text: "General-purpose inquiry response and routing"
-        },
-        {
-            icon: BookOpen,
-            text: "Manages booking conflicts, follow-up logic"
-        }
-    ]
+    title ,
+    subtitle , 
+    description ,
+    features ,
 }) => {
     return (
         <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)' }}>

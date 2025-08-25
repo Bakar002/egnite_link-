@@ -10,9 +10,37 @@ import AIRolesDesign from "../components/standard Ai";
 import Footer from "../components/Footer";
 import OutcomesOfDeployment from "../components/Deployment";
 import WorkforceHero from "../components/Build Your";
-import { Brain,Calendar, Users,FileText,MessageCircle,BookOpen, Smile, Upload } from 'lucide-react';
+import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 
 function AiWorkface() {
+  const aiStaffData = [
+    {
+      icon: Award,
+      title: "Sales AI",
+      description: "Answers objections, guides qualification, follows logic trees",
+    },
+    {
+      icon: Shield,
+      title: "Support AI",
+      description: "Responds to tickets, FAQs, resolution logic",
+    },
+    {
+      icon: UserCheck,
+      title: "Onboarding AI",
+      description: "Guides clients through multi-step processes",
+    },
+    {
+      icon: Package,
+      title: "Fulfillment AI",
+      description: "Coordinates delivery, updates, progress reports",
+    },
+    {
+      icon: Truck,
+      title: "Logistics AI",
+      description: "Handles shipping and real-time tracking",
+    },
+  ];
+
   return (
     <>
       <Header />
@@ -26,9 +54,8 @@ function AiWorkface() {
         buttonText="Start Building Your Workforce"
         backgroundImage={mainbg}
       />
-<AIPyramid 
-   
-/>      <InfoSection
+      <AIPyramid />
+      <InfoSection
         title="What It Is"
         description={
           <>
@@ -50,7 +77,9 @@ function AiWorkface() {
         image1={photo} // bada wala upar
         image2={image} // chhota wala neeche overlap me
       />
-      <CustomAIStaff />
+
+      <CustomAIStaff aiStaffData={aiStaffData} />
+
       <AIRolesDesign
         title="Custom AI Roles"
         subtitle="Advanced Features"
@@ -74,8 +103,16 @@ function AiWorkface() {
           },
         ]}
       />{" "}
-      <OutcomesOfDeployment />
-      <WorkforceHero />
+<OutcomesOfDeployment 
+  title="Outcomes of Deployment"
+  outcomes={[
+    "Your custom outcome 1",
+    "Your custom outcome 2", 
+    "Your custom outcome 3",
+    "Your custom outcome 4",
+    "Your custom outcome 5"
+  ]}
+/>      <WorkforceHero />
       <Footer />
     </>
   );

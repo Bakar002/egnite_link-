@@ -8,8 +8,41 @@ import CoreIntelligenceModules from "../components/Coreintelligence";
 import { Bot, Calendar, FileText, MessageCircle, BookOpen } from "lucide-react";
 import AIRolesDesign from "../components/standard Ai";
 import AIAutomationComponent from "../components/AIAutomation";
+import CustomAIStaff from "../components/Custom Ai";
+import {Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
+import OutcomesOfDeployment from "../components/Deployment";
+import ProfessionalFooter from "../components/HomeFooter";
+
 
 const IntelligenceSystem = () => {
+  const aiStaffData = [
+    {
+      icon: Award,
+      title: "Sales AI",
+      description:
+        "Answers objections, guides qualification, follows logic trees",
+    },
+    {
+      icon: Shield,
+      title: "Support AI",
+      description: "Responds to tickets, FAQs, resolution logic",
+    },
+    {
+      icon: UserCheck,
+      title: "Onboarding AI",
+      description: "Guides clients through multi-step processes",
+    },
+    {
+      icon: Package,
+      title: "Fulfillment AI",
+      description: "Coordinates delivery, updates, progress reports",
+    },
+    {
+      icon: Truck,
+      title: "Logistics AI",
+      description: "Handles shipping and real-time tracking",
+    },
+  ];
   return (
     <>
       <Header />
@@ -69,7 +102,19 @@ const IntelligenceSystem = () => {
           },
         ]}
       />
+      <CustomAIStaff aiStaffData={aiStaffData} />
       <AIAutomationComponent />
+      <OutcomesOfDeployment 
+  title="Outcomes of Deployment"
+  outcomes={[
+    "Your custom outcome 1",
+    "Your custom outcome 2", 
+    "Your custom outcome 3",
+    "Your custom outcome 4",
+    "Your custom outcome 5"
+  ]}
+/>
+<ProfessionalFooter />
     </>
   );
 };

@@ -103,18 +103,43 @@ const AIPyramid = ({
 
             <div className="relative z-10">
                 {/* Mirror AI - Top Level */}
-               {topImage && <img src={topImage} alt="" />}
+                {topImage && <img src={topImage} alt="" />}
 
-              
+                {/* Custom Staff Section */}
+                <div className="text-center mb-12">
+                    <div className="inline-flex items-center justify-center mb-4">
+                        <ImageUploadArea 
+                            level="customStaff" 
+                            image={images.customStaff} 
+                            icon={Users}
+                            title={customStaffTitle}
+                        />
+                    </div>
+                    <h2 className="text-3xl font-bold text-white mb-3">{customStaffTitle}</h2>
+                    <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
+                        {customStaffDescription}
+                    </p>
+                </div>
 
-                
+                {/* AI Cards Grid */}
+                <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto mb-12">
+                    {aiCards.map((card, index) => {
+                        const IconComponent = card.icon;
+                        return (
+                            <div 
+                                key={index}
+                                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6 text-center hover:bg-white/15 transition-all duration-300 hover:scale-105"
+                            >
+                                <div className="inline-flex items-center justify-center w-12 h-12 bg-teal-500/30 rounded-full mb-4">
+                                    <IconComponent className="w-6 h-6 text-teal-300" />
+                                </div>
+                                <h3 className="text-white font-semibold text-lg mb-2">{card.title}</h3>
+                                <p className="text-gray-300 text-sm leading-relaxed">{card.description}</p>
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
-
-            {/* Instructions */}
-            {/* <div className="absolute top-4 left-4 bg-black/70 backdrop-blur-sm rounded-lg p-3 text-white text-sm max-w-xs">
-                <h3 className="font-semibold mb-2 text-blue-300">Instructions:</h3>
-                <p className="text-gray-200">Click on the circular icons to upload images for each level of the AI pyramid.</p>
-            </div> */}
         </div>
     );
 };

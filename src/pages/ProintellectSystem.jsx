@@ -46,7 +46,16 @@ const ProintellectSystem = () => {
       <AIProfessionals />
       <CustomAIProfessionals />
       <StrategicUseCases />
-      < OutcomesOfDeployment />
+     <OutcomesOfDeployment 
+  title="Outcomes of Deployment"
+  outcomes={[
+    "Your custom outcome 1",
+    "Your custom outcome 2", 
+    "Your custom outcome 3",
+    "Your custom outcome 4",
+    "Your custom outcome 5"
+  ]}
+/>
       <NetworkGlobe />
       <SmartAdvisorsComponent />
       <Footer />

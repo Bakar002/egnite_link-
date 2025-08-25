@@ -7,13 +7,14 @@ import ProintellectSystem from "./pages/ProintellectSystem";
 import AiWorkface from "./pages/AiWorkface";
 import Aionfaces from "./pages/Aionfaces";
 import IntelligenceSystem from "./pages/IntelligenceSystem";
+import SystemsEngeenring from "./pages/SystemsEngeenring";
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="systems-engineering" element={<Home />} />
+        <Route path="/systems-engineering" element={<SystemsEngeenring />} />
         <Route path="/growth-method" element={<GrowthMethod />} />
         <Route path="/prointellect" element={< ProintellectSystem/>} />
         <Route path="/ai-workforce" element={< AiWorkface/>} />

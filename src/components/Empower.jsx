@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const EmpowerBusinessComponent = ({ 
+const EmpowerBusinessComponent = ({
   data = {
     title: "Empower Your Business with E-Gnite",
     cards: [
@@ -16,7 +16,7 @@ const EmpowerBusinessComponent = ({
         id: 2,
         title: "Advanced Analytics Solutions",
         description: "\"Working with E-Gnite has been a game-changer for our business. Their advanced analytics solutions have provided us with insights we never thought possible. The team's expertise in machine learning and data science has helped us optimize our processes and increase our revenue by 40%.\"",
-        author: "Sarah Mitchell", 
+        author: "Sarah Mitchell",
         rating: 5,
         avatar: "SM"
       },
@@ -48,7 +48,29 @@ const EmpowerBusinessComponent = ({
   }
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const cardsPerView = 3;
+
+  // Responsive cards per view
+  const getCardsPerView = () => {
+    if (typeof window !== 'undefined') {
+      if (window.innerWidth < 768) return 1; // Mobile
+      if (window.innerWidth < 1024) return 2; // Tablet
+      return 3; // Desktop
+    }
+    return 3;
+  };
+
+  const [cardsPerView, setCardsPerView] = useState(getCardsPerView());
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setCardsPerView(getCardsPerView());
+      setCurrentSlide(0); // Reset slide when screen size changes
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const totalSlides = Math.ceil(data.cards.length / cardsPerView);
 
   const nextSlide = () => {
@@ -77,58 +99,58 @@ const EmpowerBusinessComponent = ({
   };
 
   return (
-    <div className="min-h-screen  from-slate-900 via-slate-800 to-slate-900  px-8" style={{backgroundColor:'#000000'}}>
+    <div className="min-h-screen px-4 sm:px-6 md:px-8" style={{ backgroundColor: '#000000' }}>
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Header Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-8">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16 pt-8 sm:pt-12 md:pt-16">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6 md:mb-8 px-2">
             {data.title}
           </h1>
         </div>
-        
+
         {/* Slider Container */}
         <div className="relative overflow-hidden">
-          
+
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
             {getCurrentCards().map((card, index) => (
               <div key={`${currentSlide}-${index}`} className="group relative animate-in slide-in-from-right duration-500">
-                
+
                 {/* Card Container */}
-                <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 h-full hover:bg-slate-800/70 hover:border-cyan-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/10">
-                  
+                <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-4 sm:p-6 h-full hover:bg-slate-800/70 hover:border-cyan-500/30 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/10">
+
                   {/* Hover Glow Effect */}
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-cyan-500/0 via-cyan-500/5 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  
+
                   <div className="relative z-10 flex flex-col h-full">
-                    
+
                     {/* Top Icon with LinkedIn style */}
-                    <div className="mb-6 flex justify-start">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center text-white font-bold text-sm group-hover:scale-110 transition-transform duration-300">
+                    <div className="mb-4 sm:mb-6 flex justify-start">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center text-white font-bold text-xs sm:text-sm group-hover:scale-110 transition-transform duration-300">
                         in
                       </div>
                     </div>
-                    
+
                     {/* Content Section */}
-                    <div className="flex-1 space-y-4 text-left">
-                      
+                    <div className="flex-1 space-y-3 sm:space-y-4 text-left">
+
                       {/* Description/Testimonial */}
-                      <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                      <p className="text-gray-300 text-xs sm:text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                         {card.description}
                       </p>
                     </div>
-                    
+
                     {/* Bottom Author Section */}
-                    <div className="mt-6 pt-4 border-t border-slate-700/50 group-hover:border-cyan-500/20 transition-colors duration-300">
+                    <div className="mt-4 sm:mt-6 pt-3 sm:pt-4 border-t border-slate-700/50 group-hover:border-cyan-500/20 transition-colors duration-300">
                       <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2 sm:gap-3">
                           {/* Avatar */}
-                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center text-white font-bold text-xs">
+                          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center text-white font-bold text-xs">
                             {card.avatar}
                           </div>
                           <div>
-                            <p className="text-white font-semibold text-sm">{card.author}</p>
+                            <p className="text-white font-semibold text-xs sm:text-sm">{card.author}</p>
                             <div className="flex items-center gap-1">
                               {renderStars(card.rating)}
                             </div>
@@ -137,63 +159,62 @@ const EmpowerBusinessComponent = ({
                       </div>
                     </div>
                   </div>
-                  
+
                   {/* Bottom accent line */}
-                  <div className="absolute bottom-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="absolute bottom-0 left-4 right-4 sm:left-6 sm:right-6 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
               </div>
             ))}
           </div>
-          
+
           {/* Navigation Arrows */}
           {totalSlides > 1 && (
             <>
               <button
                 onClick={prevSlide}
-                className="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-cyan-500/50 rounded-full flex items-center justify-center text-white hover:text-cyan-300 transition-all duration-300 hover:scale-110 z-10"
+                className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-cyan-500/50 rounded-full flex items-center justify-center text-white hover:text-cyan-300 transition-all duration-300 hover:scale-110 z-10"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
               </button>
-              
+
               <button
                 onClick={nextSlide}
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-cyan-500/50 rounded-full flex items-center justify-center text-white hover:text-cyan-300 transition-all duration-300 hover:scale-110 z-10"
+                className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-cyan-500/50 rounded-full flex items-center justify-center text-white hover:text-cyan-300 transition-all duration-300 hover:scale-110 z-10"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </button>
             </>
           )}
         </div>
-        
+
         {/* Slider Dots */}
         {totalSlides > 1 && (
-          <div className="flex justify-center space-x-2 mt-8">
+          <div className="flex justify-center space-x-2 mt-6 sm:mt-8 pb-8 sm:pb-12">
             {Array.from({ length: totalSlides }).map((_, index) => (
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  currentSlide === index
+                className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${currentSlide === index
                     ? 'bg-cyan-400 scale-125'
                     : 'bg-slate-600 hover:bg-slate-500'
-                }`}
+                  }`}
               />
             ))}
           </div>
         )}
-        
+
         {/* Background Decorative Elements */}
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyan-500/10 rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-blue-500/10 rounded-full filter blur-3xl"></div>
-        
+        <div className="absolute top-1/4 left-1/4 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 bg-cyan-500/10 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-24 h-24 sm:w-36 sm:h-36 md:w-48 md:h-48 bg-blue-500/10 rounded-full filter blur-3xl"></div>
+
         {/* Floating particles */}
-        <div className="absolute top-20 right-1/4 w-2 h-2 bg-cyan-400/50 rounded-full animate-pulse"></div>
+        <div className="absolute top-20 right-1/4 w-1.5 h-1.5 sm:w-2 sm:h-2 bg-cyan-400/50 rounded-full animate-pulse"></div>
         <div className="absolute bottom-32 left-1/3 w-1 h-1 bg-blue-400/50 rounded-full animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 right-20 w-1.5 h-1.5 bg-cyan-300/50 rounded-full animate-pulse delay-500"></div>
+        <div className="absolute top-1/2 right-20 w-1 h-1 sm:w-1.5 sm:h-1.5 bg-cyan-300/50 rounded-full animate-pulse delay-500"></div>
       </div>
     </div>
   );

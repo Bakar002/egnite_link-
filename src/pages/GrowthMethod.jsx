@@ -9,18 +9,18 @@ import GrowthSystemsGrid from '../components/GrowthSystem';
 import WhoItsFor from '../components/Whosection';
 import OutcomesOfDeployment from '../components/Deployment';
 import GrowthMethodBanner from '../components/Private';
-import Footer from '../components/Footer';
 import photo from '../assets/images/photo.png'
 import image from '../assets/images/2nd.png'
 import one from '../assets/images/IMG.png';
+import ProfessionalFooter from '../components/HomeFooter';
 const GrowthMethod = () => {
     return (
         <>
             <Header />
             <MainBanner
-                heading="Intelligence You Can Deploy. Expertise That Doesn’t Expire"
-                subHeading="ProIntellect Systems™ equips your business with certified-grade AI professionals — designed to support legal, financial, operational, medical, and executive decisions with structure, speed, and stability."
-                buttonText="Request ProIntellect Consultation"
+                heading="The Operating System for Intelligent Business Growth"
+                subHeading="Growth Method™ is not a campaign. It’s not a CRM. It’s not a funnel. It is a full-stack growth engine — engineered to attract, nurture, convert, and fulfill using autonomous AI infrastructure."
+                buttonText=" Deploy Growth Method"
                 backgroundImage={mainbg}
             />
             <InfoSection
@@ -86,7 +86,7 @@ const GrowthMethod = () => {
             < OutcomesOfDeployment />
             <GrowthMethodBanner
             />
-            <Footer />
+            <ProfessionalFooter />
 
 
         </>

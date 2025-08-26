@@ -9,7 +9,7 @@ import CustomAIProfessionals from "../components/CustomAi";
 import StrategicUseCases from "../components/Strategic";
 import OutcomesOfDeployment from "../components/Deployment";
 import NetworkGlobe from "../components/NetworkGlobe";
-import Footer from "../components/Footer";
+import ProfessionalFooter from "../components/HomeFooter";
 const ProintellectSystem = () => {
   return (
     <>
@@ -21,14 +21,10 @@ const ProintellectSystem = () => {
         backgroundImage={mainbg}
       />
       <InfoSection
-        title="What It Is"
+        title="Why ProIntellect Exists"
         description={
           <>
-            The E-Gnite Growth Method is a proprietary AI-powered
-            <br />
-            architecture that replaces addependency, sales team <br /> overload,
-            and manual fulfillment with logic-based <br /> automation and
-            intelligent systems.
+            Automation without intelligence becomes faster chaos. <br /> Intelligence without structure becomes indecision. <br /> ProIntellect Systems™ integrates deployable, domain - <br />specific AI into your business architecture — empowering <br /> operations with professional logic across high- risk, <br />   high-value functions. This is how AI stops answering and starts  advising
           </>
         }
         subDescription={
@@ -44,18 +40,18 @@ const ProintellectSystem = () => {
       <AIProfessionals />
       <CustomAIProfessionals />
       <StrategicUseCases />
-     <OutcomesOfDeployment 
-  title="Outcomes of Deployment"
-  outcomes={[
-    "Your custom outcome 1",
-    "Your custom outcome 2", 
-    "Your custom outcome 3",
-    "Your custom outcome 4",
-    "Your custom outcome 5"
-  ]}
-/>
+      <OutcomesOfDeployment
+        title="Outcomes of Deployment"
+        outcomes={[
+          "Expert insight without consultant delays",
+          "Instant logic support across complex functions",
+          "Lower exposure to compliance and decision risk",
+          "Human time preserved for nuance, not repetition",
+          "Human time preserved for nuance, not repetition"
+        ]}
+      />
       <NetworkGlobe />
-      <Footer />
+      <ProfessionalFooter />
 
     </>
   );

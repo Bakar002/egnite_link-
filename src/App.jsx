@@ -8,10 +8,12 @@ import AiWorkface from "./pages/AiWorkface";
 import Aionfaces from "./pages/Aionfaces";
 import IntelligenceSystem from "./pages/IntelligenceSystem";
 import SystemsEngeenring from "./pages/SystemsEngeenring";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/systems-engineering" element={<SystemsEngeenring />} />

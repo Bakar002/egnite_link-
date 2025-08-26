@@ -7,7 +7,7 @@ import photo from "../assets/images/2150834131 1.png";
 import image from "../assets/images/2M.png";
 import CustomAIStaff from "../components/Custom Ai";
 import AIRolesDesign from "../components/standard Ai";
-import Footer from "../components/Footer";
+import ProfessionalFooter from "../components/HomeFooter";
 import OutcomesOfDeployment from "../components/Deployment";
 import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
@@ -113,7 +113,7 @@ function AiWorkface() {
     "Your custom outcome 5"
   ]}
 />      <WorkforceHero />
-      <Footer />
+      <ProfessionalFooter />
     </>
   );
 }

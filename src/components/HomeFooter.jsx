@@ -34,10 +34,10 @@ const ProfessionalFooter = () => {
               <div className="w-8 h-8  rounded flex items-center justify-center cursor-pointer hover:bg-blue-500 transition-colors"style={{backgroundColor:'#32ADE6'}}>
                 <Twitter className="w-4 h-4" />
               </div>
-              <div className="w-8 h-8  rounded flex items-center justify-center cursor-pointer hover:bg-blue-700 transition-colors"style={{backgroundColor:'#32ADE6'}}>
+              <div className="w-8 h-8  rounded flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors" style={{backgroundColor:'#32ADE6'}}>
                 <Instagram className="w-4 h-4" />
               </div>
-              <div className="w-8 h-8 bg-blue-700 rounded flex items-center justify-center cursor-pointer hover:bg-blue-800 transition-colors"style={{backgroundColor:'#32ADE6'}}>
+              <div className="w-8 h-8  rounded flex items-center justify-center cursor-pointer hover:bg-blue-800 transition-colors"style={{backgroundColor:'#32ADE6'}}>
                 <Linkedin className="w-4 h-4" />
               </div>
             </div>

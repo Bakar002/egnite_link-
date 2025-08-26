@@ -3,6 +3,8 @@ import c1 from '../assets/images/c1.png';
 import c4 from '../assets/images/c4.png';
 import c5 from '../assets/images/c5.png';
 import c6 from '../assets/images/c6.png';
+import fan from '../assets/images/fan on the system power supply.png'
+import ai from '../assets/images/AI Powered CPU Integration.png'
 
 const SixDivisionsComponent = ({
   data = {
@@ -17,11 +19,13 @@ const SixDivisionsComponent = ({
       },
       {
         id: 2,
+        image: fan,
         title: "Publicized Systems™",
         description: "Through machine automation developed for cross-platform content distribution, we create sustainable, repeatable outcomes."
       },
       {
         id: 3,
+        image: ai,
         title: "AI Workforce™",
         description: "Developing systems of shared AI trust between you and your customers, connecting them through structured feedback loops."
       },

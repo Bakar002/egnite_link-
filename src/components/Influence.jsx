@@ -34,7 +34,7 @@ export default function InfluenceAtScale() {
           </p>
           
           {/* CTA Button */}
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
             Start your digital journey today
           </button>
         </div>

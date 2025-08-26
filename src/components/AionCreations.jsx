@@ -27,7 +27,7 @@ export default function CustomAiONCreation({
   ],
 }) {
   return (
-    <div className="min-h-screen bg-gray-900 p-6 sm:p-8 font-sans">
+    <div className="min-h-screen bg-black p-6 sm:p-8 font-sans">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 px-2">

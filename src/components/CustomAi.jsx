@@ -1,5 +1,5 @@
 import React from 'react';
-
+import imgbg from '../assets/images/Rectangle 25.png';
 const CustomAIProfessionals = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/30 to-slate-900 relative overflow-hidden">
@@ -27,41 +27,16 @@ const CustomAIProfessionals = () => {
             {/* Background Tech Image */}
             <div className="absolute inset-0 bg-gradient-to-br from-slate-800/50 to-blue-900/30">
               {/* Circuit board pattern overlay */}
-              <div className="absolute inset-0 opacity-30">
-                <svg className="w-full h-full object-cover" viewBox="0 0 400 600" fill="none">
-                  <defs>
-                    <pattern id="techGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-                      <path d="M0 15h60M0 45h60M15 0v60M45 0v60" stroke="#3b82f6" strokeWidth="0.5" opacity="0.6" />
-                      <circle cx="15" cy="15" r="2" fill="#60a5fa" opacity="0.8" />
-                      <circle cx="45" cy="15" r="2" fill="#60a5fa" opacity="0.8" />
-                      <circle cx="15" cy="45" r="2" fill="#60a5fa" opacity="0.8" />
-                      <circle cx="45" cy="45" r="2" fill="#60a5fa" opacity="0.8" />
-                      <path d="M15 15L45 45M45 15L15 45" stroke="#3b82f6" strokeWidth="0.3" opacity="0.4" />
-                    </pattern>
-                  </defs>
-                  <rect width="400" height="600" fill="url(#techGrid)" />
-                  <g opacity="0.4">
-                    <circle cx="100" cy="150" r="30" fill="none" stroke="#60a5fa" strokeWidth="1" />
-                    <circle cx="300" cy="300" r="40" fill="none" stroke="#3b82f6" strokeWidth="1" />
-                    <circle cx="150" cy="450" r="25" fill="none" stroke="#60a5fa" strokeWidth="1" />
-                    <path d="M130 150L270 300M180 450L270 340" stroke="#3b82f6" strokeWidth="1" opacity="0.6" />
-                  </g>
-                </svg>
-              </div>
+              
 
               {/* Floating particles */}
-              <div className="absolute inset-0">
-                <div className="absolute top-20 left-1/4 w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-                <div className="absolute top-40 right-1/3 w-1 h-1 bg-cyan-400 rounded-full animate-ping"></div>
-                <div className="absolute top-60 left-1/3 w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse"></div>
-                <div className="absolute bottom-40 right-1/4 w-1 h-1 bg-cyan-300 rounded-full animate-ping"></div>
-                <div className="absolute bottom-60 left-2/3 w-2 h-2 bg-blue-300 rounded-full animate-pulse"></div>
-                <div className="absolute top-80 right-1/2 w-1.5 h-1.5 bg-purple-400 rounded-full animate-pulse"></div>
-              </div>
+              <div className='pt-30 absolute inset-0 overflow-hidden'>
+              <img src={imgbg} alt="" />
+            </div>
             </div>
 
             {/* Card Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center p-4 sm:p-6 md:p-8">
+            <div className="absolute inset-0 flex items-center justify-start p-4  sm:p-6 md:p-8">
               <div className="bg-slate-800/90 backdrop-blur-sm border border-slate-600/50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 w-full max-w-xs sm:max-w-sm md:max-w-md shadow-2xl relative z-10">
                 {/* Modal Header */}
                 <div className="mb-4 sm:mb-6">

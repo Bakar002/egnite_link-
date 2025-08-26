@@ -50,12 +50,7 @@ const Header = () => {
           >
             Systems Engineering
           </Link>
-          <Link
-            to="/about"
-            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
-          >
-            About Us
-          </Link>
+         
           <Link
             to="/growth-method"
             className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
@@ -86,12 +81,7 @@ const Header = () => {
           >
             Intelligence Systems
           </Link>
-          <Link
-            to="/contact"
-            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
-          >
-            Contact Us
-          </Link>
+          
         </div>
       )}
     </header>

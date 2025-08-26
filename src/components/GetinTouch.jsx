@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
+import facebook from '../assets/images/Facebook.png'
+import twitter from '../assets/images/Twitter.png'
+import instagram from '../assets/images/Instagram.png'
+import linkedin from '../assets/images/LinkedIn.png'
+import youtube from '../assets/images/Youtube.png'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -91,33 +96,33 @@ const ContactForm = () => {
           <div className="flex flex-wrap gap-3 pt-4">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#1877F2" }}
+              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
             >
-              <span className="text-white font-bold text-sm">f</span>
+              <img src={facebook} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#1DA1F2" }}
+              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
             >
-              <span className="text-white font-bold text-sm">t</span>
+              <img src={twitter} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#DB4437" }}
+              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
             >
-              <span className="text-white font-bold text-sm">G</span>
+              <img src={instagram} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#0A66C2" }}
+              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
             >
-              <span className="text-white font-bold text-xs">in</span>
+              <img src={linkedin} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#FF0000" }}
+              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
             >
-              <span className="text-white font-bold text-sm">▶</span>
+              <img src={youtube} alt="" />
             </div>
           </div>
         </div>

@@ -72,7 +72,7 @@ const CoreDoctrineComponent = ({
           <div className="relative z-10">
 
             {/* Top Row - Two Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6 max-w-3xl mx-auto px-4 sm:px-0">
+            <div className="grid grid-cols-1  sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6 max-w-3xl mx-auto px-4 sm:px-0">
 
               {/* Card 1 - Systems Must Operate Independently */}
               <div className="group relative">

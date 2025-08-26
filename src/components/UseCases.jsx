@@ -1,11 +1,12 @@
 import React from 'react';
+import ai from '../assets/images/Img (7).png';
 
 export default function DeploymentUseCases() {
   const useCases = [
     {
       id: 1,
       title: "Outbound Video Sales",
-      image: "/api/placeholder/300/200",
+      image: ai,
       bgColor: "from-blue-900 to-blue-700"
     },
     {

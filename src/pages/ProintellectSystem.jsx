@@ -10,7 +10,7 @@ import StrategicUseCases from "../components/Strategic";
 import OutcomesOfDeployment from "../components/Deployment";
 import NetworkGlobe from "../components/NetworkGlobe";
 import ProfessionalFooter from "../components/HomeFooter";
-import Structure from "../components/Structure begins";
+import StructureHero from "../components/Structure begins";
 const ProintellectSystem = () => {
   return (
     <>
@@ -52,7 +52,7 @@ const ProintellectSystem = () => {
         ]}
       />
       <NetworkGlobe />
-      <Structure />
+      <StructureHero />
       <ProfessionalFooter />
 
     </>

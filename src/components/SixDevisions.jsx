@@ -8,44 +8,44 @@ import ai from '../assets/images/AI Powered CPU Integration.png'
 
 const SixDivisionsComponent = ({
   data = {
-    mainTitle: "Six Pillars. One Powerful System.",
-    subtitle: "Our technology is built on six interconnected divisions, working together to deliver clarity, innovation, and growth. Each division is designed to solve unique challenges while contributing to a unified growth engine.",
+    mainTitle: "Six Divisions. One Growth Engine",
+    subtitle: "E-Gnite Link AI Systems™ is not a platform. It is a sovereign infrastructure — composed of six interdependent divisions, each engineered to perform a specific function in your business growth architecture.",
     cards: [
       {
         id: 1,
         image: c1,
-        title: "Smart Strategies™",
-        description: "Building meaningful connections and sustainable growth through multi-channel engagement and data-driven insights."
+        title: "Growth Method™",
+        description: "Your foundational operating system. Intelligent lead generation, fulfillment automation, and outreach logic — orchestrated with precision."
       },
       {
         id: 2,
         image: fan,
-        title: "Automated Systems™",
-        description: "Cross-platform automation that simplifies processes, improves scalability, and ensures reliable outcomes."
+        title: "Prointellect Systems™",
+        description: "Advanced AI professionals (legal, financial, medical, strategic) deployed as internal advisors — or trained exclusively to your business."
       },
       {
         id: 3,
         image: ai,
         title: "AI Workforce™",
-        description: "Empowering organizations with AI-driven tools that strengthen collaboration and boost productivity."
+        description: "Tiered AI labor — from prebuilt assistants to Mirror AI™ brand intelligence. Fulfillment, support, operations, and client handling — done."
       },
       {
         id: 4,
         image: c4,
-        title: "AI Insights™",
-        description: "Turning complex data into actionable strategies with powerful AI models and performance analytics."
+        title: " AI Influencers™",
+        description: "Brand-facing AI ambassadors — designed to speak, represent, and sell on camera. Prebuilt and custom AI models ready to promote at scale."
       },
       {
         id: 5,
         image: c6,
-        title: "Intelligence Hub™",
-        description: "Advanced analytics for smarter decision-making, giving your business a competitive edge."
+        title: "Intelligence Systems™",
+        description: "Optimization layer. Real-time reporting, behavioral analysis, pipeline scoring, and system-wide adjustments powered by AI cognition."
       },
       {
         id: 6,
         image: c5,
-        title: "System Engineering™",
-        description: "Robust infrastructure designed to scale with your business needs, ensuring long-term operational excellence."
+        title: "Systems Engineering™",
+        description: "Full-stack software and AI automation development. Build custom tools, APIs, and autonomous infrastructure beyond templates."
       }
     ]
   }

@@ -21,7 +21,7 @@ const ModernFeatureComponent = ({
   const item = data[0];
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8" style={{ backgroundColor: '#000000' }}>
+    <div className=" flex items-center justify-center p-4 sm:p-6 lg:p-8" style={{ backgroundColor: '#000000' }}>
       <div className="max-w-6xl mx-auto w-full">
         {/* Main Content Container */}
         <div className="relative">

@@ -99,7 +99,7 @@ const EmpowerBusinessComponent = ({
   };
 
   return (
-    <div className="min-h-screen px-4 sm:px-6 md:px-8" style={{ backgroundColor: '#000000' }}>
+    <div className=" px-4 sm:px-6 md:px-8" style={{ backgroundColor: '#000000' }}>
       <div className="max-w-7xl mx-auto">
 
         {/* Header Section */}

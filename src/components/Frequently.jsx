@@ -77,7 +77,7 @@ const FAQComponent = ({
 
   return (
     <div
-      className="min-h-screen text-white p-4 sm:p-6 md:p-10"
+      className=" text-white p-4 sm:p-6 md:p-10"
       style={{ backgroundColor: "black" }}
     >
       <div className="max-w-7xl mx-auto">

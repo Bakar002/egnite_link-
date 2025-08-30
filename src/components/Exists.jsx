@@ -25,7 +25,7 @@ const IgniteLinkComponent = ({
   }
 }) => {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center p-2 sm:p-4 md:p-8 relative overflow-hidden pt-5">
+    <div className=" bg-black flex items-center justify-center p-2 sm:p-4 md:p-8 relative overflow-hidden pt-5">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 bg-blue-500 opacity-10 rounded-full filter blur-3xl animate-pulse"></div>

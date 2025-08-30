@@ -8,58 +8,58 @@ import ai from '../assets/images/AI Powered CPU Integration.png'
 
 const SixDivisionsComponent = ({
   data = {
-    mainTitle: "Six Divisions. One Growth Engine",
-    subtitle: "It doesn't stop at 'Opportunity' - that is questions. It's a technology of interconnected - components working holistically at performance-focused tasks, giving AI agency, clarity and leadership across all domains.",
+    mainTitle: "Six Pillars. One Powerful System.",
+    subtitle: "Our technology is built on six interconnected divisions, working together to deliver clarity, innovation, and growth. Each division is designed to solve unique challenges while contributing to a unified growth engine.",
     cards: [
       {
         id: 1,
         image: c1,
-        title: "Growth Methods™",
-        description: "Cultivating deep, meaningful relationships between companies through our research-backed products and services across multiple channels and locations."
+        title: "Smart Strategies™",
+        description: "Building meaningful connections and sustainable growth through multi-channel engagement and data-driven insights."
       },
       {
         id: 2,
         image: fan,
-        title: "Publicized Systems™",
-        description: "Through machine automation developed for cross-platform content distribution, we create sustainable, repeatable outcomes."
+        title: "Automated Systems™",
+        description: "Cross-platform automation that simplifies processes, improves scalability, and ensures reliable outcomes."
       },
       {
         id: 3,
         image: ai,
         title: "AI Workforce™",
-        description: "Developing systems of shared AI trust between you and your customers, connecting them through structured feedback loops."
+        description: "Empowering organizations with AI-driven tools that strengthen collaboration and boost productivity."
       },
       {
         id: 4,
         image: c4,
-        title: "AI Influences™",
-        description: "We offer customer-facing AI capabilities that build trust through performance measurement, competitive analytics, and operational oversight."
+        title: "AI Insights™",
+        description: "Turning complex data into actionable strategies with powerful AI models and performance analytics."
       },
       {
         id: 5,
         image: c6,
-        title: "Intelligence Systems™",
-        description: "Analytics that inform decision-making through comprehensive data intelligence, providing insights that drive strategic advantages."
+        title: "Intelligence Hub™",
+        description: "Advanced analytics for smarter decision-making, giving your business a competitive edge."
       },
       {
         id: 6,
         image: c5,
-        title: "Systems Engineering™",
-        description: "Built to understand your infrastructure and deliver efficient solutions that scale with your growth and operational requirements."
+        title: "System Engineering™",
+        description: "Robust infrastructure designed to scale with your business needs, ensuring long-term operational excellence."
       }
     ]
   }
 }) => {
   return (
-    <div className="min-h-screen via-slate-800 to-slate-900 px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16" style={{ backgroundColor: '#000000' }}>
+    <div className="min-h-screen via-slate-800 to-slate-900 px-4 sm:px-6 md:px-8 py-4 sm:py-12 md:py-0" style={{ backgroundColor: '#000000' }}>
       <div className="max-w-6xl mx-auto">
 
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16 space-y-4 sm:space-y-6 px-2">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight break-words">
             {data.mainTitle}
           </h1>
-          <p className="text-gray-400 text-sm sm:text-base lg:text-lg leading-relaxed max-w-4xl mx-auto">
+          <p className="text-gray-400 text-sm sm:text-base lg:text-lg leading-relaxed max-w-4xl mx-auto break-words">
             {data.subtitle}
           </p>
         </div>
@@ -123,12 +123,12 @@ const SixDivisionsComponent = ({
                     </div>
                   </div>
 
-                  {/* Content Section */}
-                  <div className="space-y-2 sm:space-y-3">
-                    <h3 className="text-white font-bold text-base sm:text-lg group-hover:text-blue-300 transition-colors duration-300">
+                  {/* Content Section - Fixed text wrapping */}
+                  <div className="space-y-2 sm:space-y-3 min-h-[5rem]">
+                    <h3 className="text-white font-bold text-base sm:text-lg lg:text-xl group-hover:text-blue-300 transition-colors duration-300 leading-tight">
                       {card.title}
                     </h3>
-                    <p className="text-gray-400 text-xs sm:text-sm leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
+                    <p className="text-gray-400 text-xs sm:text-sm lg:text-base leading-relaxed group-hover:text-gray-300 transition-colors duration-300 hyphens-auto">
                       {card.description}
                     </p>
                   </div>

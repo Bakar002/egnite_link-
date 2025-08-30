@@ -54,7 +54,7 @@ const CoreDoctrineComponent = ({
   };
 
   return (
-    <div className="min-h-screen from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-4 sm:p-6 lg:p-8" style={{ backgroundColor: '#000000' }}>
+    <div className=" from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-4 sm:p-6 lg:p-8" style={{ backgroundColor: '#000000' }}>
       <div className="max-w-4xl mx-auto w-full">
         {/* Main Content Container */}
         <div className="relative">

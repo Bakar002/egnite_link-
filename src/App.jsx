@@ -8,6 +8,7 @@ import Aionfaces from "./pages/Aionfaces";
 import IntelligenceSystem from "./pages/IntelligenceSystem";
 import SystemsEngeenring from "./pages/SystemsEngeenring";
 import ScrollToTop from "./components/ScrollToTop";
+import Outcomes from "./pages/Outcomes";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/ai-workforce" element={< AiWorkface/>} />
         <Route path="/aion-faces" element={< Aionfaces/>} />
         <Route path="/intelligence-systems" element={< IntelligenceSystem/>} />
+        <Route path="/out-comes" element={< Outcomes/>} />
       </Routes>
     </Router>
   );

@@ -56,14 +56,10 @@ function AiWorkface() {
       />
       <AIPyramid />
       <InfoSection
-        title="What It Is"
+        title={<>Mirror AI™ <br /> Brand Executive Intelligence</>}
         description={
           <>
-            The E-Gnite Growth Method is a proprietary AI-powered
-            <br />
-            architecture that replaces addependency, sales team <br /> overload,
-            and manual fulfillment with logic-based <br /> automation and
-            intelligent systems.
+            Mirror AI™ is the apex of the Workforce — a fully <br /> custom GPT designed to act as your brand's internal <br /> voice, logic, and operational compass.
           </>
         }
         subDescription={
@@ -81,24 +77,24 @@ function AiWorkface() {
       <CustomAIStaff aiStaffData={aiStaffData} />
 
       <AIRolesDesign
-        title="Custom AI Roles"
-        subtitle="Advanced Features"
-        description="Customized agents for your specific needs."
+        title="Standard AI Roles "
+        subtitle="Immediate Functionality"
+        description="These pre-configured agents are available out of the box and deploy within any E-Gnite system."
         features={[
           {
-            icon: Calendar,
-            text: "Custom scheduling logic",
+            icon: Award,
+            text: "Scheduling, intake logic, repetitive task automation",
           },
           {
-            icon: FileText,
-            text: "Advanced content generation",
+            icon: Award,
+            text: "Writes, formats, and personalizes content blocks",
           },
           {
-            icon: MessageCircle,
+            icon: Award,
             text: "General-purpose inquiry response and routing",
           },
           {
-            icon: BookOpen,
+            icon: Award,
             text: "Manages booking conflicts, follow-up logic",
           },
         ]}
@@ -106,11 +102,11 @@ function AiWorkface() {
 <OutcomesOfDeployment 
   title="Outcomes of Deployment"
   outcomes={[
-    "Your custom outcome 1",
-    "Your custom outcome 2", 
-    "Your custom outcome 3",
-    "Your custom outcome 4",
-    "Your custom outcome 5"
+    "Operations scale without headcount",
+    "Clients receive fast, clear, and aligned responses", 
+    "No sick days, no training delays, no role drift",
+    "Fulfillment becomes automated, but personalized",
+    "Internal consistency increases across every department"
   ]}
 />      <WorkforceHero />
       <ProfessionalFooter />

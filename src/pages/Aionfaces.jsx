@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/mainbg.png";
+import mainbg from "../assets/images/Frame 2147228679.png";
 import AionFacesComponent from "../components/Aionfaces";
 import AionModelLibrary from "../components/Aionlibrary";
 import CustomAiONCreation from "../components/AionCreations";
@@ -16,7 +16,7 @@ const Aionfaces = () => {
   const customFeatures = [
     {
       icon: Brain,
-      title: "Task specific voice and information",
+      title: "Your visuals, voice, ",
       description:
         "Personalized AI assistant tailored to your specific needs and preferences",
     },
@@ -91,9 +91,9 @@ const Aionfaces = () => {
     <>
       <Header />
       <MainBanner
-        heading="Intelligence You Can Deploy. Expertise That Doesn’t Expire"
-        subHeading="ProIntellect Systems™ equips your business with certified-grade AI professionals — designed to support legal, financial, operational, medical, and executive decisions with structure, speed, and stability."
-        buttonText="Request ProIntellect Consultation"
+        heading={<>Your Brand. On Camera. <br /> Without You.</>}
+        subHeading="AiON Faces™ by E-Gnite deploys intelligent, camera-ready AI personalities that articulate, represent, and deliver your message — without fatigue, hesitation, or compromise. No creators. "
+        buttonText=" Request AiON Consultation"
         backgroundImage={mainbg}
       />
       <AionFacesComponent />
@@ -111,11 +111,11 @@ const Aionfaces = () => {
       <OutcomesOfDeployment
         title="Outcomes of Deployment"
         outcomes={[
-          "Your custom outcome 1",
-          "Your custom outcome 2",
-          "Your custom outcome 3",
-          "Your custom outcome 4",
-          "Your custom outcome 5",
+          "Scalable, consistent video presence",
+          "AI-aligned voice and logic embedded into every message",
+          "No more retakes, no need for media production teams",
+          "Clearer messaging at every stage of the customer journey",
+          "Multi-platform ready — from SMS to YouTube to CRM",
         ]}
       />{" "}
       <InfluenceAtScale />

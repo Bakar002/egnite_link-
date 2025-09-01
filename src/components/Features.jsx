@@ -13,7 +13,7 @@ const FeatureCard = ({ title, description, image }) => {
       )}
 
       {/* Overlay content */}
-      <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-3 sm:p-4">
+      <div className="absolute bottom-0 left-0 right-0 bg-[linear-gradient(335.99deg,#252525_9.77%,#424242_89.74%)]  p-3 sm:p-4">
         {description && (
           <p className="text-[10px] sm:text-xs md:text-sm text-gray-300 mb-1">
             {description}

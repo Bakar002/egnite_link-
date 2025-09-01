@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/1hero.png";
+import mainbg2 from "../assets/images/robot-6753999 (1).png";
 import DivisionRoleDesign from "../components/Role Divisions";
 import CustomSoftwareDevelopment from "../components/Software Devolpment";
 import CustomAiONCreation from "../components/AionCreations";
@@ -13,6 +13,7 @@ import {
   FileText,
   MessageCircle,
   BookOpen,
+  Award,
 } from "lucide-react";
 import AIRolesDesign from "../components/standard Ai";
 import StrategicUseCases from "../components/Strategic";
@@ -24,35 +25,27 @@ export default function SystemsEngeenring() {
   const customFeatures = [
     {
       icon: Brain,
-      title: "Task specific voice and information",
-      description:
-        "Personalized AI assistant tailored to your specific needs and preferences",
+      title: "Multi-conditional automations with feedback intelligence",
     },
     {
       icon: Zap,
-      title: "Trained on your data for peak performance",
-      description:
-        "Enhanced accuracy through custom training on your unique dataset",
+      title: "Sequences that pause, adapt, escalate, or reassign tasks",
     },
     {
       icon: Shield,
-      title: "Implemented with advanced security features",
-      description:
-        "Enterprise-grade security protocols to protect your sensitive information",
+      title: "AI-triggered workflows with human-in-the-loop checkpoints",
     },
     {
       icon: Eye,
-      title: "Detailed usage tracking with analytics",
-      description:
-        "Comprehensive insights into AI performance and user interactions",
+      title: "Cross-channel orchestration (email, SMS, platform, support)",
     },
   ];
    const cardsData = [
     {
       id: 1,
-      title: "AOAI Access™",
+      title: "Fully Owned",
       description:
-        "Secure access management with enterprise-grade authentication and authorization protocols for seamless integration.",
+        " Complete software + system code rights transferred",
       iconColor: "bg-teal-500",
       icon: (
         <path
@@ -65,9 +58,9 @@ export default function SystemsEngeenring() {
     },
     {
       id: 2,
-      title: "AOAI License™",
+      title: "E-Gnite Licensed",
       description:
-        "Comprehensive licensing framework ensuring compliance and proper usage rights across all deployment scenarios.",
+        "Hosted by E-Gnite, licensed under annual structure",
       iconColor: "bg-blue-500",
       icon: (
         <path
@@ -80,9 +73,9 @@ export default function SystemsEngeenring() {
     },
     {
       id: 3,
-      title: "AOAI Secure™",
+      title: "Hybrid",
       description:
-        "Advanced security protocols with end-to-end encryption and multi-layer protection for sensitive data handling.",
+        "Core logic licensed, custom UI/UX owned",
       iconColor: "bg-purple-500",
       icon: (
         <path
@@ -101,41 +94,40 @@ export default function SystemsEngeenring() {
       <MainBanner
         heading={
           <>
-            Labor Without Burnout. <br /> Fulfillment Without <br /> Limits.
+            Custom Infrastructure. <br /> Intelligence-Driven Execution.
           </>
         }
-        subHeading="AI Workforce™ is your operational division of intelligent agents — trained to fulfill tasks, communicate with clients, manage backend workflows, and scale your capacity without hiring or fatigue. This is not virtual assistance. This is intelligent labor architecture."
-        buttonText="Start Building Your Workforce"
-        backgroundImage={mainbg}
+        subHeading="Systems Engineering™ is E-Gnite’s software and automation division — where business logic becomes architecture, and AI becomes execution. We design proprietary systems that don’t just function — they learn, adapt, and operate."
+        buttonText="Request Engineering Consultation"
+        backgroundImage={mainbg2}
       />
       <DivisionRoleDesign />
       <CustomSoftwareDevelopment />
       <CustomAiONCreation
-        title="Custom AiON Creation"
-        subtitle="Effortlessly build intelligent AI assistants customized to your specific needs by integrating with your preferred tools"
+        title="AI Automation Engineering"
+        subtitle="This goes beyond task automation. We build adaptive, autonomous sequences that thinks"
         features={customFeatures}
       />
       <AIRolesDesign
-        title="Standard AI Roles 
-Immediate Functionality"
-        subtitle="These pre-configured agents are available out of the box and deploy within any E-Gnite system."
-        description="Customized agents for your specific needs."
+        title="System Logic Design"
+
+        description="It’s not “code.” It’s the structural thinking of your business — running in real time."
         features={[
           {
-            icon: Calendar,
-            text: "Custom scheduling logic",
+            icon: Award,
+            text: "Automates what should be",
           },
           {
-            icon: FileText,
-            text: "Advanced content generation",
+            icon: Award,
+            text: "Escalates what matters",
           },
           {
-            icon: MessageCircle,
-            text: "General-purpose inquiry response and routing",
+            icon: Award,
+            text: "Repeats with precision",
           },
           {
-            icon: BookOpen,
-            text: "Manages booking conflicts, follow-up logic",
+            icon: Award,
+            text: "Learns from behavior",
           },
         ]}
       />

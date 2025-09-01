@@ -18,7 +18,7 @@ const GrowthMethod = () => {
         <>
             <Header />
             <MainBanner
-                heading="The Operating System for Intelligent Business Growth"
+                heading={<>The Operating System for <br /> Intelligent Business Growth</>}
                 subHeading="Growth Method™ is not a campaign. It’s not a CRM. It’s not a funnel. It is a full-stack growth engine — engineered to attract, nurture, convert, and fulfill using autonomous AI infrastructure."
                 buttonText=" Deploy Growth Method"
                 backgroundImage={mainbg}

@@ -6,10 +6,8 @@ const AIAutomationComponent = () => {
       <div className="max-w-6xl w-full">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4">AI Automation Engineering</h1>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Streamlined work processes, efficient business operations, and increased productivity through intelligent automation solutions.
-          </p>
+          <h1 className="text-4xl font-bold mb-4">Strategic Use Cases</h1>
+         
         </div>
 
         {/* Cards Grid */}
@@ -20,9 +18,9 @@ const AIAutomationComponent = () => {
             <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4">
               <div className="w-6 h-6 bg-white rounded-full"></div>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Process Automation</h3>
+            <h3 className="text-xl font-semibold mb-3">40% drop in lead conversion rate</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Automate repetitive tasks and workflows to increase efficiency and reduce manual errors in your business operations.
+              Flagged → Funnel audit triggered
             </p>
           </div>
 
@@ -31,9 +29,9 @@ const AIAutomationComponent = () => {
             <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4">
               <div className="w-6 h-6 bg-white rounded-full"></div>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Smart Analytics</h3>
+            <h3 className="text-xl font-semibold mb-3">New campaign gains traction</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Leverage AI-powered analytics to gain valuable insights from your data and make informed business decisions.
+              Mirror AI notified to initiate expansion sequence
             </p>
           </div>
 
@@ -42,9 +40,9 @@ const AIAutomationComponent = () => {
             <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4">
               <div className="w-6 h-6 bg-white rounded-full"></div>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Intelligent Integration</h3>
+            <h3 className="text-xl font-semibold mb-3">Certain offers are accepted 3x faster</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Seamlessly connect different systems and platforms to create a unified, intelligent workflow ecosystem.
+              Priority Grid adjusts sequence to front-load those offers
             </p>
           </div>
 
@@ -53,9 +51,9 @@ const AIAutomationComponent = () => {
             <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4">
               <div className="w-6 h-6 bg-white rounded-full"></div>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Performance Optimization</h3>
+            <h3 className="text-xl font-semibold mb-3">Calendar gaps detected next week</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Continuously monitor and optimize your automated processes to ensure maximum efficiency and performance.
+              Behavioral retargeting auto-triggered
             </p>
           </div>
 

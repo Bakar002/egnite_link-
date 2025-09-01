@@ -2,7 +2,7 @@ import React from 'react';
 
 const AionModelLibrary = () => {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center p-8">
+    <div className=" bg-black text-white flex items-center justify-center p-8">
       <div className="max-w-4xl w-full">
         {/* Header */}
         <div className="text-center mb-12">
@@ -10,8 +10,7 @@ const AionModelLibrary = () => {
             Prebuilt AiON Model Library
           </h1>
           <p className="text-gray-400 text-base">
-            5 GenAI maintains a suite of high-performance AI processors,<br/>
-            ready-to-deploy for industry-specific needs.
+            E-Gnite maintains a vault of high-performance AI presenters, ready to deploy for industryspecific needs.
           </p>
         </div>
 
@@ -32,7 +31,7 @@ const AionModelLibrary = () => {
                 </div>
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">AiON Pro™</h3>
-              <p className="text-sm text-gray-400">AGI-complete GenAI Agent</p>
+              <p className="text-sm text-gray-400">B2B, consulting, SaaS, legal</p>
             </div>
 
             {/* AiON Core */}
@@ -48,7 +47,7 @@ const AionModelLibrary = () => {
                 </div>
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">AiON Core™</h3>
-              <p className="text-sm text-gray-400">Multimodal GenAI for collaboration</p>
+              <p className="text-sm text-gray-400">Wellness, coaching, education</p>
             </div>
 
             {/* AiON Commerce */}
@@ -64,7 +63,7 @@ const AionModelLibrary = () => {
                   </div>
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">AiON Commerce™</h3>
-              <p className="text-sm text-gray-400">Commerce-enabled voice agents</p>
+              <p className="text-sm text-gray-400">Consumer product storytelling</p>
             </div>
           </div>
 
@@ -83,8 +82,8 @@ const AionModelLibrary = () => {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">AiON News™</h3>
-                <p className="text-sm text-gray-400">News-focused AI hybrid agents</p>
+                <h3 className="text-lg font-semibold text-white mb-2">AiON Nova™</h3>
+                <p className="text-sm text-gray-400">Tech-forward, futuristic brands</p>
               </div>
 
               {/* AiON Civic */}
@@ -100,7 +99,7 @@ const AionModelLibrary = () => {
                   </div>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">AiON Civic™</h3>
-                <p className="text-sm text-gray-400">Government healthcare, transport</p>
+                <p className="text-sm text-gray-400">Government, healthcare, nonprofit</p>
               </div>
             </div>
           </div>

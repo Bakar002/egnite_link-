@@ -81,6 +81,12 @@ const Header = () => {
           >
             Systems Engineering
           </Link>
+           <Link
+            to="/out-comes"
+            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
+          >
+            Outcomes
+          </Link>
          
          
           

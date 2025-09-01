@@ -10,38 +10,38 @@ const StrategicUseCases = () => {
   const useCases = [
     {
       title: "Agencies",
-      description: "AI creative content campaigns, manages client relationships and optimizes marketing operations.",
+      description: "AI reviews scopes, contracts, manages client communications",
       image: c1,
     },
     {
       title: "Clinics",
-      description: "AI helps schedule, manages workflows, helps patient care coordination and healthcare operations.",
+      description: "AI triages patients, manages workflow, flags billing errors",
       image: c2,
     },
     {
       title: "Tech/SaaS",
-      description: "AI supports roadmaps, data infrastructure, handles customer support and drives technical innovation.",
+      description: "AI supports roadmap, risk evaluation, investor strategy",
       image: c3,
     },
     {
       title: "Real Estate",
-      description: "AI manages property listings, client relationships and handles transactions end to end.",
+      description: "AI qualifies buyers, advises deal logic",
       image: c4,
     },
     {
       title: "Coaches/Edu",
-      description: "AI creates personalized programs, manages student progress, and enhances educational delivery.",
+      description: "AI ensures pacing, intellectual property, certification flow",
       image: c5,
     },
     {
       title: "Retail/E-Com",
-      description: "AI optimizes inventory, manages customer experience, handles order fulfillment and boosts sales.",
+      description: "AI handles pricing logic, claim safety, bundling",
       image:c6,
     }
   ];
 
   return (
-    <div className="min-h-screen bg-black px-4 sm:px-6 lg:px-8 py-12">
+    <div className=" bg-black px-4 sm:px-6 lg:px-8 py-12">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 px-2">

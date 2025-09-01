@@ -69,7 +69,7 @@ export default function WhoItsFor() {
   };
 
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center p-4 sm:p-8 relative overflow-hidden">
+    <div className=" bg-black flex items-center justify-center p-4 sm:p-8 relative overflow-hidden">
       {/* Background grid pattern */}
       <div className="absolute inset-0 opacity-10">
         <div

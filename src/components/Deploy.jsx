@@ -8,7 +8,7 @@ const AIProfessionals = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Administrative Services & Consulting",
+      title: "Professional Services & Consulting",
       description: "Streamline operations, complete administrative tasks, and optimize business processes with expert precision."
     },
     {
@@ -17,7 +17,7 @@ const AIProfessionals = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Bookkeeping & Accounting",
+      title: "Finance, Investment & Accounting",
       description: "Maintain accurate financial records, manage accounts payable/receivable, and ensure compliance with accounting standards."
     },
     {
@@ -26,7 +26,7 @@ const AIProfessionals = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
       ),
-      title: "Health & Wellness",
+      title: "Healthcare & Wellness",
       description: "Promote employee wellbeing, develop wellness programs, and provide health-related consultation services."
     },
     {
@@ -35,7 +35,7 @@ const AIProfessionals = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v5a2 2 0 01-2 2H9a2 2 0 01-2-2v-5m6-5V6a2 2 0 00-2-2H9a2 2 0 00-2 2v2" />
         </svg>
       ),
-      title: "Customer Service & SaaS",
+      title: "Technology & SaaS",
       description: "Deliver exceptional customer support, manage SaaS platforms, and enhance user experience across all touchpoints."
     },
     {
@@ -71,7 +71,7 @@ const AIProfessionals = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
         </svg>
       ),
-      title: "E-Commerce & Retail",
+      title: "E-Commerce & Products",
       description: "Optimize online stores, manage inventory, handle customer orders, and boost e-commerce performance across platforms."
     }
   ];

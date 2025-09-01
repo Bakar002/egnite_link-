@@ -58,14 +58,10 @@ const IntelligenceSystem = () => {
         backgroundImage={mainbg}
       />
       <InfoSection
-        title="What It Is"
+        title="What Intelligence Systems™ Does?"
         description={
           <>
-            The E-Gnite Growth Method is a proprietary AI-powered
-            <br />
-            architecture that replaces addependency, sales team <br /> overload,
-            and manual fulfillment with logic-based <br /> automation and
-            intelligent systems.
+            Think of it as the AI Operating Brain for your entire infrastructure — measuring, learning, and modifying across the full lifecycle.This division functions as the real-time AI command core that manages:
           </>
         }
         subDescription={
@@ -80,25 +76,24 @@ const IntelligenceSystem = () => {
       />
       <CoreIntelligenceModules />
       <AIRolesDesign
-        title="Custom AI Roles"
-        subtitle="Advanced Features"
-        description="Customized agents for your specific needs."
+        title="Real-Time System Coordination"
+        description="It replaces human intuition with structured, AI-driven system governance."
         features={[
           {
-            icon: Calendar,
-            text: "Custom scheduling logic",
+            icon: Award,
+            text: "Reorders fulfillment workflows to eliminate lag",
           },
           {
-            icon: FileText,
-            text: "Advanced content generation",
+            icon: Award,
+            text: "Merges insights from Mirror AI™, CRM, & 3rd party tools",
           },
           {
-            icon: MessageCircle,
-            text: "General-purpose inquiry response and routing",
+            icon: Award,
+            text: "Re-prioritizes campaigns when conditions shif",
           },
           {
-            icon: BookOpen,
-            text: "Manages booking conflicts, follow-up logic",
+            icon: Award,
+            text: "Suspends irrelevant offers",
           },
         ]}
       />
@@ -107,11 +102,11 @@ const IntelligenceSystem = () => {
       <OutcomesOfDeployment 
   title="Outcomes of Deployment"
   outcomes={[
-    "Your custom outcome 1",
-    "Your custom outcome 2", 
-    "Your custom outcome 3",
-    "Your custom outcome 4",
-    "Your custom outcome 5"
+    "Business logic improves itself automatically",
+    "All systems communicate, prioritize, adjust in real time", 
+    "Errors and slowdowns are flagged before performance drops",
+    "Campaigns evolve dynamically based on data — not guesswork",
+    "Mirror AI gains deeper strategic advisory capabilities"
   ]}
 />
 <FuturisticHero />

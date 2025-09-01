@@ -5,7 +5,7 @@ export default function SimpleImageContainer() {
   const [imageUrl, setImageUrl] = useState('src/assets/images/Div [embed-automation-background] (1).png');
 
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center p-4">
+    <div className="p-5 bg-black flex items-center justify-center p-4">
       {/* Main Image Container */}
       <div className="w-full max-w-6xl h-96 bg-gradient-to-br from-gray-800 via-blue-900 to-teal-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-700">
         <img

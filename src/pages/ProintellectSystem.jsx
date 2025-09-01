@@ -16,7 +16,7 @@ const ProintellectSystem = () => {
     <>
       <Header />
       <MainBanner
-        heading="Intelligence You Can Deploy. Expertise That Doesn’t Expire"
+        heading={<>Intelligence You Can Deploy. <br /> Expertise That Doesn’t Expire</>}
         subHeading="ProIntellect Systems™ equips your business with certified-grade AI professionals — designed to support legal, financial, operational, medical, and executive decisions with structure, speed, and stability."
         buttonText="Request ProIntellect Consultation"
         backgroundImage={mainbg}
@@ -48,7 +48,7 @@ const ProintellectSystem = () => {
           "Instant logic support across complex functions",
           "Lower exposure to compliance and decision risk",
           "Human time preserved for nuance, not repetition",
-          "Human time preserved for nuance, not repetition"
+          "Systems that learn and adapt over time"
         ]}
       />
       <NetworkGlobe />

@@ -11,6 +11,8 @@ import FAQComponent from "../components/Frequently";
 import ContactForm from "../components/GetinTouch";
 import IsometricGrowthComponent from "../components/Architet";
 import ProfessionalFooter from "../components/HomeFooter";
+import SecurityShieldComponent from "../components/NothingElse";
+import StrategicOutcomes from "../components/SeeStrategic";
 
 const Home = () => {
   return (
@@ -30,6 +32,8 @@ const Home = () => {
       <SixDivisionsComponent />
       <IgniteLinkComponent />
       <CoreDoctrineComponent />
+      <SecurityShieldComponent />
+      <StrategicOutcomes />
       <EmpowerBusinessComponent />
       <FAQComponent />
       <ContactForm />

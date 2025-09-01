@@ -25,7 +25,7 @@ const OutcomesOfDeployment = ({
   }));
 
   return (
-    <div className="bg-black min-h-screen flex items-center justify-center p-4 sm:p-6 md:p-8">
+    <div className="bg-black  flex items-center justify-center p-4 sm:p-6 md:p-8">
       <div className="max-w-4xl w-full">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-10 md:mb-12">
           {title}

@@ -40,12 +40,11 @@ export default function SystemsEngeenring() {
       title: "Cross-channel orchestration (email, SMS, platform, support)",
     },
   ];
-   const cardsData = [
+  const cardsData = [
     {
       id: 1,
       title: "Fully Owned",
-      description:
-        " Complete software + system code rights transferred",
+      description: " Complete software + system code rights transferred",
       iconColor: "bg-teal-500",
       icon: (
         <path
@@ -59,8 +58,7 @@ export default function SystemsEngeenring() {
     {
       id: 2,
       title: "E-Gnite Licensed",
-      description:
-        "Hosted by E-Gnite, licensed under annual structure",
+      description: "Hosted by E-Gnite, licensed under annual structure",
       iconColor: "bg-blue-500",
       icon: (
         <path
@@ -74,8 +72,7 @@ export default function SystemsEngeenring() {
     {
       id: 3,
       title: "Hybrid",
-      description:
-        "Core logic licensed, custom UI/UX owned",
+      description: "Core logic licensed, custom UI/UX owned",
       iconColor: "bg-purple-500",
       icon: (
         <path
@@ -110,7 +107,6 @@ export default function SystemsEngeenring() {
       />
       <AIRolesDesign
         title="System Logic Design"
-
         description="It’s not “code.” It’s the structural thinking of your business — running in real time."
         features={[
           {
@@ -132,12 +128,12 @@ export default function SystemsEngeenring() {
         ]}
       />
       <StrategicUseCases />
-       <OwnershipLicensing
-              title="Custom Ownership & Licensing"
-              cards={cardsData}
-            />
-            <SpaceHeroSection />
-            <ProfessionalFooter />
+      <OwnershipLicensing
+        title="Custom Ownership & Licensing"
+        cards={cardsData}
+      />
+      <SpaceHeroSection />
+      <ProfessionalFooter />
     </>
   );
 }

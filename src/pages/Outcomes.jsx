@@ -21,6 +21,7 @@ function Outcomes(){
         buttonText="Request Private Session"
         backgroundImage={mainbg}
     />
+    <KeyOutcomeThemes />
      <SixDivisionsComponent />
            <StrategicUseCases />
 

@@ -4,6 +4,7 @@ import mainbg from "../assets/images/mainbg.png";
 import BusinessTransformation from './../components/Before';
 import ROITimeline from "../components/Time line";
 import Needsystem from "../components/Need system";
+import KeyOutcomeThemes from "../components/Outcome";
 
 
 function Outcomes(){
@@ -16,6 +17,7 @@ function Outcomes(){
         buttonText="Request ProIntellect Consultation"
         backgroundImage={mainbg}
     />
+    <KeyOutcomeThemes />
         <BusinessTransformation />
         <ROITimeline />
         <Needsystem />

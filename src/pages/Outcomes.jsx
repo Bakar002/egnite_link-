@@ -7,6 +7,7 @@ import Needsystem from "../components/Need system";
 
 
 function Outcomes(){
+    
     return (
         <>
         <Header />
@@ -16,6 +17,7 @@ function Outcomes(){
         buttonText="Request ProIntellect Consultation"
         backgroundImage={mainbg}
     />
+    
         <BusinessTransformation />
         <ROITimeline />
         <Needsystem />

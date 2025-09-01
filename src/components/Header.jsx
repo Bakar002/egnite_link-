@@ -17,11 +17,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img
-                src={logo} 
-                alt="Logo"
-                className="h-12"
-              />
+              <img src={logo} alt="Logo" className="h-12" />
             </Link>
           </div>
 
@@ -50,7 +46,7 @@ const Header = () => {
           >
             Growth
           </Link>
-           
+
           <Link
             to="/prointellect"
             className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
@@ -63,7 +59,7 @@ const Header = () => {
           >
             AI Workforce
           </Link>
-           <Link
+          <Link
             to="/aion-faces"
             className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
           >
@@ -81,18 +77,12 @@ const Header = () => {
           >
             Systems Engineering
           </Link>
-           <Link
+          <Link
             to="/out-comes"
             className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
           >
             Outcomes
           </Link>
-         
-         
-          
-         
-          
-          
         </div>
       )}
     </header>

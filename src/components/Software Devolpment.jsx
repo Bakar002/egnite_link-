@@ -3,7 +3,7 @@ import img from '../assets/images/11.png';
 
 export default function CustomSoftwareDevelopment() {
     return (
-        <div className=" bg-black text-white flex items-center justify-center p-2 xs:p-3 sm:p-4 md:p-6 lg:p-8 xl:p-12">
+        <div className="min-h-screen bg-black text-white flex items-center justify-center p-2 xs:p-3 sm:p-4 md:p-6 lg:p-8 xl:p-12">
             <div className="max-w-7xl w-full grid grid-cols-1 xl:grid-cols-2 gap-4 xs:gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 items-center">
                 {/* Left Content */}
                 <div className="space-y-4 xs:space-y-5 sm:space-y-6 md:space-y-8 lg:space-y-10 text-center xl:text-left order-2 xl:order-1">

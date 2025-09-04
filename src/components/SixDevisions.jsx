@@ -1,10 +1,10 @@
 import React from 'react';
-import c1 from '../assets/images/c1.png';
+import c1 from '../assets/images/Frame 2147228902 (1).png';
 import c4 from '../assets/images/c4.png';
 import c5 from '../assets/images/c5.png';
 import c6 from '../assets/images/c6.png';
-import fan from '../assets/images/fan on the system power supply.png'
-import ai from '../assets/images/AI Powered CPU Integration.png'
+import fan from '../assets/images/image 104.png'
+import ai from '../assets/images/image 105.png'
 
 const SixDivisionsComponent = ({
   data = {

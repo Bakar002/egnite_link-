@@ -102,7 +102,7 @@
 
 
 
-export default function CustomAIStaff({ aiStaffData }) {
+export default function CustomAIStaff({ aiStaffData,main,description }) {
     return (
         <div
             className="min-h-screen relative overflow-hidden"
@@ -122,11 +122,10 @@ export default function CustomAIStaff({ aiStaffData }) {
                     {/* Header */}
                     <div className="text-center mb-12">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                            Custom AI Staff
+                            {main}
                         </h1>
                         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
-                            These are custom-trained agents, crafted to execute key
-                            roles inside your business.
+                            {description}
                         </p>
                     </div>
 

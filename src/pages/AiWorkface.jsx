@@ -13,6 +13,8 @@ import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 
 function AiWorkface() {
+  const mainHeading=' Custom AI Staff'
+  const mainDescription='These are custom-trained agents, crafted to execute key roles inside your business.'
   const aiStaffData = [
     {
       icon: Award,
@@ -74,7 +76,7 @@ function AiWorkface() {
         image2={image} // chhota wala neeche overlap me
       />
 
-      <CustomAIStaff aiStaffData={aiStaffData} />
+      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} />
 
       <AIRolesDesign
         title="Standard AI Roles "

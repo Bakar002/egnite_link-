@@ -16,6 +16,8 @@ import FuturisticHero from "../components/Systems";
 
 
 const IntelligenceSystem = () => {
+  const mainHeading=' Integration with Mirror AI™'
+  const mainDescription=' Mirror AI™ is your internal GPT embodiment. Intelligence Systems™ is the logic interface it uses to:'
   const aiStaffData = [
     {
       icon: Award,
@@ -38,11 +40,7 @@ const IntelligenceSystem = () => {
       title: "Propose scenario corrections based on learned outcomes",
       description: "",
     },
-    {
-      icon: Truck,
-      title: "Logistics AI",
-      description: "Handles shipping and real-time tracking",
-    },
+    
   ];
   return (
     <>
@@ -97,7 +95,7 @@ const IntelligenceSystem = () => {
           },
         ]}
       />
-      <CustomAIStaff aiStaffData={aiStaffData} />
+      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} />
       <AIAutomationComponent />
       <OutcomesOfDeployment 
   title="Outcomes of Deployment"

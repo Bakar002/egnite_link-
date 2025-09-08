@@ -13,7 +13,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import { Brain, Zap, Shield, Eye } from "lucide-react";
 
 const Aionfaces = () => {
-  const customFeatures = [
+  const  customFeatures = [
     {
       icon: Brain,
       title: "Your visuals, voice, ",

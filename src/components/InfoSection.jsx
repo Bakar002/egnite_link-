@@ -14,7 +14,7 @@ export default function InfoSection({
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold md:mr-5 mb-6">{title}</h2>
           <p className="text-gray-300 mb-4">{description}</p>
           <p className="text-gray-400">{subDescription}</p>
 

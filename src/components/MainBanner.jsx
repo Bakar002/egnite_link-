@@ -5,7 +5,7 @@ export default function MainBanner({ heading, subHeading, buttonText, background
     <div className="relative min-h-screen flex flex-col bg-gradient-to-b from-[#0000009d] via-[#0500265d] to-[#0000009d] text-white overflow-hidden">
       {/* Hero Content */}
       <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-7xl font-bold leading-tight">
           {heading}
         </h1>
         <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-gray-300 max-w-sm sm:max-w-2xl lg:max-w-3xl px-2 sm:px-0">{subHeading}</p>

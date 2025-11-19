@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black h-15 sticky top-0 z-50">
+    <header className="bg-black h-15 sticky  top-0 z-50000">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -82,6 +82,18 @@ const Header = () => {
             className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
           >
             Outcomes
+          </Link>
+          <Link
+            to="/core-system"
+            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
+          >
+            Core System
+          </Link>
+           <Link
+            to="/reality-link"
+            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
+          >
+            Reality Link
           </Link>
         </div>
       )}

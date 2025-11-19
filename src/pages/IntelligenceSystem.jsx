@@ -9,15 +9,15 @@ import { Bot, Calendar, FileText, MessageCircle, BookOpen } from "lucide-react";
 import AIRolesDesign from "../components/standard Ai";
 import AIAutomationComponent from "../components/AIAutomation";
 import CustomAIStaff from "../components/Custom Ai";
-import {Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
+import { Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 import OutcomesOfDeployment from "../components/Deployment";
 import ProfessionalFooter from "../components/HomeFooter";
 import FuturisticHero from "../components/Systems";
 
 
 const IntelligenceSystem = () => {
-  const mainHeading=' Integration with Mirror AI™'
-  const mainDescription=' Mirror AI™ is your internal GPT embodiment. Intelligence Systems™ is the logic interface it uses to:'
+  const mainHeading = ' Integration with Mirror AI™'
+  const mainDescription = ' Mirror AI™ is your internal GPT embodiment. Intelligence Systems™ is the logic interface it uses to:'
   const aiStaffData = [
     {
       icon: Award,
@@ -40,7 +40,7 @@ const IntelligenceSystem = () => {
       title: "Propose scenario corrections based on learned outcomes",
       description: "",
     },
-    
+
   ];
   return (
     <>
@@ -97,18 +97,18 @@ const IntelligenceSystem = () => {
       />
       <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} />
       <AIAutomationComponent />
-      <OutcomesOfDeployment 
-  title="Outcomes of Deployment"
-  outcomes={[
-    "Business logic improves itself automatically",
-    "All systems communicate, prioritize, adjust in real time", 
-    "Errors and slowdowns are flagged before performance drops",
-    "Campaigns evolve dynamically based on data — not guesswork",
-    "Mirror AI gains deeper strategic advisory capabilities"
-  ]}
-/>
-<FuturisticHero />
-<ProfessionalFooter />
+      <OutcomesOfDeployment
+        title="Outcomes of Deployment"
+        outcomes={[
+          "Business logic improves itself automatically",
+          "All systems communicate, prioritize, adjust in real time",
+          "Errors and slowdowns are flagged before performance drops",
+          "Campaigns evolve dynamically based on data — not guesswork",
+          "Mirror AI gains deeper strategic advisory capabilities"
+        ]}
+      />
+      <FuturisticHero />
+      <ProfessionalFooter />
     </>
   );
 };

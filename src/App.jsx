@@ -9,6 +9,8 @@ import IntelligenceSystem from "./pages/IntelligenceSystem";
 import SystemsEngeenring from "./pages/SystemsEngeenring";
 import ScrollToTop from "./components/ScrollToTop";
 import Outcomes from "./pages/Outcomes";
+import CoreSystem from "./pages/CoreSystem";
+import RealityLink from "./pages/RealityLink";
 
 const App = () => {
   return (
@@ -23,6 +25,9 @@ const App = () => {
         <Route path="/aion-faces" element={< Aionfaces/>} />
         <Route path="/intelligence-systems" element={< IntelligenceSystem/>} />
         <Route path="/out-comes" element={< Outcomes/>} />
+        <Route path="/core-system" element={< CoreSystem/>} />
+        <Route path="/reality-link" element={< RealityLink/>} />
+        
       </Routes>
     </Router>
   );

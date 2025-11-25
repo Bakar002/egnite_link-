@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Outcomes from "./pages/Outcomes";
 import CoreSystem from "./pages/CoreSystem";
 import RealityLink from "./pages/RealityLink";
+import BizLink from "./pages/BizLink";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/out-comes" element={< Outcomes/>} />
         <Route path="/core-system" element={< CoreSystem/>} />
         <Route path="/reality-link" element={< RealityLink/>} />
+        <Route path="/biz-link" element={< BizLink/>} />
         
       </Routes>
     </Router>

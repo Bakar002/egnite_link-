@@ -13,7 +13,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import { Brain, Zap, Shield, Eye } from "lucide-react";
 
 const Aionfaces = () => {
-  const  customFeatures = [
+  const customFeatures = [
     {
       icon: Brain,
       title: "Your visuals, voice, ",
@@ -91,8 +91,9 @@ const Aionfaces = () => {
     <>
       <Header />
       <MainBanner
-        heading={<>Your Brand. On Camera. <br /> Without You.</>}
-        subHeading="AiON Faces™ by E-Gnite deploys intelligent, camera-ready AI personalities that articulate, represent, and deliver your message — without fatigue, hesitation, or compromise. No creators. "
+        heading={<>AiON Faces™ <br />
+          The Intelligent Face of <br /> Your Brand.</>}
+        subHeading="AiON Faces™ by E-Gnite deploys intelligent, camera-ready AI personalities that articulate, represent, and deliver your message — without fatigue, hesitation, or compromise. No creators.  "
         buttonText=" Request AiON Consultation"
         backgroundImage={mainbg}
       />

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/mainbg.png";
+import mainbg from "../assets/images/prointellectHero.png";
 import InfoSection from "../components/InfoSection";
 import photo from '../assets/images/ccc.png'
 import AIProfessionals from "../components/Deploy";
@@ -16,7 +16,7 @@ const ProintellectSystem = () => {
     <>
       <Header />
       <MainBanner
-        heading={<>Intelligence You Can Deploy. <br /> Expertise That Doesn’t Expire</>}
+        heading={<>ProIntellect Systems™ <br /> :Intelligence You Can Deploy. <br />Expertise That Doesn’t Expire.</>}
         subHeading="ProIntellect Systems™ equips your business with certified-grade AI professionals — designed to support legal, financial, operational, medical, and executive decisions with structure, speed, and stability."
         buttonText="Request ProIntellect Consultation"
         backgroundImage={mainbg}
@@ -29,7 +29,7 @@ const ProintellectSystem = () => {
           </>
         }
         subDescription={
-          <>
+          <>  
             Each deployment becomes its own infrastructure — <br /> tailored to
             how your business acquires, communicates, <br /> and delivers.
           </>

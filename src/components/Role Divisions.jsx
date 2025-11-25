@@ -1,5 +1,5 @@
 import React from 'react';
-
+import role from "../assets/images/RoleIcons.png";
 const DivisionRoleDesign = () => {
   return (
     <div className="pt-9 bg-black text-white flex items-center">
@@ -18,12 +18,10 @@ const DivisionRoleDesign = () => {
           {/* Right side - Cards grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {/* Card 1 */}
-            <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-xl p-6 border border-white/30">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-sky-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" />
-                  </svg>
+                <div className="w-12 h-12 bg-[linear-gradient(90deg,#4F98CE_0%,#58D8E5_100%)] rounded-lg flex items-center justify-center flex-shrink-0">
+                 <img src={role} alt="" />
                 </div>
                 <div className="min-w-0">
                   <div className="text-white font-semibold text-lg mb-1">Inaccessible behind</div>
@@ -33,12 +31,10 @@ const DivisionRoleDesign = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-xl p-6 border border-white/30">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-sky-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" />
-                  </svg>
+                <div className="w-12 h-12 bg-[linear-gradient(90deg,#4F98CE_0%,#58D8E5_100%)] rounded-lg flex items-center justify-center flex-shrink-0">
+                 <img src={role} alt="" />
                 </div>
                 <div className="min-w-0">
                   <div className="text-white font-semibold text-lg mb-1">Inaccessible behind</div>
@@ -48,12 +44,10 @@ const DivisionRoleDesign = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-xl p-6 border border-white/30">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-sky-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" />
-                  </svg>
+                <div className="w-12 h-12 bg-[linear-gradient(90deg,#4F98CE_0%,#58D8E5_100%)] rounded-lg flex items-center justify-center flex-shrink-0">
+                 <img src={role} alt="" />
                 </div>
                 <div className="min-w-0">
                   <div className="text-white font-semibold text-lg mb-1">Inaccessible behind</div>
@@ -63,12 +57,10 @@ const DivisionRoleDesign = () => {
             </div>
 
             {/* Card 4 */}
-            <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-xl p-6 border border-white/30">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-sky-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" />
-                  </svg>
+                <div className="w-12 h-12 bg-[linear-gradient(90deg,#4F98CE_0%,#58D8E5_100%)] rounded-lg flex items-center justify-center flex-shrink-0">
+                 <img src={role} alt="" />
                 </div>
                 <div className="min-w-0">
                   <div className="text-white font-semibold text-lg mb-1">Inaccessible behind</div>

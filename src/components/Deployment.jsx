@@ -1,11 +1,11 @@
 import React from 'react';
 import { Calendar, FileText, Target, Lightbulb, Server } from 'lucide-react';
 
-const OutcomesOfDeployment = ({ 
+const OutcomesOfDeployment = ({
   title = "Outcomes of Deployment",
   outcomes = [
     "Predictable, calendar-ready load flow",
-    "Less manual work, zero follow-up fatigue", 
+    "Less manual work, zero follow-up fatigue",
     "Systematized fulfillment without headcount",
     "Intelligence-driven adaptation that compounds",
     "Scalable infrastructure you own — not rent"

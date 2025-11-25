@@ -91,8 +91,8 @@ export default function SystemsEngeenring() {
       <MainBanner
         heading={
           <>
-            Custom Infrastructure. <br /> Intelligence-Driven Execution.
-          </>
+            Systems Engineering™ <br />
+            Where Business Logic Becomes <br />Intelligent Systems.          </>
         }
         subHeading="Systems Engineering™ is E-Gnite’s software and automation division — where business logic becomes architecture, and AI becomes execution. We design proprietary systems that don’t just function — they learn, adapt, and operate."
         buttonText="Request Engineering Consultation"

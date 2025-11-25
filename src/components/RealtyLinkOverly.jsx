@@ -57,7 +57,7 @@ export default function EgniteIntegration() {
                   <h3 className="text-gray-300 text-xs sm:text-sm md:text-base font-medium px-1 sm:px-2 md:px-2">
                     {feature.title}
                   </h3>
-                </div>
+                </div>  
               ))}
             </div>
           </div>

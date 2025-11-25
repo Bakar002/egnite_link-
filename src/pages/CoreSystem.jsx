@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../components/Header";
 import MainBanner from '../components/MainBanner';
-import mainbg from "../assets/images/mainbg.png";
+import mainbg from "../assets/images/coresystem hero.png";
 import InfoSection from '../components/InfoSection';
 import photo from "../assets/images/Frame 2147227485.png";
 import CoreArchitecture from '../components/Core Architecture';
@@ -15,11 +15,29 @@ import CarlinkHero from '../components/Carlink';
 import ProfessionalFooter from '../components/HomeFooter';
 
 const CoreSystem = () => {
+  const leftContent = {
+    title: "E-Gnite Doctrine",
+    points: [
+      "Operate independently.",
+      "Intelligence replaces instruction.",
+      "Outline strategy effectively."
+    ]
+  };
+
+  const rightContent = {
+    title: "CARLink Core App",
+    points: [
+      "Self-governing subsystems.",
+      "Real-time reasoning and learning.",
+      "Predefine campaigns and short-term plans."
+    ]
+  };
+
   return (
     <>
       <Header />
       <MainBanner
-        heading={<>The Automotive Logic <br /> Division of E-Gnite Link <br /> AI Systems</>}
+        heading={<>CARLink Core Systems™ <br />The AI Logic Core of <br /> Automotive Retail</>}
         subHeading="CARLink Core Systems™ is a next-generation digital infrastructure designed to redefine the very foundation of modern automotive retail. As the Automotive Logic Division of E-Gnite Link AI Systems™, it represents the applied manifestation of the Car Dealer Digital Evolution™—a transformative framework that unifies marketing, acquisition, and operational logic into one self-improving intelligent system."
         buttonText=" Request Private Session"
         backgroundImage={mainbg}
@@ -44,17 +62,25 @@ const CoreSystem = () => {
       />
       {/* <CoreArchitecture /> */}
       <OperationalLogicLoop />
-      <EGniteIntegration />
+      <EGniteIntegration
+        mainTitle="Integration with E-Gnite Link AI Systems™"
+        leftColumn={leftContent}
+        rightColumn={rightContent}
+        arrowsCount={4}
+        cardGradient="linear-gradient(148.43deg, #1a1a1a 30%, #3d3d3d 80%)"
+        bottomText="Business Impact"
+        containerClass="bg-black"
+      />
       <BusinessImpact />
       <ScopeOfWork />
       <OutcomesOfDeployment
-        title="Outcomes of Deployment"
+        title="Final Deliverables"
         outcomes={[
-          "Business logic improves itself automatically",
-          "All systems communicate, prioritize, adjust in real time",
-          "Errors and slowdowns are flagged before performance drops",
-          "Campaigns evolve dynamically based on data — not guesswork",
-          "Mirror AI gains deeper strategic advisory capabilities"
+          "An AI-integrated digital ecosystem",
+          "Unified marketing and operational control",
+          "Predictive intelligence infrastructure",
+          "Continuous logic-based self-optimization",
+          "Strategic autonomy from external vendors"
         ]}
       />
       <CarlinkHero />

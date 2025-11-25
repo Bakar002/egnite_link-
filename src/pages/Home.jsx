@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/mainbg.png";
+import mainbg from "../assets/images/home Hero.png";
 import ModernFeatureComponent from "../components/Contentloop";
 import SixDivisionsComponent from "../components/SixDevisions";
 import IgniteLinkComponent from "../components/Exists";
@@ -21,8 +21,7 @@ const Home = () => {
       <MainBanner
         heading={
           <>
-            We Don’t Automate Businesses <br /> We Engineer Self-Sufficient{" "}
-            <br /> Growth Architectures
+          We Don’t Automate Businesses <br /> We Engineer Self-Sufficient <br /> Growth Architectures
           </>
         }
         buttonText="Request ProIntellect Consultation"

@@ -48,8 +48,7 @@ const IntelligenceSystem = () => {
       <MainBanner
         heading={
           <>
-            Your Systems Are Smart. <br /> This Is What Makes <br /> Them Smarter
-          </>
+            Intelligence Systems™ <br />The Operating Brain of <br /> E-Gnite Deployments.          </>
         }
         subHeading="Intelligence Systems™ is the meta-layer that analyzes, optimizes, and orchestrates every E-Gnite deployment — detecting friction, amplifying winning paths, and aligning performance with live market behavior. It’s not analytics. It’s evolution logic."
         buttonText="Start Building Your Workforce"

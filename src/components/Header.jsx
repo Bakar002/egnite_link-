@@ -95,6 +95,12 @@ const Header = () => {
           >
             Reality Link
           </Link>
+           <Link
+            to="/biz-link"
+            className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-cyan-400"
+          >
+            Biz Link
+          </Link>
         </div>
       )}
     </header>

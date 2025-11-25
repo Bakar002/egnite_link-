@@ -14,6 +14,7 @@ const NetworkGlobe = () => {
       </div>
     </div>
   );
+  
 };
 
 export default NetworkGlobe;

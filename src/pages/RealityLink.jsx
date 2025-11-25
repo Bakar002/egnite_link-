@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/RealityHerosection.png";
+import mainbg from "../assets/images/core systemhero.png";
 import PropertyHero from '../components/Properties';
 import ChallengeCards from '../components/Chellange';
 import REALTYLinkModel from '../components/DigitalEvaluation';
@@ -46,7 +46,8 @@ const RealityLink = () => {
     <>
       <Header />
       <MainBanner
-        heading={<>Engineering the Infrastructure <br /> of Real-Estate Evolution</>}
+        heading={<>REALTYLink Core Systems™  <br />
+          The Infrastructure of Real-Estate Evolution</>}
         subHeading="REALTYLink™ transforms property organisations into intelligent, connected ecosystems. Through automation, analytics, and adaptive logic, every listing, transaction, and decision operates as part of one continuous digital architecture. "
         buttonText=" Begin Your Evolution"
         backgroundImage={mainbg}

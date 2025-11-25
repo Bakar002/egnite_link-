@@ -3,6 +3,8 @@ import c1 from '../assets/images/Frame 2147228902 (1).png';
 import c4 from '../assets/images/image 108.png';
 import c5 from '../assets/images/image 106.png';
 import c6 from '../assets/images/image 107.png';
+import c7 from '../assets/images/homecard.png';
+import c8 from '../assets/images/homecard8.png';
 import fan from '../assets/images/image 104.png'
 import ai from '../assets/images/image 105.png'
 
@@ -46,7 +48,26 @@ const SixDivisionsComponent = ({
         image: c5,
         title: "Systems Engineering™",
         description: "Full-stack software and AI automation development. Build custom tools, APIs, and autonomous infrastructure beyond templates."
-      }
+      },
+      {
+        id: 7,
+        image: c7,
+        title: " CARLink Core Systems™",
+        description: "A transformative framework that unifies marketing, acquisition, and operational logic into one self-improving intelligent system."
+      },
+      {
+        id: 8,
+        image: c6,
+        title: "REALTYLink Core Systems™",
+        description: "Through automation, analytics, and adaptive logic, every listing, transaction, and decision operates as part of one continuous digital architecture."
+      },
+      {
+        id: 9,
+        image: c8,
+        title: "BizLink Core Systems™",
+        description: "BizLink replaces fragmented tools and departments with a single logic-based infrastructure that connects data, automation, and intelligence across the entire enterprise."
+      },
+
     ]
   }
 }) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import aa from '../assets/images/aa.png';
+import Arrow from '../assets/images/Arrow.png';
 import aas from '../assets/images/Vector.png';
 
 const IgniteLinkComponent = ({
@@ -13,25 +13,19 @@ const IgniteLinkComponent = ({
         id: 1,
         icon: "🎯",
         title: "Positioning Statement",
-        description: "Strategic market positioning that defines your unique value proposition and competitive advantage in the marketplace."
+        description: "E-Gnite Link AI Systems™ engineers permanent growth infrastructure — powered by intelligent automation and liberated from platforms, paid traffic, and media volatility."
       },
       {
         id: 2,
         icon: "📊",
         title: "Philosophy Statement",
-        description: "Core principles and methodologies that guide our approach to AI system development and implementation."
+        description: "Modern business infrastructure must operate autonomously — without relying on human  bandwidth, ad platforms, content cycles, or unpredictable algorithms."
       }
     ]
   }
 }) => {
   return (
-    <div className=" bg-black flex items-center justify-center p-2 sm:p-4 md:p-8 relative overflow-hidden pt-5">
-      {/* Background Effects */}
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 bg-blue-500 opacity-10 rounded-full filter blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-cyan-500 opacity-5 rounded-full filter blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-5 rounded-full filter blur-3xl"></div>
-      </div>
+    <div className=" bg-black flex items-center justify-center p-2 sm:p-4 md:p-8 relative overflow-hidden pt-5 sm:pt-10 md:pt-16 pb-10 sm:pb-16 md:pb-24">
 
       {/* Floating Particles */}
       <div className="absolute top-5 sm:top-10 right-5 sm:right-10 w-2 h-2 bg-cyan-400 opacity-60 rounded-full animate-pulse"></div>
@@ -82,7 +76,7 @@ const IgniteLinkComponent = ({
             <div className="flex gap-3 sm:gap-4">
               {/* First Card - Fully Visible */}
               <div className="group relative transform hover:scale-105 transition-all duration-500 w-64 sm:w-72 md:w-80 flex-shrink-0">
-                <div className="relative bg-slate-900/70 backdrop-blur-lg border border-slate-700/60 rounded-xl sm:rounded-2xl p-4 sm:p-6 hover:bg-slate-800/80 hover:border-slate-600/80 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 overflow-hidden h-full">
+                <div className="relative bg-[radial-gradient(42.64%_44.32%_at_50%_0%,_rgba(57,143,255,0.4)_0%,_rgba(57,143,255,0)_98.07%)]  backdrop-blur-lg border border-slate-700/60 rounded-xl sm:rounded-2xl p-4 sm:p-6 hover:bg-slate-800/80 hover:border-slate-600/80 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 overflow-hidden h-full">
 
                   {/* Animated Background Gradient */}
                   <div className="absolute inset-0 rounded-xl sm:rounded-2xl bg-gradient-to-br from-cyan-500/0 via-cyan-500/10 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -90,8 +84,8 @@ const IgniteLinkComponent = ({
                   <div className="relative z-10 flex flex-col items-center text-center space-y-3 sm:space-y-4">
 
                     {/* Icon Container */}
-                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-gradient-to-br from-cyan-500/30 to-blue-600/30 border border-cyan-400/40 flex items-center justify-center group-hover:scale-110 transition-all duration-500">
-                      <img src={aa} alt="" className="w-5 h-5 sm:w-6 sm:h-6" />
+                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl  flex items-center justify-center group-hover:scale-110 transition-all duration-500">
+                      <img src={Arrow} alt="" className="h-auto w-15" />
                     </div>
 
                     {/* Content */}
@@ -103,13 +97,6 @@ const IgniteLinkComponent = ({
                         {data.cards[0].description}
                       </p>
                     </div>
-
-                    {/* Arrow Indicator */}
-                    <div className="w-5 h-5 sm:w-6 sm:h-6 text-gray-500 group-hover:text-cyan-400 transform group-hover:translate-x-1 transition-all duration-300 mt-auto">
-                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-full h-full">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
                   </div>
 
                   {/* Bottom Glow Line */}
@@ -119,7 +106,7 @@ const IgniteLinkComponent = ({
 
               {/* Second Card - Half Hidden (Partially Visible) */}
               <div className="group relative transform hover:scale-105 transition-all duration-500 w-64 sm:w-72 md:w-80 flex-shrink-0">
-                <div className="relative bg-slate-900/70 backdrop-blur-lg border border-slate-700/60 rounded-xl sm:rounded-2xl p-4 sm:p-6 hover:bg-slate-800/80 hover:border-slate-600/80 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 overflow-hidden h-full">
+                <div className="relative bg-[radial-gradient(42.64%_44.32%_at_50%_0%,_rgba(57,143,255,0.4)_0%,_rgba(57,143,255,0)_98.07%)]  backdrop-blur-lg border border-slate-700/60 rounded-xl sm:rounded-2xl p-4 sm:p-6 hover:bg-slate-800/80 hover:border-slate-600/80 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 overflow-hidden h-full">
 
                   {/* Animated Background Gradient */}
                   <div className="absolute inset-0 rounded-xl sm:rounded-2xl bg-gradient-to-br from-cyan-500/0 via-cyan-500/10 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -141,12 +128,6 @@ const IgniteLinkComponent = ({
                       </p>
                     </div>
 
-                    {/* Arrow Indicator */}
-                    <div className="w-5 h-5 sm:w-6 sm:h-6 text-gray-500 group-hover:text-cyan-400 transform group-hover:translate-x-1 transition-all duration-300 mt-auto">
-                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" className="w-full h-full">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
                   </div>
 
                   {/* Bottom Glow Line */}

@@ -42,7 +42,7 @@ function Outcomes() {
         <>
             <Header />
             <MainBanner
-                heading={<>We Don’t Sell Software. <br /> We Build Systems That <br /> Produce Outcomes. <br /> Growth Architectures</>}
+                heading={<>We Don’t Sell Software. <br /> We Build Systems That <br /> Produce Outcomes.</>}
                 subHeading="E-Gnite is a business transformation infrastructure — where leads increase, fulfillment accelerates, bandwidth expands, and operations become self-governing. We measure our value in outcomes, not outputs."
                 buttonText="Request Private Session"
                 backgroundImage={mainbg}

@@ -13,8 +13,8 @@ import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 
 function AiWorkface() {
-  const mainHeading=' Custom AI Staff'
-  const mainDescription='These are custom-trained agents, crafted to execute key roles inside your business.'
+  const mainHeading = ' Custom AI Staff'
+  const mainDescription = 'These are custom-trained agents, crafted to execute key roles inside your business.'
   const aiStaffData = [
     {
       icon: Award,
@@ -49,10 +49,10 @@ function AiWorkface() {
       <MainBanner
         heading={
           <>
-            Labor Without Burnout. <br /> Fulfillment Without <br /> Limits.
-          </>
+            AI Workforce™ <br />
+            Labor Without Burnout. <br /> Fulfillment Without Limits.          </>
         }
-        subHeading="AI Workforce™ is your operational division of intelligent agents — trained to fulfill tasks, communicate with clients, manage backend workflows, and scale your capacity without hiring or fatigue. This is not virtual assistance. This is intelligent labor architecture."
+        subHeading="AI Workforce™ is your operational division of intelligent agents — trained to fulfill tasks, communicate with clients, manage backend workflows, and scale your capacity without hiring or fatigue. This is not virtual assistance. This is intelligent labor architecture. "
         buttonText="Start Building Your Workforce"
         backgroundImage={mainbg}
       />
@@ -101,16 +101,16 @@ function AiWorkface() {
           },
         ]}
       />{" "}
-<OutcomesOfDeployment 
-  title="Outcomes of Deployment"
-  outcomes={[
-    "Operations scale without headcount",
-    "Clients receive fast, clear, and aligned responses", 
-    "No sick days, no training delays, no role drift",
-    "Fulfillment becomes automated, but personalized",
-    "Internal consistency increases across every department"
-  ]}
-/>      <WorkforceHero />
+      <OutcomesOfDeployment
+        title="Outcomes of Deployment"
+        outcomes={[
+          "Operations scale without headcount",
+          "Clients receive fast, clear, and aligned responses",
+          "No sick days, no training delays, no role drift",
+          "Fulfillment becomes automated, but personalized",
+          "Internal consistency increases across every department"
+        ]}
+      />      <WorkforceHero />
       <ProfessionalFooter />
     </>
   );

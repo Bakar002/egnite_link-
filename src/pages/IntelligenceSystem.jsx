@@ -13,6 +13,9 @@ import { Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 import OutcomesOfDeployment from "../components/Deployment";
 import ProfessionalFooter from "../components/HomeFooter";
 import FuturisticHero from "../components/Systems";
+import c5 from '../assets/images/c5 copy.png';
+import customImage from "../assets/images/mirrorimg.png";
+
 
 
 const IntelligenceSystem = () => {
@@ -73,6 +76,7 @@ const IntelligenceSystem = () => {
       />
       <CoreIntelligenceModules />
       <AIRolesDesign
+        props={c5}
         title="Real-Time System Coordination"
         description="It replaces human intuition with structured, AI-driven system governance."
         features={[
@@ -94,7 +98,7 @@ const IntelligenceSystem = () => {
           },
         ]}
       />
-      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} />
+       <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} image={customImage}/>
       <AIAutomationComponent />
       <OutcomesOfDeployment
         title="Outcomes of Deployment"

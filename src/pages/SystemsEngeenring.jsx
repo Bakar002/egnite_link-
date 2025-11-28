@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg2 from "../assets/images/robot-6753999 (1).png";
+import mainbg2 from "../assets/images/system-engeenring bg hero.png";
 import DivisionRoleDesign from "../components/Role Divisions";
 import CustomSoftwareDevelopment from "../components/Software Devolpment";
 import CustomAiONCreation from "../components/AionCreations";

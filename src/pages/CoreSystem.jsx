@@ -13,6 +13,7 @@ import OutcomesOfDeployment from '../components/Deployment';
 import InfluenceAtScale from '../components/Influence';
 import CarlinkHero from '../components/Carlink';
 import ProfessionalFooter from '../components/HomeFooter';
+import Cards from '../components/Core-Architecture';
 
 const CoreSystem = () => {
   const leftContent = {
@@ -60,6 +61,7 @@ const CoreSystem = () => {
         image1={photo}
         image2={false}
       />
+      <Cards />
       {/* <CoreArchitecture /> */}
       <OperationalLogicLoop />
       <EGniteIntegration

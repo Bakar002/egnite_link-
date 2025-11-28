@@ -12,6 +12,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import OutcomesOfDeployment from "../components/Deployment";
 import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
+import standard from '../assets/images/standard.png';
 
 function AiWorkface() {
   const mainHeading = ' Custom AI Staff'
@@ -81,6 +82,7 @@ function AiWorkface() {
 
       <AIRolesDesign
         title="Standard AI Roles "
+        props={standard}
         subtitle="Immediate Functionality"
         description="These pre-configured agents are available out of the box and deploy within any E-Gnite system."
         features={[

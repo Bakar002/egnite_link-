@@ -7,6 +7,7 @@ const AIRolesDesign = ({
     subtitle,
     description,
     features,
+    props
 }) => {
     return (
         <div className="min-h-screen" style={{ backgroundColor: '#000000' }}>
@@ -26,7 +27,7 @@ const AIRolesDesign = ({
                             ></div>
 
                             {/* Main Robot Container */}
-                            <img src={stai1} alt="" className="w-full h-auto" />
+                            <img src={props} alt="" className="w-full h-auto" />
                         </div>
                     </div>
 

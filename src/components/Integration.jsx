@@ -26,7 +26,7 @@ export default function EGniteIntegration({
   return (
     <div className={`flex items-center pt-5 justify-center ${containerClass}`}>
       <div className="w-full max-w-4xl">
-        
+
         {/* Title */}
         <h1 className="text-white text-4xl font-semibold text-center mb-10">
           {mainTitle}
@@ -88,7 +88,7 @@ export default function EGniteIntegration({
 
           {/* DESKTOP (unchanged) */}
           <div className="hidden md:grid grid-cols-[1fr_80px_1fr] gap-8 items-center">
-            
+
             {/* Left Column */}
             <div>
               <h2 className="text-white font-semibold text-lg mb-6">

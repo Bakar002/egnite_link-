@@ -3,7 +3,7 @@ import React from "react";
 export default function MainBanner({ heading, subHeading, buttonText, backgroundImage }) {
   //bg-gradient-to-b from-[#0000009d] via-[#0500265d] to-[#0000009d] this bg in fisrt div can be added if needed
   return (
-    <div className="relative min-h-screen  flex flex-col  text-white overflow-hidden">
+    <div className="relative min-h-screen   flex flex-col  text-white overflow-hidden">
       {/* Hero Content */}
       <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight">

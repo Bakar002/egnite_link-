@@ -84,7 +84,7 @@ const CoreSystem = () => {
         ]}
       />
       <CarlinkHero />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
     </>
   )
 }

@@ -1,84 +1,69 @@
 import React from 'react';
-import imgbg from '../assets/images/Rectangle 25.png';
-const CustomAIProfessionals = () => {
+import bg from '../assets/images/bg.png';
+export default function CustomAIProfessionals() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/30 to-slate-900 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto min-h-screen">
-        <div className="grid lg:grid-cols-2 min-h-screen">
-
-          {/* Left Column - Content */}
-          <div className="flex items-center justify-center p-6 sm:p-8 lg:p-16">
-            <div className="space-y-6 sm:space-y-8 max-w-lg text-center lg:text-left">
-              <div>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                  Custom AI
-                  <br />
-                  <span className="text-white">Professionals</span>
-                </h1>
-                <p className="text-base sm:text-lg md:text-xl text-gray-300 mt-4 sm:mt-6 leading-relaxed">
-                  Tailored Intelligence. Built for Your Needs.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Column - Background Image with Card Overlay */}
-          <div className="relative min-h-[60vh] lg:min-h-screen">
-            {/* Background Tech Image */}
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-800/50 to-blue-900/30">
-              {/* Circuit board pattern overlay */}
-              
-
-              {/* Floating particles */}
-              <div className='pt-30 absolute inset-0 overflow-hidden'>
-              <img src={imgbg} alt="" />
-            </div>
-            </div>
-
-            {/* Card Overlay */}
-            <div className="absolute inset-0 flex items-center justify-start p-4  sm:p-6 md:p-8">
-              <div className="bg-slate-800/90 backdrop-blur-sm border border-slate-600/50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 w-full max-w-xs sm:max-w-sm md:max-w-md shadow-2xl relative z-10">
-                {/* Modal Header */}
-                <div className="mb-4 sm:mb-6">
-                  <p className="text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed">
-                    AI has evolved. It's not enough — we need talent, individualized
-                    AI professionals, each with their own unique expertise.
-                  </p>
-                </div>
-
-                {/* Features List */}
-                <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-                  {[
-                    "Transform your business operations",
-                    "Scale your team instantly",
-                    "Deploy AI-first solutions faster",
-                    "Achieve next-level productivity",
-                  ].map((text, i) => (
-                    <div key={i} className="flex items-start space-x-2 sm:space-x-3">
-                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-400 rounded-full mt-1.5 sm:mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-200 text-xs sm:text-sm md:text-base">{text}</span>
-                    </div>
-                  ))}
-                </div>
-
-                {/* CTA Button */}
-                <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-xl sm:rounded-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center space-x-2">
-                  <span className="text-xs sm:text-sm md:text-base">Explore Talent Custom AI Development</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </button>
-              </div>
-            </div>
+    <div className="relative w-full h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${bg})` }}
+      ></div>
+      <div className="absolute bottom-1/3 right-1/3 bg-blue-500/20 rounded-lg p-3 backdrop-blur-sm border border-blue-400/30">
+        <div className="w-12 h-12">
+          <div className="w-full h-8 border-2 border-blue-400/60 rounded-t-lg"></div>
+          <div className="flex gap-1 mt-1">
+            <div className="flex-1 h-2 bg-blue-400/40 rounded"></div>
+            <div className="flex-1 h-2 bg-blue-400/40 rounded"></div>
+            <div className="flex-1 h-2 bg-blue-400/40 rounded"></div>
           </div>
         </div>
       </div>
 
-      {/* Additional background effects */}
-      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-blue-600/10 to-transparent rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-gradient-to-tr from-purple-600/10 to-transparent rounded-full blur-3xl"></div>
+      {/* Main Content Container */}
+      <div className="relative z-10 flex items-center justify-between h-full px-40 max-w-7xl -mx-25">
+
+        {/* Left Side - Text Content */}
+        <div className="text-white max-w-md">
+          <h1 className="text-5xl font-bold mb-3 leading-tight">
+            Custom AI<br />Professionals
+          </h1>
+          <p className="text-blue-200 text-lg">
+            Tailored Intelligence. Built for Your Model.
+          </p>
+        </div>
+
+        {/* Right Side - Card */}
+        <div className="bg-[linear-gradient(167.89deg,#262628_25.18%,#4B4B4D_90.45%)]  backdrop-blur-xl rounded-2xl p-8 max-w-md border border-slate-700/50 shadow-2xl">
+          <p className="text-gray-300 text-base mb-6 leading-relaxed">
+            When product is not enough — we architect a dedicated AI Professional to function within your unique operational model.
+          </p>
+
+          <div className="space-y-3 mb-8">
+            <div className="flex items-center gap-3">
+              <span className="text-blue-400 text-xl">★</span>
+              <span className="text-gray-200 text-sm">Trained on your documents</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-blue-400 text-xl">★</span>
+              <span className="text-gray-200 text-sm">Instructed in your positioning</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-blue-400 text-xl">★</span>
+              <span className="text-gray-200 text-sm">Aligned to your decision framework</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-blue-400 text-xl">★</span>
+              <span className="text-gray-200 text-sm">Secured within your AI Workspace™</span>
+            </div>
+          </div>
+
+          <button className="w-auto bg-[linear-gradient(360.19deg,#05BDF1_28.07%,#01375F_81.2%)] hover:bg-cyan-600 text-white font-semibold py-4 px-6 rounded-[91.6854px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/30">
+            Inquire About Custom AI Deployment
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
   );
-};
-
-export default CustomAIProfessionals;
+}

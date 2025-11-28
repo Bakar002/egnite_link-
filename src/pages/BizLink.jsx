@@ -92,7 +92,7 @@ const BizLink = () => {
         ]}
       />
       <BusinessLogic />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
     </>
   )
 }

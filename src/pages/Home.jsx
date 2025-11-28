@@ -34,10 +34,10 @@ const Home = () => {
       <SecurityShieldComponent />
       <StrategicOutcomes />
       <EmpowerBusinessComponent />
-      <FAQComponent />
+      {/* <FAQComponent /> */}
       <ContactForm />
       <IsometricGrowthComponent />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
     </>
   );
 };

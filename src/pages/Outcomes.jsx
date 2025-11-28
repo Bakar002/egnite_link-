@@ -55,7 +55,7 @@ function Outcomes() {
             <BusinessTransformation />
             <ROITimeline />
             <Needsystem />
-            <ProfessionalFooter />
+            {/* <ProfessionalFooter /> */}
         </>
     )
 }

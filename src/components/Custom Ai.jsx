@@ -102,22 +102,22 @@
 
 
 
-export default function CustomAIStaff({ aiStaffData,main,description }) {
+export default function CustomAIStaff({ aiStaffData, main, description, image }) {
     return (
         <div
-            className="min-h-screen relative overflow-hidden"
+            className="min-h-screen  relative overflow-hidden"
             style={{
-                backgroundImage: 'url("src/assets/images/111.png")',
-                backgroundSize: "cover",
+                backgroundImage: `url(${image})`,
+                backgroundSize: "100% 100%",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
             }}
         >
             {/* Background overlay for better text readability */}
-            <div className="absolute inset-0 bg-black/50"></div>
+            < div className="absolute inset-0 bg-black/50" ></div >
 
             {/* Main content */}
-            <div className="relative z-10 flex items-center justify-center min-h-screen p-8">
+            < div className="relative z-10 flex items-center justify-center min-h-screen p-8" >
                 <div className="max-w-6xl w-full">
                     {/* Header */}
                     <div className="text-center mb-12">
@@ -130,7 +130,9 @@ export default function CustomAIStaff({ aiStaffData,main,description }) {
                     </div>
 
                     {/* AI Staff Cards */}
-                    <div className="bg-gray-800/60 backdrop-blur-sm rounded-3xl p-8 md:p-12">
+                    <div className=" backdrop-blur-sm rounded-3xl p-8 md:p-12" style={{
+                        background: 'linear-gradient(335.99deg, #252525 9.77%, #424242 89.74%)',
+                    }}>
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
                             {aiStaffData.map((staff, index) => {
                                 const IconComponent = staff.icon;
@@ -156,7 +158,7 @@ export default function CustomAIStaff({ aiStaffData,main,description }) {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }

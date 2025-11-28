@@ -10,7 +10,7 @@ const AionModelLibrary = () => {
             Prebuilt AiON Model Library
           </h1>
           <p className="text-gray-400 text-base">
-            E-Gnite maintains a vault of high-performance AI presenters, ready to deploy for industryspecific needs.
+           E-Gnite maintains a vault of high-performance AI presenters, ready to deploy for industryspecific needs.
           </p>
         </div>
 
@@ -19,7 +19,7 @@ const AionModelLibrary = () => {
           {/* First row - 3 cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* AiON Pro */}
-            <div className="bg-gray-800/50 backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
               <div className="flex items-center justify-between mb-3">
                 <div className="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center">
                   <div className="w-4 h-4 bg-blue-400 rounded"></div>
@@ -35,7 +35,7 @@ const AionModelLibrary = () => {
             </div>
 
             {/* AiON Core */}
-            <div className="bg-gray-800/50 backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
               <div className="flex items-center justify-between mb-3">
                 <div className="w-8 h-8 bg-green-500/20 rounded-lg flex items-center justify-center">
                   <div className="w-4 h-4 bg-green-400 rounded"></div>
@@ -51,7 +51,7 @@ const AionModelLibrary = () => {
             </div>
 
             {/* AiON Commerce */}
-            <div className="bg-gray-800/50 backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
+            <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
               <div className="flex items-center justify-between mb-3">
                 <div className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center">
                   <div className="w-4 h-4 bg-purple-400 rounded"></div>
@@ -71,7 +71,7 @@ const AionModelLibrary = () => {
           <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
               {/* AiON News */}
-              <div className="bg-gray-800/50 backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
+              <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
                 <div className="flex items-center justify-between mb-3">
                   <div className="w-8 h-8 bg-orange-500/20 rounded-lg flex items-center justify-center">
                     <div className="w-4 h-4 bg-orange-400 rounded"></div>
@@ -87,7 +87,7 @@ const AionModelLibrary = () => {
               </div>
 
               {/* AiON Civic */}
-              <div className="bg-gray-800/50 backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
+              <div className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] backdrop-blur border border-gray-700 rounded-xl p-6 hover:bg-gray-800/70 transition-all duration-200 cursor-pointer">
                 <div className="flex items-center justify-between mb-3">
                   <div className="w-8 h-8 bg-cyan-500/20 rounded-lg flex items-center justify-center">
                     <div className="w-4 h-4 bg-cyan-400 rounded"></div>

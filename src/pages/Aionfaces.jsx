@@ -11,6 +11,7 @@ import OutcomesOfDeployment from "../components/Deployment";
 import InfluenceAtScale from "../components/Influence";
 import ProfessionalFooter from "../components/HomeFooter";
 import { Brain, Zap, Shield, Eye } from "lucide-react";
+import HeroSection from "../components/AionHero";
 
 const Aionfaces = () => {
   const customFeatures = [
@@ -90,13 +91,7 @@ const Aionfaces = () => {
   return (
     <>
       <Header />
-      <MainBanner
-        heading={<>AiON Faces™ <br />
-          The Intelligent Face of <br /> Your Brand.</>}
-        subHeading="AiON Faces™ by E-Gnite deploys intelligent, camera-ready AI personalities that articulate, represent, and deliver your message — without fatigue, hesitation, or compromise. No creators.  "
-        buttonText=" Request AiON Consultation"
-        backgroundImage={mainbg}
-      />
+     <HeroSection />
       <AionFacesComponent />
       <AionModelLibrary />
       <CustomAiONCreation
@@ -120,7 +115,7 @@ const Aionfaces = () => {
         ]}
       />{" "}
       <InfluenceAtScale />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
     </>
   );
 };

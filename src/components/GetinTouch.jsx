@@ -71,8 +71,7 @@ const ContactForm = () => {
                   Support
                 </h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  +8800 65456789
-                </p>
+                  +1 800-000-0000                </p>
               </div>
             </div>
 
@@ -86,7 +85,7 @@ const ContactForm = () => {
                   Email Us
                 </h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  example@gmail.com
+                  contact@egnitelink.com       
                 </p>
               </div>
             </div>
@@ -96,31 +95,31 @@ const ContactForm = () => {
           <div className="flex flex-wrap gap-3 pt-4">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
+              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={facebook} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
+              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={twitter} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
+              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={instagram} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
+              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={linkedin} alt="" />
             </div>
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6",borderRadius:'5.51371px' }}
+              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={youtube} alt="" />
             </div>

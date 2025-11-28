@@ -9,8 +9,8 @@ import GrowthSystemsGrid from '../components/GrowthSystem';
 import WhoItsFor from '../components/Whosection';
 import OutcomesOfDeployment from '../components/Deployment';
 import GrowthMethodBanner from '../components/Private';
-import photo from '../assets/images/photo.png'
-import image from '../assets/images/2nd.png'
+import photo from '../assets/images/photo copy.png'
+import image from '../assets/images/grwoth photo2.png'
 import one from '../assets/images/IMG.png';
 import ProfessionalFooter from '../components/HomeFooter';
 const GrowthMethod = () => {
@@ -87,7 +87,7 @@ const GrowthMethod = () => {
             < OutcomesOfDeployment />
             <GrowthMethodBanner
             />
-            <ProfessionalFooter />
+            {/* <ProfessionalFooter /> */}
 
 
         </>

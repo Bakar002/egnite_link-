@@ -7,7 +7,7 @@ const EmpowerBusinessComponent = ({
       {
         id: 1,
         title: "Learn Advanced AI/ML",
-        description: "\"I have been thoroughly impressed with the level of service and expertise provided by Gnite. Their team went above and beyond to understand my specific business needs and provided tailored solutions that have significantly improved my operations. The professionalism and dedication they bring to the table makes them my go-to choice for all AI initiatives.\"",
+        description: "\"I have been thoroughly impressed with the level of vision and execution provided by E‑Gnite. The system builds itself around our infrastructure without the constant patchwork other platforms require. This isn’t automation — this is architecture\"",
         author: "Jason Richardson",
         rating: 5,
         avatar: "JR"
@@ -15,7 +15,7 @@ const EmpowerBusinessComponent = ({
       {
         id: 2,
         title: "Advanced Analytics Solutions",
-        description: "\"Working with E-Gnite has been a game-changer for our business. Their advanced analytics solutions have provided us with insights we never thought possible. The team's expertise in machine learning and data science has helped us optimize our processes and increase our revenue by 40%.\"",
+        description: "\"Working with E‑Gnite has been a game-changer for our business. Autonomous systems now drive our lead generation and fulfillment. We’ve removed three tools, two contractors, and one major problem — inconsistency\"",
         author: "Sarah Mitchell",
         rating: 5,
         avatar: "SM"
@@ -23,7 +23,7 @@ const EmpowerBusinessComponent = ({
       {
         id: 3,
         title: "AI Automation Systems",
-        description: "\"The automation systems implemented by E-Gnite have revolutionized our workflow. What used to take hours now takes minutes. Their intelligent automation solutions are robust, reliable, and have delivered exceptional ROI. I highly recommend their services to any business looking to scale.\"",
+        description: "\"The modular systems implemented by E‑Gnite have redefined our workflow. With zero reliance on ads or media platforms, our outreach, onboarding, and fulfillment happen without management or bottlenecks. Our systems now act as layers, not tasks\"",
         author: "David Chen",
         rating: 5,
         avatar: "DC"

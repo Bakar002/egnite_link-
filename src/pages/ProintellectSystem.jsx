@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
 import mainbg from "../assets/images/prointellectHero.png";
 import InfoSection from "../components/InfoSection";
-import photo from '../assets/images/ccc.png'
+import photo from '../assets/images/prointellect 2ndcom.png'
 import AIProfessionals from "../components/Deploy";
 import CustomAIProfessionals from "../components/CustomAi";
 import StrategicUseCases from "../components/Strategic";
@@ -29,14 +29,13 @@ const ProintellectSystem = () => {
           </>
         }
         subDescription={
-          <>  
+          <>
             Each deployment becomes its own infrastructure — <br /> tailored to
             how your business acquires, communicates, <br /> and delivers.
           </>
         }
-        buttonText="Book Your Consultation"
         buttonLink="#"
-        image1={photo} // bada wala upar
+        image1={photo}
       />
       <AIProfessionals />
       <CustomAIProfessionals />
@@ -53,7 +52,7 @@ const ProintellectSystem = () => {
       />
       <NetworkGlobe />
       <StructureHero />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
 
     </>
   );

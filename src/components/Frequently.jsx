@@ -15,17 +15,14 @@ const FAQComponent = ({
     {
       icon: "chat",
       text: "Contact Live Chat Support",
-      subtext: "We usually respond immediately",
     },
     {
       icon: "video",
       text: "Visit Help Center",
-      subtext: "We usually respond immediately",
     },
     {
       icon: "shield",
       text: "Terms & Conditions",
-      subtext: "We usually respond immediately",
     },
   ],
   faqs = [
@@ -86,8 +83,8 @@ const FAQComponent = ({
           <div className="lg:col-span-1">
             <div className="mb-8">
               {/* Logo/Image Section */}
-              <div className="flex items-center gap-3 mb-6 sm:mb-8">
-                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center shadow-lg">
+              <div className="flex absolute left-0 items-start justify-start gap-3 mb-6 sm:mb-8">
+                <div className="w-12 h-12 sm:w-24 sm:h-25 rounded-2xl flex items-start justify-start shadow-lg">
                   <img src={faq} alt="" className="w-full h-full object-contain" />
                 </div>
               </div>
@@ -105,7 +102,7 @@ const FAQComponent = ({
               {supportButtons.map((button, index) => (
                 <div
                   key={index}
-                  className="bg-gray-800/50 border border-gray-700/50 rounded-xl p-3 sm:p-4 hover:bg-gray-700/50 hover:border-gray-600/50 transition-all duration-200 cursor-pointer group backdrop-blur-sm"
+                  className="bg-[#2D2D2D] border border-gray-700/50 rounded-xl p-3 sm:p-4 hover:bg-gray-700/50 hover:border-gray-600/50 transition-all duration-200 cursor-pointer group backdrop-blur-sm"
                 >
                   <div className="flex items-center gap-3 sm:gap-4">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 shadow-lg">

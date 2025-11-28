@@ -4,7 +4,7 @@ import pyramidImage from "../assets/images/ChatGPT_Image_Aug_15__2025__11_07_29_
 
 const AIPyramid = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 flex items-center justify-center p-8">
+    <div className=" bg-black flex items-center justify-center p-8">
       <div className="relative w-full max-w-md">
         <img src={pyramidImage} alt="" />
 

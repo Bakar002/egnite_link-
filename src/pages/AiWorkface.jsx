@@ -1,10 +1,11 @@
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/1hero.png";
+import mainbg from "../assets/images/Aiworkforce Herobg.png";
 import AIPyramid from "../components/Mirror Ai";
 import InfoSection from "../components/InfoSection";
-import photo from "../assets/images/2150834131 1.png";
-import image from "../assets/images/2M.png";
+import photo from "../assets/images/mirror.png";
+import customImage from "../assets/images/customai.png";
+import image from "../assets/images/smallmirror.png";
 import CustomAIStaff from "../components/Custom Ai";
 import AIRolesDesign from "../components/standard Ai";
 import ProfessionalFooter from "../components/HomeFooter";
@@ -76,7 +77,7 @@ function AiWorkface() {
         image2={image} // chhota wala neeche overlap me
       />
 
-      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} />
+      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} image={customImage}/>
 
       <AIRolesDesign
         title="Standard AI Roles "
@@ -111,7 +112,7 @@ function AiWorkface() {
           "Internal consistency increases across every department"
         ]}
       />      <WorkforceHero />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
     </>
   );
 }

@@ -107,7 +107,7 @@ const IntelligenceSystem = () => {
         ]}
       />
       <FuturisticHero />
-      <ProfessionalFooter />
+      {/* <ProfessionalFooter /> */}
     </>
   );
 };

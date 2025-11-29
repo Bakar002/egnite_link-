@@ -44,7 +44,7 @@ const Header = () => {
             <Link to="/aion-faces" className="block py-1 lg:py-0 hover:text-cyan-400">AiON Faces</Link>
             <Link to="/intelligence-systems" className="block py-1 lg:py-0 hover:text-cyan-400">Intelligence Systems</Link>
             <Link to="/systems-engineering" className="block py-1 lg:py-0 hover:text-cyan-400">Systems Engineering</Link>
-            <Link to="/out-comes" className="block py-1 lg:py-0 hover:text-cyan-400">Outcomes</Link>
+            {/* <Link to="/out-comes" className="block py-1 lg:py-0 hover:text-cyan-400">Outcomes</Link> */}
             <Link to="/core-system" className="block py-1 lg:py-0 hover:text-cyan-400">Core System</Link>
             <Link to="/reality-link" className="block py-1 lg:py-0 hover:text-cyan-400">Reality Link</Link>
             <Link to="/biz-link" className="block py-1 lg:py-0 hover:text-cyan-400">Biz Link</Link>

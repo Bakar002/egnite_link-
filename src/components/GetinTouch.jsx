@@ -92,6 +92,7 @@ const ContactForm = () => {
           </div>
 
           {/* Social Icons */}
+          
           <div className="flex flex-wrap gap-3 pt-4">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"

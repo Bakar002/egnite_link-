@@ -16,42 +16,54 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-              <img src={logo} alt="Logo" className="h-18" />
+              <img src={logo} alt="Logo" className="h-12" />
             </Link>
           </div>
 
-          {/* Hamburger / Toggle Button */}
-          <div className="flex items-center">
-            <button
-              onClick={toggleMenu}
-              className="text-white p-2 rounded-md hover:text-cyan-400"
-            >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
+          {/* Hamburger Button (All Screens) */}
+          <button
+            onClick={toggleMenu}
+            className="text-white p-2 rounded-md hover:text-cyan-400"
+          >
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
         </div>
       </div>
 
-      {/* Menu (hidden by default, appears on toggle) */}
+      {/* Off-Canvas Sidebar (All Screens) */}
+      <div
+        className={`
+          fixed top-0 left-0 h-full w-64 bg-black text-white p-6 z-50 transform 
+          transition-transform duration-300
+          ${isOpen ? "translate-x-0" : "-translate-x-full"}
+        `}
+      >
+        {/* Close Button */}
+        <button onClick={toggleMenu} className="text-white mb-6">
+          <X className="h-6 w-6" />
+        </button>
+
+        {/* Nav Items */}
+        <nav className="flex flex-col space-y-4 text-lg font-medium">
+          <Link onClick={toggleMenu} to="/growth-method" className="hover:text-cyan-400">Growth</Link>
+          <Link onClick={toggleMenu} to="/prointellect" className="hover:text-cyan-400">ProIntellect Systems</Link>
+          <Link onClick={toggleMenu} to="/ai-workforce" className="hover:text-cyan-400">AI Workforce</Link>
+          <Link onClick={toggleMenu} to="/aion-faces" className="hover:text-cyan-400">AiON Faces</Link>
+          <Link onClick={toggleMenu} to="/intelligence-systems" className="hover:text-cyan-400">Intelligence Systems</Link>
+          <Link onClick={toggleMenu} to="/systems-engineering" className="hover:text-cyan-400">Systems Engineering</Link>
+          <Link onClick={toggleMenu} to="/core-system" className="hover:text-cyan-400">Core System</Link>
+          <Link onClick={toggleMenu} to="/reality-link" className="hover:text-cyan-400">Reality Link</Link>
+          <Link onClick={toggleMenu} to="/biz-link" className="hover:text-cyan-400">Biz Link</Link>
+          <Link onClick={toggleMenu} to="/contact-us" className="hover:text-cyan-400">Contact Us</Link>
+        </nav>
+      </div>
+
+      {/* Overlay */}
       {isOpen && (
-        <div className="absolute  top-20 left-0 w-full bg-black text-white px-4 py-3 lg:flex lg:items-center lg:justify-between">
-
-          {/* Navigation in one line */}
-          <nav className="flex mx-auto flex-col lg:flex-row lg:space-x-6 text-sm font-medium">
-            <Link to="/growth-method" className="block py-1 lg:py-0 hover:text-cyan-400">Growth</Link>
-            <Link to="/prointellect" className="block py-1 lg:py-0 hover:text-cyan-400">ProIntellect Systems</Link>
-            <Link to="/ai-workforce" className="block py-1 lg:py-0 hover:text-cyan-400">AI Workforce</Link>
-            <Link to="/aion-faces" className="block py-1 lg:py-0 hover:text-cyan-400">AiON Faces</Link>
-            <Link to="/intelligence-systems" className="block py-1 lg:py-0 hover:text-cyan-400">Intelligence Systems</Link>
-            <Link to="/systems-engineering" className="block py-1 lg:py-0 hover:text-cyan-400">Systems Engineering</Link>
-            {/* <Link to="/out-comes" className="block py-1 lg:py-0 hover:text-cyan-400">Outcomes</Link> */}
-            <Link to="/core-system" className="block py-1 lg:py-0 hover:text-cyan-400">Core System</Link>
-            <Link to="/reality-link" className="block py-1 lg:py-0 hover:text-cyan-400">Reality Link</Link>
-            <Link to="/biz-link" className="block py-1 lg:py-0 hover:text-cyan-400">Biz Link</Link>
-            <Link to="/contact-us" className="block py-1 lg:py-0 hover:text-cyan-400">Contact Us</Link>
-          </nav>
-
-        </div>
+        <div
+          onClick={toggleMenu}
+          className="fixed inset-0 bg-black/50 z-40"
+        ></div>
       )}
     </header>
   );

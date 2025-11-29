@@ -1,15 +1,16 @@
 import React from "react";
 
 export default function MainBanner({ heading, subHeading, buttonText, backgroundImage }) {
-  //bg-gradient-to-b from-[#0000009d] via-[#0500265d] to-[#0000009d] this bg in fisrt div can be added if needed
   return (
-    <div className="relative min-h-screen   flex flex-col  text-white overflow-hidden">
+    <div className="relative min-h-screen flex flex-col text-white overflow-hidden">
       {/* Hero Content */}
-      <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1">
+      <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1 z-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight">
           {heading}
         </h1>
-        <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-gray-300 max-w-sm sm:max-w-2xl lg:max-w-3xl px-2 sm:px-0">{subHeading}</p>
+        <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-gray-300 max-w-sm sm:max-w-2xl lg:max-w-3xl px-2 sm:px-0">
+          {subHeading}
+        </p>
 
         {/* CTA Button */}
         <a
@@ -29,13 +30,22 @@ export default function MainBanner({ heading, subHeading, buttonText, background
         </a>
       </main>
 
-      {/* Background Overlay (illustration placeholder) */}
+      {/* Background Overlay */}
       <div className="absolute inset-0 -z-10">
         <img
           src={backgroundImage}
           alt="Background Illustration"
-          className="w-full h-full object-cover opacity-90"
+          className="
+            w-full h-full 
+            object-cover 
+            sm:object-top 
+            md:object-center 
+            lg:object-center 
+            opacity-90
+          "
         />
+        {/* Optional gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0000009d] via-[#0500265d] to-[#0000009d]" />
       </div>
     </div>
   );

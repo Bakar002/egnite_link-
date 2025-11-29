@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import MainBanner from '../components/MainBanner';
 import mainbg from "../assets/images/coresystem hero.png";
 import InfoSection from '../components/InfoSection';
-import photo from "../assets/images/Frame 2147227485.png";
+import photo from "../assets/images/coresystem 2nd.png";
 import CoreArchitecture from '../components/Core Architecture';
 import OperationalLogicLoop from '../components/OperationalLogicLoop';
 import EGniteIntegration from '../components/Integration';

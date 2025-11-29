@@ -73,10 +73,10 @@ const FAQComponent = ({
   };
 
   return (
-    <div
-      className=" text-white p-4 sm:p-6 md:p-10"
-      style={{ backgroundColor: "black" }}
-    >
+   <div
+  className="text-white px-4 pt-30 py-6 sm:px-4 sm:py-6 md:p-25 lg:p-32 xl:p-40 2xl:p-48"
+  style={{ backgroundColor: "black" }}
+>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Left Sidebar */}

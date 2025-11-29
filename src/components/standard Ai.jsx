@@ -27,7 +27,7 @@ const AIRolesDesign = ({
                             ></div>
 
                             {/* Main Robot Container */}
-                            <img src={props} alt="" className="w-full h-auto" />
+                            <img src={props} alt="" className="w-full  h-auto   lg:mt-30 " />
                         </div>
                     </div>
 

@@ -48,7 +48,7 @@ function Outcomes() {
                 backgroundImage={mainbg}
             />
             <KeyOutcomeThemes title=" Key Outcome Themes" themes={themesData} />
-            <SixDivisionsComponent />
+            {/* <SixDivisionsComponent /> */}
             <StrategicUseCases />
 
 

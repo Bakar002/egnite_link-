@@ -12,7 +12,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import OutcomesOfDeployment from "../components/Deployment";
 import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
-import standard from '../assets/images/standard.png';
+import standard from '../assets/images/aileft.png';
 
 function AiWorkface() {
   const mainHeading = ' Custom AI Staff'

@@ -47,27 +47,27 @@ const GrowthMethod = () => {
                     {
                         title: "AI-Powered Lead Generation",
                         description: "No ads, no platforms",
-                        image: "src/assets/images/IMG.png",
+                        image: "src/assets/images/key sytemc1.png",
                     },
                     {
                         title: "Multi-Channel Outreach",
                         description: "Email, SMS, LinkedIn, AI voice",
-                        image: "src/assets/images/image 92.png",
+                        image: "src/assets/images/keysystem c2.png",
                     },
                     {
                         title: "Autonomous Nurturing",
                         description: "Adaptive sequences based on behavior",
-                        image: "src/assets/images/IMG (1).png",
+                        image: "src/assets/images/keysystemc3.png",
                     },
                     {
                         title: "Operational Fulfillment",
                         description: "Automated scheduling, service logic",
-                        image: "src/assets/images/IMG (2).png",
+                        image: "src/assets/images/keysystemc4.png",
                     },
                     {
                         title: "Human-AI Hybrid Logic",
                         description: "Inserted where strategic value requires it",
-                        image: "src/assets/images/IMG (3).png",
+                        image: "src/assets/images/keysystemc5.png",
                     },
                 ]}
             />

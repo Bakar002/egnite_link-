@@ -41,13 +41,13 @@ export default function CustomAiONCreation({
 
         {/* Feature Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((feature, index) => {
+          {features.map((feature, id) => {
             const IconComponent = feature.icon;
 
             return (
               <div
-                key={index}
-                className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300 hover:transform hover:scale-105"
+                key={id}
+                className="bg-[linear-gradient(335.99deg,#252525_9.77%,#424242_89.74%)] rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300 hover:transform hover:scale-105"
               >
                 {/* Icon Container */}
                 <div className="mb-4">

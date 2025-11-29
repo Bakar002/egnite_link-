@@ -41,7 +41,7 @@ const ProfessionalFooter = () => {
               <li><Link to="/out-comes" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">Outcomes</Link></li>
               <li><Link to="/testimonials" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">Testimonials</Link></li>
               <li><Link to="/faqs" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">FAQs</Link></li>
-              <li><Link to="/contact" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">Contact us</Link></li>
+              <li><Link to="/contact-us" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">Contact us</Link></li>
             </ul>
           </div>
 

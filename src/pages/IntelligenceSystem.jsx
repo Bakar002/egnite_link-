@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/robot-6753999.png";
-import photo from "../assets/images/life-5130779_1920.png";
+import mainbg from "../assets/images/intelligenceher.png";
+import photo from "../assets/images/int 2nd.png";
 import InfoSection from "../components/InfoSection";
 import CoreIntelligenceModules from "../components/Coreintelligence";
 import { Bot, Calendar, FileText, MessageCircle, BookOpen } from "lucide-react";

@@ -1,4 +1,4 @@
-import biz from '../assets/images/doctorieimg.png';
+import biz from '../assets/images/bizlink2nd.png';
 
 export default function BizLinkHero() {
   return (

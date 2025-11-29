@@ -2,13 +2,13 @@ import React from "react";
 
 const FeatureCard = ({ title, description, image }) => {
   return (
-    <div className="relative rounded-2xl overflow-hidden shadow-lg w-full h-64 sm:h-72 md:h-80 lg:h-72">
+    <div className="relative rounded-2xl overflow-hidden shadow-lg w-full h-64 sm:h-72 md:h-86 lg:w-auto lg:h-98">
       {/* Image */}
       {image && (
         <img
           src={image}
           alt={title}
-          className="absolute inset-0 w-full h-full object-cover"
+          className=" inset-0 w-full h-full   hover:scale-105 transition-transform duration-300"
         />
       )}
 
@@ -45,14 +45,15 @@ const Features = ({ title, description, features = [] }) => {
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {features.map((feature, index) => (
+          {features.slice(0, 5).map((feature, id) => (
             <FeatureCard
-              key={index}
+              key={id}
               title={feature.title}
               description={feature.description}
               image={feature.image}
             />
           ))}
+
         </div>
       </div>
     </div>

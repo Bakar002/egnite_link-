@@ -1,52 +1,13 @@
 import React from 'react';
-import c1 from '../assets/images/image.png';
-import c2 from '../assets/images/image (1).png';
-import c3 from '../assets/images/image (2).png';
-import c4 from '../assets/images/image (3).png';
-import c5 from '../assets/images/image (4).png';
-import c6 from '../assets/images/image (5).png';
 
-const StrategicUseCases = () => {
-  const useCases = [
-    {
-      title: "Agencies",
-      description: "AI reviews scopes, contracts, manages client communications",
-      image: c1,
-    },
-    {
-      title: "Clinics",
-      description: "AI triages patients, manages workflow, flags billing errors",
-      image: c2,
-    },
-    {
-      title: "Tech/SaaS",
-      description: "AI supports roadmap, risk evaluation, investor strategy",
-      image: c3,
-    },
-    {
-      title: "Real Estate",
-      description: "AI qualifies buyers, advises deal logic",
-      image: c4,
-    },
-    {
-      title: "Coaches/Edu",
-      description: "AI ensures pacing, intellectual property, certification flow",
-      image: c5,
-    },
-    {
-      title: "Retail/E-Com",
-      description: "AI handles pricing logic, claim safety, bundling",
-      image:c6,
-    }
-  ];
-
+const StrategicUseCases = ({ useCases,title }) => {
   return (
-    <div className=" bg-black px-4 sm:px-6 lg:px-8 py-12">
+    <div className="bg-black px-4 sm:px-6 lg:px-8 py-12">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 px-2">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-            Strategic Use Cases
+           {title}
           </h1>
         </div>
 

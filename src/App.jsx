@@ -15,6 +15,9 @@ import BizLink from "./pages/BizLink";
 import FAQComponent from "./components/Frequently";
 import ProfessionalFooter from "./components/HomeFooter";
 import ContactForm from "./components/GetinTouch";
+import ContactUs from "./components/Contact-hero";
+import ContactPage from "./pages/Contact-us";
+import FAQ from "./pages/FAQ";
 
 const App = () => {
   return (
@@ -32,8 +35,8 @@ const App = () => {
         <Route path="/core-system" element={< CoreSystem/>} />
         <Route path="/reality-link" element={< RealityLink/>} />
         <Route path="/biz-link" element={< BizLink/>} />
-        <Route path="/faqs" element={< FAQComponent/>} />
-        <Route path="/contact" element={< ContactForm/>} />
+        <Route path="/faqs" element={< FAQ/>} />
+        <Route path="/contact-us" element={< ContactPage/>} />
         
         
       </Routes>

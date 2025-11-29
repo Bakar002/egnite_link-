@@ -1,6 +1,6 @@
 import React from 'react';
 import iconsbg from '../assets/images/badgeicon.png';
-import doct from '../assets/images/doctorieimg.png';
+import doct from '../assets/images/bizlink (2).png';
 
 const Doctrine = ({
     title,
@@ -62,8 +62,8 @@ const Doctrine = ({
                                         'radial-gradient(circle, rgba(20, 184, 166, 0.15) 0%, rgba(6, 182, 212, 0.1) 70%)',
                                 }}
                             ></div>
-                            <div className='flex justify-end items-end'>
-                                <img src={doct} alt="" className="w-full h-auto" />
+                            <div className='flex  justify-end items-end'>
+                                <img src={doct} alt="" className="w-full lg:mt-30 h-auto" />
                             </div>
                         </div>
                     </div>

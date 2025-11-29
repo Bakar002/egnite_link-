@@ -34,7 +34,7 @@ export default function OwnershipLicensing({ title = "Ownership & Licensing", ca
 
 
   return (
-    <div className="bg-black  flex items-center justify-center p-8">
+    <div className="bg-black  flex items-center justify-center">
       <div className="max-w-4xl w-full">
         {/* Header */}
         <div className="text-center mb-12">
@@ -44,9 +44,9 @@ export default function OwnershipLicensing({ title = "Ownership & Licensing", ca
         </div>
 
         {/* Cards Container */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {cardsData.map((card) => (
-            <div key={card.id} className="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:border-gray-600 transition-colors duration-300">
+            <div key={card.id} className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-4xl p-3  border border-white/60 hover:border-gray-600 transition-colors duration-300">
               <div className="flex flex-col items-center text-center">
                 {/* Icon */}
                 <div className={`w-12 h-12 ${card.iconColor} rounded-full flex items-center justify-center mb-6`}>

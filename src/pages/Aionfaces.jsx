@@ -45,7 +45,7 @@ const Aionfaces = () => {
       id: 1,
       title: "AOAI Access™",
       description:
-        "Secure access management with enterprise-grade authentication and authorization protocols for seamless integration.",
+        "Rent prebuilt model (non-exclusive, limited use)",
       iconColor: "bg-teal-500",
       icon: (
         <path
@@ -60,7 +60,7 @@ const Aionfaces = () => {
       id: 2,
       title: "AOAI License™",
       description:
-        "Comprehensive licensing framework ensuring compliance and proper usage rights across all deployment scenarios.",
+        "Reserve model for exclusive brand or sector use",
       iconColor: "bg-blue-500",
       icon: (
         <path
@@ -75,7 +75,7 @@ const Aionfaces = () => {
       id: 3,
       title: "AOAI Secure™",
       description:
-        "Advanced security protocols with end-to-end encryption and multi-layer protection for sensitive data handling.",
+        "Fully custom AiON creation – owned visual identity",
       iconColor: "bg-purple-500",
       icon: (
         <path

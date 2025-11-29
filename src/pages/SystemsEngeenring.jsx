@@ -4,6 +4,7 @@ import mainbg2 from "../assets/images/system-engeenring bg hero.png";
 import DivisionRoleDesign from "../components/Role Divisions";
 import CustomSoftwareDevelopment from "../components/Software Devolpment";
 import CustomAiONCreation from "../components/AionCreations";
+import bg from "../assets/images/system.png";
 import {
   Brain,
   Zap,
@@ -20,7 +21,24 @@ import StrategicUseCases from "../components/Strategic";
 import OwnershipLicensing from "../components/Ownership";
 import ProfessionalFooter from "../components/HomeFooter";
 import SpaceHeroSection from "../components/Another App";
+import Begin from "../components/begin";
+// cards images
+import c1 from '../assets/images/stc1.png';
+import c2 from '../assets/images/stc2.png';
+import c3 from '../assets/images/stc3.png';
+import c4 from '../assets/images/stc2.png';
+import c5 from '../assets/images/stc5.png';
+import c6 from '../assets/images/stc6.png';
 
+
+const useCasesData = [
+  { title: "Agencies", description: "Automated client portals, scoped delivery engines, proposal engines", image: c1 },
+  { title: "Clinics", description: "Intake systems, scheduling bots, compliance flagging platforms", image: c2 },
+  { title: "Tech/SaaS", description: "AI-enhanced onboarding flows, support ticket automation, behavioral scoring dashboards", image: c3 },
+  { title: "Real Estate", description: "Property response systems, showing logic, lead-routing engines", image: c4 },
+  { title: "Education ", description: "Learner progress engines, test intelligence, modular content systems", image: c5 },
+  { title: "Retail/E-Com", description: "Custom checkout logic, retargeting engines, logistics automation", image: c6 },
+];
 export default function SystemsEngeenring() {
   const customFeatures = [
     {
@@ -107,6 +125,8 @@ export default function SystemsEngeenring() {
       />
       <AIRolesDesign
         title="System Logic Design"
+        props={bg}
+
         description="It’s not “code.” It’s the structural thinking of your business — running in real time."
         features={[
           {
@@ -127,12 +147,17 @@ export default function SystemsEngeenring() {
           },
         ]}
       />
-      <StrategicUseCases />
+       <StrategicUseCases useCases={useCasesData} title={'Strategic Use Cases'} />
       <OwnershipLicensing
         title="Custom Ownership & Licensing"
         cards={cardsData}
       />
-      <SpaceHeroSection />
+      {/* <SpaceHeroSection /> */}
+      <Begin
+        title="You Don’t Need Another App. You Need a System."
+        description="Let us architect the platform your business was meant to run on — and automate what others still chase manually."
+        buttonText="Request Systems Engineering Audit"
+      />  
       {/* <ProfessionalFooter /> */}
     </>
   );

@@ -11,6 +11,23 @@ import OutcomesOfDeployment from "../components/Deployment";
 import NetworkGlobe from "../components/NetworkGlobe";
 import ProfessionalFooter from "../components/HomeFooter";
 import StructureHero from "../components/Structure begins";
+import Begin from "../components/begin";
+// card images
+import c1 from '../assets/images/stc1.png';
+import c2 from '../assets/images/stc2.png';
+import c3 from '../assets/images/stc3.png';
+import c4 from '../assets/images/stc2.png';
+import c5 from '../assets/images/stc5.png';
+import c6 from '../assets/images/stc6.png';
+
+const useCasesData = [
+  { title: "Agencies", description: "AI reviews scopes, contracts, manages client communications", image: c1 },
+  { title: "Clinics", description: "AI triages patients, manages workflow, flags billing errors", image: c2 },
+  { title: "Tech/SaaS", description: "AI supports roadmap, risk evaluation, investor strategy", image: c3 },
+  { title: "Real Estate", description: "AI qualifies buyers, advises deal logic", image: c4 },
+  { title: "Coaches/Edu", description: "AI ensures pacing, intellectual property, certification flow", image: c5 },
+  { title: "Retail/E-Com", description: "AI handles pricing logic, claim safety, bundling", image: c6 },
+];
 const ProintellectSystem = () => {
   return (
     <>
@@ -39,7 +56,7 @@ const ProintellectSystem = () => {
       />
       <AIProfessionals />
       <CustomAIProfessionals />
-      <StrategicUseCases />
+       <StrategicUseCases useCases={useCasesData} title={'Strategic Use Cases'} />
       <OutcomesOfDeployment
         title="Outcomes of Deployment"
         outcomes={[
@@ -50,9 +67,14 @@ const ProintellectSystem = () => {
           "Systems that learn and adapt over time"
         ]}
       />
-      <NetworkGlobe />
-      <StructureHero />
-      {/* <ProfessionalFooter /> */}
+      {/* <NetworkGlobe /> */}
+      {/* <StructureHero /> */}
+      <Begin
+        title="Structure Begins With Smart Advisors"
+        description="A Single AI Professional Can Replace Weeks Of Back-And-Forth — With Structured, Scenario-Based Logic At Your Fingertips."
+        buttonText="Request Consultation"
+      />   
+         {/* <ProfessionalFooter /> */}
 
     </>
   );

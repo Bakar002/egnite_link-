@@ -1,5 +1,5 @@
 import React from 'react';
-import aiOnDemo from '../assets/images/Frame 3 (1).png'; // Replace with actual image path
+import aiOnDemo from '../assets/images/aion2nd.png'; // Replace with actual image path
 import arrow from '../assets/images/Feather Icon.png'; // Replace with actual image path
 
 const AionFacesComponent = () => {
@@ -15,12 +15,11 @@ const AionFacesComponent = () => {
               <img 
                 src={aiOnDemo}
                 alt="AION Technology Demo"
-                className="w-full h-96 object-cover rounded-lg shadow-2xl"
+                className="w-full  object-cover rounded-lg shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
             </div>
             
-            {/* Secondary smaller image */}
             
           </div>
 
@@ -31,8 +30,8 @@ const AionFacesComponent = () => {
             </h1>
             <p>It allows you to deploy digital brand figures — trained to speak, explain, and guide — using humanlike AI models backed by structured intelligence.</p>
             
-            <div className="space-y-4 text-gray-300">
-              <p className="flex items-start">
+            <div className="space-y-4 text-gray-300 ">
+              <p className="flex items-start ">
                 <img src={arrow} alt="" />
                 Delivers video content in your tone
               </p>
@@ -58,11 +57,7 @@ const AionFacesComponent = () => {
               </p>
             </div>
 
-            <div className="pt-6">
-              <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300 shadow-lg">
-                Learn More
-              </button>
-            </div>
+           
           </div>
         </div>
       </div>

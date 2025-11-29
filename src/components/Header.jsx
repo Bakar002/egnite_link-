@@ -35,7 +35,7 @@ const Header = () => {
       {/* Menu (hidden by default, appears on toggle) */}
       {isOpen && (
         <div className="absolute  top-20 left-0 w-full bg-black text-white px-4 py-3 lg:flex lg:items-center lg:justify-between">
-          
+
           {/* Navigation in one line */}
           <nav className="flex mx-auto flex-col lg:flex-row lg:space-x-6 text-sm font-medium">
             <Link to="/growth-method" className="block py-1 lg:py-0 hover:text-cyan-400">Growth</Link>
@@ -48,6 +48,7 @@ const Header = () => {
             <Link to="/core-system" className="block py-1 lg:py-0 hover:text-cyan-400">Core System</Link>
             <Link to="/reality-link" className="block py-1 lg:py-0 hover:text-cyan-400">Reality Link</Link>
             <Link to="/biz-link" className="block py-1 lg:py-0 hover:text-cyan-400">Biz Link</Link>
+            <Link to="/contact-us" className="block py-1 lg:py-0 hover:text-cyan-400">Contact Us</Link>
           </nav>
 
         </div>

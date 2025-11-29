@@ -1,42 +1,37 @@
 import React from 'react';
-import { Network, Shield, TrendingUp, Settings, RefreshCw } from 'lucide-react';
+import roi from '../assets/images/Roi.png';
 
 export default function ROITimeline() {
     const timelineData = [
         {
-            period: "Week 1-2",
+            period: "Week 1–2",
             title: "System architecture mapped; integrations scoped",
-            icon: Network,
             position: "top"
         },
         {
-            period: "Week 3-4",
+            period: "Week 3–4",
             title: "AI Workforce roles trained and deployed",
-            icon: Shield,
             position: "bottom"
         },
         {
             period: "Month 2",
             title: "Lead flow begins; fulfillment sequences active",
-            icon: TrendingUp,
             position: "top"
         },
         {
-            period: "Month 3-4",
+            period: "Month 3–4",
             title: "Mirror AI + Intelligence Systems optimize and refine",
-            icon: Settings,
             position: "bottom"
         },
         {
             period: "Month 6+",
-            title: "40%-80% operational automation achieved",
-            icon: RefreshCw,
+            title: "40%–80% operational automation achieved",
             position: "top"
         }
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 flex items-center justify-center p-8">
+        <div className="min-h-screen bg-[#000010] flex items-center justify-center p-8">
             <div className="max-w-6xl w-full">
                 {/* Header */}
                 <div className="text-center mb-16">
@@ -46,34 +41,36 @@ export default function ROITimeline() {
                 </div>
 
                 {/* Timeline */}
-                <div className="relative py-24">
-                    {/* Main horizontal line */}
-                    <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-cyan-300 via-cyan-400 to-cyan-300 transform -translate-y-1/2 shadow-lg shadow-cyan-300/50"></div>
+                <div className="relative">
+                    {/* Main image with icons */}
+                    <div className="relative w-full">
+                        <img src={roi} alt="ROI Timeline" className="w-full " />
+                    </div>
 
-                    {/* Timeline items */}
-                    <div className="flex justify-between items-center relative z-10">
+                    {/* Timeline items positioned above and below */}
+                    <div className="absolute inset-0 flex justify-between items-center px-[8%]">
                         {timelineData.map((item, index) => (
-                            <div key={index} className="flex flex-col items-center relative">
-                                {/* Content above or below based on position */}
-                                <div className={`flex flex-col items-center ${item.position === 'bottom' ? 'order-2 mt-20' : 'order-1 mb-20'}`}>
-                                    {/* Period */}
-                                    <div className="text-cyan-300 font-semibold text-lg mb-4">
-                                        {item.period}
+                            <div key={index} className="flex flex-col items-center relative" style={{ width: '16%' }}>
+                                {/* Content positioned above or below */}
+                                {item.position === 'top' ? (
+                                    <div className="absolute bottom-[60%] flex flex-col items-center w-full">
+                                        <div className="text-cyan-300 font-semibold text-sm mb-1 mx-auto">
+                                            {item.period}
+                                        </div>
+                                        <div className="text-white text-center text-xs leading-relaxed mb-12">
+                                            {item.title}
+                                        </div>
                                     </div>
-                                    {/* Description */}
-                                    <div className="text-white text-center max-w-48 text-sm leading-relaxed">
-                                        {item.title}
+                                ) : (
+                                    <div className="absolute top-[60%] flex flex-col items-center w-full">
+                                        <div className="text-cyan-300 font-semibold text-sm mt-15  whitespace-nowrap">
+                                            {item.period}
+                                        </div>
+                                        <div className="text-white text-center text-xs leading-relaxed">
+                                            {item.title}
+                                        </div>
                                     </div>
-                                </div>
-
-                                {/* Icon circle */}
-                                <div className={`${item.position === 'bottom' ? 'order-1' : 'order-2'} relative`}>
-                                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-slate-900 to-slate-800 border-3 border-cyan-300 flex items-center justify-center shadow-xl shadow-cyan-300/40 hover:shadow-cyan-300/60 transition-all duration-300 hover:scale-110">
-                                        <item.icon className="w-8 h-8 text-cyan-300" strokeWidth={2} />
-                                    </div>
-                                    {/* Glow effect */}
-                                    <div className="absolute inset-0 w-20 h-20 rounded-full bg-cyan-300/25 blur-md animate-pulse"></div>
-                                </div>
+                                )}
                             </div>
                         ))}
                     </div>

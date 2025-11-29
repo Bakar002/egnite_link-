@@ -40,7 +40,7 @@
 // }
 
 import React from 'react';
-import leftimg from "../assets/images/Carlink page left image.png";
+import leftimg from "../assets/images/reality2nd.png";
 
 export default function PropertyHero() {
   return (

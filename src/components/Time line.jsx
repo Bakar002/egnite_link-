@@ -1,4 +1,3 @@
-import React from 'react';
 import roi from '../assets/images/Roi.png';
 
 export default function ROITimeline() {
@@ -31,7 +30,10 @@ export default function ROITimeline() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#000010] flex items-center justify-center p-8">
+        <div className="min-h-screen bg-[#000010] flex items-center justify-center p-8 
+                        hidden md:flex">
+            {/* ↑ ONLY CHANGE: 'hidden md:flex' */}
+            
             <div className="max-w-6xl w-full">
                 {/* Header */}
                 <div className="text-center mb-16">
@@ -47,26 +49,25 @@ export default function ROITimeline() {
                         <img src={roi} alt="ROI Timeline" className="w-full " />
                     </div>
 
-                    {/* Timeline items positioned above and below */}
+                    {/* Timeline items */}
                     <div className="absolute inset-0 flex justify-between items-center px-[8%]">
                         {timelineData.map((item, index) => (
                             <div key={index} className="flex flex-col items-center relative" style={{ width: '16%' }}>
-                                {/* Content positioned above or below */}
                                 {item.position === 'top' ? (
                                     <div className="absolute bottom-[60%] flex flex-col items-center w-full">
                                         <div className="text-cyan-300 font-semibold text-sm mb-1 mx-auto">
                                             {item.period}
                                         </div>
-                                        <div className="text-white text-center text-xs leading-relaxed mb-12">
+                                        <div className="text-white text-center md:text-[10px] text-xs leading-relaxed lg:mb-12 md:mb-7">
                                             {item.title}
                                         </div>
                                     </div>
                                 ) : (
                                     <div className="absolute top-[60%] flex flex-col items-center w-full">
-                                        <div className="text-cyan-300 font-semibold text-sm mt-15  whitespace-nowrap">
+                                        <div className="text-cyan-300 font-semibold text-sm md:text-[10px] lg:mt-15 md:mt-9 whitespace-nowrap">
                                             {item.period}
                                         </div>
-                                        <div className="text-white text-center text-xs leading-relaxed">
+                                        <div className="text-white text-center text-xs md:text-[10px] leading-relaxed">
                                             {item.title}
                                         </div>
                                     </div>

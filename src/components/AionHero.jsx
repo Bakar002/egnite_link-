@@ -1,6 +1,7 @@
 import React from 'react';
 import mainbg from "../assets/images/aionhero.png";
 import righthero from "../assets/images/aion righthero.png";
+import { Link } from 'react-router-dom';
 export default function HeroSection() {
   return (
     <div className="relative  bg-[#0a0e1a] overflow-hidden">
@@ -32,7 +33,7 @@ export default function HeroSection() {
           <p className="text-sm sm:text-base lg:text-lg text-gray-300 max-w-lg leading-relaxed">
             AiON Faces™ by E-Gnite deploys intelligent, camera-ready AI personalities that articulate, represent, and deliver your message — without fatigue, hesitation, or compromise. No creators.
           </p>
-
+<Link to={"/contact-us"}>
           <button className="group flex items-center lg:justify-center gap-3 bg-[#00b8d4] hover:bg-[#00a3bf] text-white px-6 py-3 lg:px-8 lg:py-4 rounded-full text-base lg:text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/30">
             Request AiON Consultation
             <svg
@@ -44,6 +45,7 @@ export default function HeroSection() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </button>
+          </Link>
         </div>
 
         {/* Right Image */}

@@ -9,7 +9,7 @@ const dataTop = [
   {
     id: "02",
     title: "Lead Management & Automation",
-    desc: "Organize and automate the dealership’s lead handling and CRM systems. Higher lead conversion through intelligent automation and faster response.",
+    desc: "Organize and automate the dealership's lead handling and CRM systems. Higher lead conversion through intelligent automation and faster response.",
   },
   {
     id: "03",
@@ -57,13 +57,13 @@ export default function ScopeOfWork() {
         ))}
       </div>
 
-      {/* Bottom Row (2 Cards Centered & Same Width as Upper Cards) */}
-      <div className="flex justify-center gap-8">
+      {/* Bottom Row (2 Cards - Stack on Small/Medium, Side by Side on Large) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:max-w-[calc(2*380px+2rem)] lg:mx-auto">
         {dataBottom.map((item) => (
           <div
             key={item.id}
             className="bg-[#111418] rounded-2xl p-7 shadow-lg border border-white/50
-            relative overflow-hidden w-full max-w-[380px]"
+            relative overflow-hidden w-full"
           >
             <div className="absolute top-5 left-5 bg-[#00AEEF] text-white px-4 py-1 rounded-lg text-sm font-semibold">
               {item.id}

@@ -4,6 +4,7 @@ import c2 from '../assets/images/Img copy 2.png';
 import c3 from '../assets/images/deployment c2.png';
 import c5 from '../assets/images/c5 copy.png';
 import c6 from '../assets/images/c5 (2).png';
+
 export default function DeploymentUseCases() {
   const useCases = [
     {
@@ -41,6 +42,7 @@ export default function DeploymentUseCases() {
   return (
     <div className="bg-black p-8">
       <div className="max-w-7xl mx-auto">
+        
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -49,16 +51,17 @@ export default function DeploymentUseCases() {
         </div>
 
         {/* Grid Container */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-25 mx-10 mb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-14 mx-2 sm:mx-6 mb-8">
+          
           {/* Left Side - 2 Cards */}
           <div className="space-y-8">
             {useCases.slice(0, 2).map((useCase) => (
               <div
                 key={useCase.id}
-                className="group relative  backdrop-blur-sm rounded-2xl overflow-hidden  "
+                className="group relative backdrop-blur-sm rounded-2xl overflow-hidden"
               >
                 <div className="p-6">
-                  <div className="relative h-80 mb-4 rounded-xl overflow-hidden">
+                  <div className="relative h-60 sm:h-70 md:h-80 mb-4 rounded-xl overflow-hidden">
                     <img
                       src={useCase.image}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -82,10 +85,10 @@ export default function DeploymentUseCases() {
             {useCases.slice(2, 4).map((useCase) => (
               <div
                 key={useCase.id}
-                className="group relative backdrop-blur-sm rounded-2xl overflow-hidden "
+                className="group relative backdrop-blur-sm rounded-2xl overflow-hidden"
               >
                 <div className="p-6">
-                  <div className="relative h-80 mb-4 rounded-xl overflow-hidden">
+                  <div className="relative h-60 sm:h-72 sm:w-auto md:h-80 mb-4 rounded-xl overflow-hidden">
                     <img
                       src={useCase.image}
                       alt={useCase.title}
@@ -93,11 +96,11 @@ export default function DeploymentUseCases() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent"></div>
                   </div>
-                 
+
                   <p className="text-blue-200/80 text-sm">
                     {useCase.description}
                   </p>
-                   <h3 className="text-xl font-bold text-white mb-2">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     {useCase.title}
                   </h3>
                 </div>
@@ -107,11 +110,11 @@ export default function DeploymentUseCases() {
         </div>
 
         {/* Center Card - 5th Card */}
-        <div className="flex justify-center">
-          <div className="w-full lg:w-1/2">
-            <div className="group relative  backdrop-blur-sm rounded-2xl overflow-hidden ">
+        <div className="flex justify-center mt-10 sm:mt-16">
+          <div className="w-full sm:w-4/5 md:w-3/5 lg:w-1/2">
+            <div className="group relative backdrop-blur-sm rounded-2xl overflow-hidden">
               <div className="p-6">
-                <div className="relative h-80 mb-4 rounded-xl overflow-hidden">
+                <div className="relative h-60 sm:h-72 md:h-80 mb-4 rounded-xl overflow-hidden">
                   <img
                     src={useCases[4].image}
                     alt={useCases[4].title}
@@ -119,17 +122,18 @@ export default function DeploymentUseCases() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent"></div>
                 </div>
-               
+
                 <p className="text-blue-200/80 text-sm text-center">
                   {useCases[4].description}
                 </p>
-                 <h3 className="text-xl font-bold text-white mb-2 text-center">
+                <h3 className="text-xl font-bold text-white mb-2 text-center">
                   {useCases[4].title}
                 </h3>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

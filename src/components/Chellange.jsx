@@ -18,7 +18,7 @@ export default function ChallengeCards() {
 
   return (
     <div className="bg-black flex items-center justify-center px-4 sm:px-6 md:px-0">
-      <div className="max-w-5xl w-full">
+      <div className="max-w-4xl w-full">
 
         {/* Title */}
         <h1 className="

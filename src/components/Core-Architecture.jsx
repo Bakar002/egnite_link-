@@ -47,13 +47,13 @@ export default function Cards() {
           Core Architecture
         </h1>
         
-        <div className="lg:p-10">
+        <div className="lg:p-10 ">
           {cards.map((card, index) => (
             <div
               key={index}
               className={`flex   ${card.position === 'right' ? 'justify-end' : 'justify-start'}`}
             >
-              <div className="relative bg-gray-800 rounded-2xl p-6 w-full max-w-md shadow-xl">
+              <div className="relative bg-gray-800 rounded-2xl p-6 mt-5 w-full max-w-md shadow-xl">
                 {/* Icon Badge */}
                 
                 

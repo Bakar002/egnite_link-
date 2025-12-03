@@ -35,7 +35,7 @@ export default function OwnershipLicensing({ title = "Ownership & Licensing", ca
 
   return (
     <div className="bg-black  flex items-center justify-center">
-      <div className="max-w-4xl w-full">
+      <div className="lg:max-w-5xl  w-full">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-white text-3xl font-semibold mb-2">

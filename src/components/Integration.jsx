@@ -24,29 +24,29 @@ export default function EGniteIntegration({
   containerClass = "bg-black"
 }) {
   return (
-    <div className={`flex items-center pt-5 justify-center ${containerClass}`}>
-      <div className="w-full max-w-4xl">
+    <div className={`flex items-center justify-center ${containerClass} py-8`}>
+      <div className="w-full max-w-5xl px-4 sm:px-6 lg:px-8">
 
         {/* Title */}
-        <h1 className="text-white text-4xl font-semibold text-center mb-10">
+        <h1 className="text-white text-3xl sm:text-4xl font-semibold text-center mb-10 leading-snug">
           {mainTitle}
         </h1>
 
         {/* Main Card */}
         <div
-          className="backdrop-blur rounded-2xl border border-gray-700/50 p-10 mb-16"
+          className="backdrop-blur rounded-2xl border border-gray-700/50 p-6 sm:p-10 mb-16"
           style={{ background: cardGradient }}
         >
 
           {/* MOBILE RESPONSIVE FIX */}
-          <div className="flex flex-col gap-12 md:hidden">
+          <div className="flex flex-col gap-8 md:hidden">
 
             {/* Left */}
-            <div className="text-center">
-              <h2 className="text-white font-semibold text-lg mb-4">
+            <div className="text-center px-4 sm:px-6">
+              <h2 className="text-white font-semibold text-lg mb-3">
                 {leftColumn.title}
               </h2>
-              <div className="space-y-4">
+              <div className="space-y-2">
                 {leftColumn.points.map((p, i) => (
                   <p key={i} className="text-gray-300 text-sm leading-relaxed">
                     {p}
@@ -56,9 +56,9 @@ export default function EGniteIntegration({
             </div>
 
             {/* Arrows */}
-            <div className="flex flex-col items-center space-y-3">
+            <div className="flex flex-col items-center space-y-2">
               {[...Array(arrowsCount)].map((_, i) => (
-                <svg key={i} width="48" height="16" viewBox="0 0 48 16" fill="none">
+                <svg key={i} width="36" height="12" viewBox="0 0 48 16" fill="none">
                   <path
                     d="M0 8H46M46 8L38 1M46 8L38 15"
                     stroke="#3b82f6"
@@ -71,11 +71,11 @@ export default function EGniteIntegration({
             </div>
 
             {/* Right */}
-            <div className="text-center">
-              <h2 className="text-white font-semibold text-lg mb-4">
+            <div className="text-center px-4 sm:px-6">
+              <h2 className="text-white font-semibold text-lg mb-3">
                 {rightColumn.title}
               </h2>
-              <div className="space-y-4">
+              <div className="space-y-2">
                 {rightColumn.points.map((p, i) => (
                   <p key={i} className="text-gray-300 text-sm leading-relaxed">
                     {p}
@@ -136,9 +136,11 @@ export default function EGniteIntegration({
         </div>
 
         {/* Bottom Text */}
-        <h1 className="text-4xl md:text-4xl font-bold text-white text-center">
-          {bottomText}
-        </h1>
+        {bottomText && (
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center">
+            {bottomText}
+          </h1>
+        )}
       </div>
     </div>
   );

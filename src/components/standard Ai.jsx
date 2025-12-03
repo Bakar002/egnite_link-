@@ -27,7 +27,7 @@ const AIRolesDesign = ({
                             ></div>
 
                             {/* Main Robot Container */}
-                            <img src={props} alt="" className="w-full  h-auto   lg:mt-30 " />
+                            <img src={props} alt="" className="w-full  h-auto   lg:mt-30 sm:mt-8 sm:w-auto sm:h-full" />
                         </div>
                     </div>
 
@@ -75,7 +75,7 @@ const AIRolesDesign = ({
                                             <div
                                                 className="p-2 sm:p-3 rounded-lg group-hover:scale-110 transition-transform duration-300"
                                                 style={{
-                                                    background: 'linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)',
+                                                    background: '#297AA0',
                                                     boxShadow: '0 4px 15px rgba(20, 184, 166, 0.3)',
                                                 }}
                                             >

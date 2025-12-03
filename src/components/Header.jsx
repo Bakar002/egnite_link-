@@ -51,10 +51,10 @@ const Header = () => {
           <Link onClick={toggleMenu} to="/aion-faces" className="hover:text-cyan-400">AiON Faces</Link>
           <Link onClick={toggleMenu} to="/intelligence-systems" className="hover:text-cyan-400">Intelligence Systems</Link>
           <Link onClick={toggleMenu} to="/systems-engineering" className="hover:text-cyan-400">Systems Engineering</Link>
-          <Link onClick={toggleMenu} to="/core-system" className="hover:text-cyan-400">Core System</Link>
-          <Link onClick={toggleMenu} to="/reality-link" className="hover:text-cyan-400">Reality Link</Link>
+          <Link onClick={toggleMenu} to="/core-system" className="hover:text-cyan-400">Car Link</Link>
+          <Link onClick={toggleMenu} to="/realty-link" className="hover:text-cyan-400">Realty Link</Link>
           <Link onClick={toggleMenu} to="/biz-link" className="hover:text-cyan-400">Biz Link</Link>
-          <Link onClick={toggleMenu} to="/contact-us" className="hover:text-cyan-400">Contact Us</Link>
+          
         </nav>
       </div>
 

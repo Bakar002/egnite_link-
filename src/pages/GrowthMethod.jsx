@@ -13,6 +13,13 @@ import photo from '../assets/images/photo copy.png'
 import image from '../assets/images/grwoth photo2.png'
 import one from '../assets/images/IMG.png';
 import ProfessionalFooter from '../components/HomeFooter';
+import img1 from '../assets/images/key sytemc1.png';
+import img2 from '../assets/images/keysystem c2.png';
+import img3 from '../assets/images/keysystemc3.png';
+import img4 from '../assets/images/keysystemc4.png';
+import img5 from '../assets/images/keysystemc5.png';
+
+
 const GrowthMethod = () => {
     return (
         <>
@@ -47,27 +54,27 @@ const GrowthMethod = () => {
                     {
                         title: "AI-Powered Lead Generation",
                         description: "No ads, no platforms",
-                        image: "src/assets/images/key sytemc1.png",
+                        image: img1,
                     },
                     {
                         title: "Multi-Channel Outreach",
                         description: "Email, SMS, LinkedIn, AI voice",
-                        image: "src/assets/images/keysystem c2.png",
+                        image: img2
                     },
                     {
                         title: "Autonomous Nurturing",
                         description: "Adaptive sequences based on behavior",
-                        image: "src/assets/images/keysystemc3.png",
+                        image: img3,
                     },
                     {
                         title: "Operational Fulfillment",
                         description: "Automated scheduling, service logic",
-                        image: "src/assets/images/keysystemc4.png",
+                        image: img4,
                     },
                     {
                         title: "Human-AI Hybrid Logic",
                         description: "Inserted where strategic value requires it",
-                        image: "src/assets/images/keysystemc5.png",
+                        image: img5,
                     },
                 ]}
             />

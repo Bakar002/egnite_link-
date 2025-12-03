@@ -1,6 +1,6 @@
 import React from 'react';
 import main1 from '../assets/images/main1.png';
-import main2 from '../assets/images/main2.png';
+import main2 from '../assets/images/image 103.png';
 import main3 from '../assets/images/main3.png';
 
 const ModernFeatureComponent = ({

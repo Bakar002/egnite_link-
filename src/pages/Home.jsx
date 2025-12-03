@@ -47,7 +47,7 @@ const Home = () => {
             We Don’t Automate Businesses <br /> We Engineer Self-Sufficient <br /> Growth Architectures
           </>
         }
-        buttonText="Request ProIntellect Consultation"
+        buttonText=" Request Private Consultation"
         backgroundImage={mainbg}
       />
       <ModernFeatureComponent />

@@ -27,6 +27,7 @@ const ContactForm = () => {
     console.log("Form submitted:", formData);
     alert("Message sent successfully!");
   };
+  
 
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center p-4 sm:p-6">

@@ -4,7 +4,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
-import mainbg from "../assets/images/home Hero.png";
+import mainbg from "../assets/images/home Hero copy.png";
 import ModernFeatureComponent from "../components/Contentloop";
 import SixDivisionsComponent from "../components/SixDevisions";
 import IgniteLinkComponent from "../components/Exists";

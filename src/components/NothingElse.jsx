@@ -1,6 +1,7 @@
 import React from "react";
 import { Play } from "lucide-react";
 import rectangle from "../assets/images/Rectangle 22.png";
+import { Link } from "react-router-dom";
 
 const SecurityShieldComponent = () => {
   return (
@@ -38,10 +39,12 @@ const SecurityShieldComponent = () => {
 
           {/* CTA Button */}
           <div className="pt-4">
+            <Link to="/contact-us">
             <button className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25">
               <span className="relative z-10">Get Started</span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg blur-lg opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
             </button>
+            </Link>
           </div>
         </div>
       </div>

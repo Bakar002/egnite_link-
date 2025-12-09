@@ -7,64 +7,82 @@ import c7 from '../assets/images/homecard.png';
 import c8 from '../assets/images/homecard8.png';
 import fan from '../assets/images/image 104.png'
 import ai from '../assets/images/image 105.png'
+import { Link } from 'react-router-dom';
 
 const SixDivisionsComponent = ({
   data = {
-    mainTitle: "Six Divisions. One Growth Engine",
+    mainTitle: "Nine Divisions. One Growth Engine",
     subtitle: "E-Gnite Link AI Systems™ is not a platform. It is a sovereign infrastructure — composed of six interdependent divisions, each engineered to perform a specific function in your business growth architecture.",
     cards: [
       {
         id: 1,
         image: c1,
         title: "Growth Method™",
+        route: "/growth-method",
+
         description: "Your foundational operating system. Intelligent lead generation, fulfillment automation, and outreach logic — orchestrated with precision."
       },
       {
         id: 2,
         image: fan,
         title: "Prointellect Systems™",
+        route: "/prointellect",
+
         description: "Advanced AI professionals (legal, financial, medical, strategic) deployed as internal advisors — or trained exclusively to your business."
       },
       {
         id: 3,
         image: ai,
         title: "AI Workforce™",
+        route: "/ai-workforce",
+
         description: "Tiered AI labor — from prebuilt assistants to Mirror AI™ brand intelligence. Fulfillment, support, operations, and client handling — done."
       },
       {
         id: 4,
         image: c4,
         title: " AI Influencers™",
+        route: "/aion-faces",
+
         description: "Brand-facing AI ambassadors — designed to speak, represent, and sell on camera. Prebuilt and custom AI models ready to promote at scale."
       },
       {
         id: 5,
         image: c6,
         title: "Intelligence Systems™",
+        route: "/intelligence-systems",
+
         description: "Optimization layer. Real-time reporting, behavioral analysis, pipeline scoring, and system-wide adjustments powered by AI cognition."
       },
       {
         id: 6,
         image: c5,
         title: "Systems Engineering™",
+        route: "/systems-engineering",
+
         description: "Full-stack software and AI automation development. Build custom tools, APIs, and autonomous infrastructure beyond templates."
       },
       {
         id: 7,
         image: c7,
         title: " CARLink Core Systems™",
+        route: "/core-system",
+
         description: "A transformative framework that unifies marketing, acquisition, and operational logic into one self-improving intelligent system."
       },
       {
         id: 8,
         image: c6,
         title: "REALTYLink Core Systems™",
+        route: "/realty-link",
+
         description: "Through automation, analytics, and adaptive logic, every listing, transaction, and decision operates as part of one continuous digital architecture."
       },
       {
         id: 9,
         image: c8,
         title: "BizLink Core Systems™",
+        route: "/biz-link",
         description: "BizLink replaces fragmented tools and departments with a single logic-based infrastructure that connects data, automation, and intelligence across the entire enterprise."
       },
 
@@ -88,79 +106,28 @@ const SixDivisionsComponent = ({
         {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {data.cards.map((card, index) => (
-            <div key={card.id} className="group relative">
-              {/* Card Container */}
+            <Link key={card.id} to={card.route} className="group relative block">
               <div className="relative bg-[linear-gradient(335.99deg,#252525_9.77%,#424242_89.74%)] backdrop-blur-sm border border-slate-700/50 rounded-2xl p-4 sm:p-6 h-full hover:bg-slate-800/70 hover:border-slate-600/50 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10">
 
-                {/* Hover Glow Effect */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/0 via-blue-500/5 to-purple-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                 <div className="relative z-10 space-y-3 sm:space-y-4">
 
-                  {/* Image Section */}
-                  <div className="relative w-full h-32 sm:h-36 md:h-40 rounded-xl overflow-hidden bg-gradient-to-br from-slate-700/50 to-slate-800/50">
-                    {/* Image with overlay */}
-                    <img
-                      src={card.image}
-                      alt={card.title}
-                      className="w-full h-full object-cover opacity-80 group-hover:opacity-90 transition-opacity duration-300"
-                    />
-
-                    {/* Gradient overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
-
-                    {/* Icon/Visual Element based on card type */}
-                    <div className="absolute top-2 sm:top-4 right-2 sm:right-4 w-6 h-6 sm:w-8 sm:h-8 bg-blue-500/20 backdrop-blur-sm rounded-lg border border-blue-400/30 flex items-center justify-center">
-                      {index === 0 && (
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                        </svg>
-                      )}
-                      {index === 1 && (
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        </svg>
-                      )}
-                      {index === 2 && (
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                        </svg>
-                      )}
-                      {index === 3 && (
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                      )}
-                      {index === 4 && (
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                        </svg>
-                      )}
-                      {index === 5 && (
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                        </svg>
-                      )}
-                    </div>
+                  <div className="relative w-full h-32 sm:h-36 md:h-40 rounded-xl overflow-hidden">
+                    <img src={card.image} alt={card.title} className="w-full h-full object-cover opacity-80 group-hover:opacity-90 transition-opacity duration-300" />
                   </div>
 
-                  {/* Content Section - Fixed text wrapping */}
-                  <div className="space-y-2 sm:space-y-3 min-h-[5rem]">
-                    <h3 className="text-white font-bold text-base sm:text-lg lg:text-xl group-hover:text-blue-300 transition-colors duration-300 leading-tight">
-                      {card.title}
-                    </h3>
-                    <p className="text-gray-400 text-xs sm:text-sm lg:text-base leading-relaxed group-hover:text-gray-300 transition-colors duration-300 hyphens-auto">
-                      {card.description}
-                    </p>
-                  </div>
+                  <h3 className="text-white font-bold text-lg group-hover:text-blue-300 transition">
+                    {card.title}
+                  </h3>
 
-                  {/* Bottom indicator */}
-                  <div className="pt-2">
-                    <div className="w-full h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  </div>
+                  <p className="text-gray-400 text-sm group-hover:text-gray-300 transition">
+                    {card.description}
+                  </p>
+
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

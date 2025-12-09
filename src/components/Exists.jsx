@@ -1,6 +1,7 @@
 import React from 'react';
 import Arrow from '../assets/images/Arrow.png';
 import aas from '../assets/images/Vector.png';
+import { Link } from 'react-router-dom';
 
 const IgniteLinkComponent = ({
   data = {
@@ -8,7 +9,7 @@ const IgniteLinkComponent = ({
     description: "Energy matters, and so does trust.",
     fullDescription:
       "Offering systems and solutions for businesses – designers to implementation. You'll be one-on-one with our team to walk through your vision and see how we can build it together.",
-    buttonText: "Submit and Join Waitlist Today",
+    buttonText: " Explore the E-Gnite Infrastructure",
     cards: [
       {
         id: 1,
@@ -60,25 +61,24 @@ const IgniteLinkComponent = ({
 
             {/* CTA BUTTON */}
             <div className="pt-4">
+              <Link to="/realty-link">
               <button className="group relative inline-flex items-center gap-2 sm:gap-3 bg-[linear-gradient(339.19deg,#05BDF1_28.07%,#01375F_81.2%)] hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-600 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/30 active:scale-95 w-full sm:w-auto">
                 <span className="text-center flex-1 sm:flex-none">{data.buttonText}</span>
-                <svg className="w-4 h-4 sm:w-5 sm:h-5 transform group-hover:translate-x-2 transition-all duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
 
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/50 to-blue-600/50 blur opacity-0 group-hover:opacity-50 transition-opacity duration-300 -z-10"></div>
               </button>
+              </Link>
             </div>
           </div>
 
           {/* RIGHT COLUMN — CARDS */}
-          <div className="relative overflow-hidden px-2 sm:px-0">
+          <div className="relative overflow-hidden px-2 sm:-px-18">
 
             {/* ✅ Responsive Fix (SM = vertical, LG = row) */}
-            <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-3 sm:gap-4">
+            <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row  sm:gap-6">
 
               {/* FIRST CARD */}
-              <div className="group relative transform hover:scale-105 transition-all duration-500 w-full sm:w-full md:w-80 lg:w-80 flex-shrink-0">
+              <div className="group relative transform hover:scale-105 transition-all duration-500 w-full sm:w-full md:w-80 lg:w-70  flex-shrink-0">
                 <div className="relative bg-[radial-gradient(42.64%_44.32%_at_50%_0%,_rgba(57,143,255,0.4)_0%,_rgba(57,143,255,0)_98.07%)] backdrop-blur-lg border border-slate-700/60 rounded-2xl p-4 sm:p-6 hover:bg-slate-800/80 hover:border-slate-600/80 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 overflow-hidden h-full">
 
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-cyan-500/0 via-cyan-500/10 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -104,7 +104,7 @@ const IgniteLinkComponent = ({
 
               {/* SECOND CARD — HALF HIDDEN ONLY ON LG */}
               <div className="group relative lg:ms-18 transform hover:scale-105 transition-all duration-500 
-                  w-full sm:w-full md:w-80 lg:w-80 flex-shrink-0 
+                  w-full sm:w-full md:w-80 lg:w-70 flex-shrink-0 
                   lg:translate-x-[-80px]">
 
                 <div className="relative bg-[radial-gradient(42.64%_44.32%_at_50%_0%,_rgba(57,143,255,0.4)_0%,_rgba(57,143,255,0)_98.07%)] backdrop-blur-lg 

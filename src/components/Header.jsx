@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo copy.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-              <img src={logo} alt="Logo" className="h-20" />
+              <img src={logo} alt="Logo" className="h-16" />
             </Link>
           </div>
 
@@ -57,7 +57,7 @@ const Header = () => {
           
         </nav>
       </div>
-
+          
       {/* Overlay */}
       {isOpen && (
         <div

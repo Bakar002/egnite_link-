@@ -39,10 +39,7 @@ const ContactForm = () => {
               Get In Touch With Us
             </h1>
             <p className="text-gray-400 text-base sm:text-lg leading-relaxed">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+             Every E-Gnite deployment begins with a private consultation — designed to assess your infrastructure, identify friction, and map intelligent systems to your model.
             </p>
           </div>
 

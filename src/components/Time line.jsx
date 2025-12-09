@@ -30,8 +30,8 @@ export default function ROITimeline() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#010212] flex items-center justify-center p-8 
-                        hidden md:flex">
+        <div className="min-h-screen bg-[#010212]  flex items-center justify-center p-8 
+        hidden md:flex">
             {/* ↑ ONLY CHANGE: 'hidden md:flex' */}
 
             <div className="max-w-6xl w-full">
@@ -41,6 +41,7 @@ export default function ROITimeline() {
                         ROI Realization Timeline
                     </h1>
                 </div>
+
 
                 {/* Timeline */}
                 <div className="relative">

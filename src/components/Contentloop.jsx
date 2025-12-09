@@ -118,14 +118,12 @@ const ModernFeatureComponent = ({
               </div>
 
               {/* CTA Button */}
-              <div className="pt-2 sm:pt-4">
+              {/* <div className="pt-2 sm:pt-4">
                 <button className="group relative inline-flex items-center gap-2 sm:gap-3 bg-[linear-gradient(339.19deg,#05BDF1_28.07%,#01375F_81.2%)] hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 sm:px-8 sm:py-3.5 rounded-full font-medium text-sm sm:text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/25">
                   <span className="whitespace-nowrap">{item?.buttonText || "Advanced Code Architecture"}</span>
-                  <svg className="w-3 h-3 sm:w-4 sm:h-4 transform group-hover:translate-x-1 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+              
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -4,7 +4,7 @@ import bg from '../assets/images/bg.png';
 export default function CustomAIProfessionals() {
   return (
     <div className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden">
-      <div
+      <div  
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bg})` }}
       ></div>

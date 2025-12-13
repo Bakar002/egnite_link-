@@ -18,6 +18,7 @@ import img2 from '../assets/images/keysystem c2.png';
 import img3 from '../assets/images/keysystemc3.png';
 import img4 from '../assets/images/keysystemc4.png';
 import img5 from '../assets/images/keysystemc5.png';
+import ContactForm from '../components/GetinTouch';
 
 
 const GrowthMethod = () => {
@@ -91,6 +92,8 @@ const GrowthMethod = () => {
                     "Startups",
                     "Established Corporations"
                 ]} />
+            <ContactForm />
+
             < OutcomesOfDeployment />
             <GrowthMethodBanner
             />

@@ -13,6 +13,7 @@ import OutcomesOfDeployment from "../components/Deployment";
 import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 import standard from '../assets/images/aileft.png';
+import ContactForm from "../components/GetinTouch";
 
 function AiWorkface() {
   const mainHeading = ' Custom AI Staff'
@@ -78,7 +79,7 @@ function AiWorkface() {
         image2={image} // chhota wala neeche overlap me
       />
 
-      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} image={customImage}/>
+      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} image={customImage} />
 
       <AIRolesDesign
         title="Standard AI Roles "
@@ -104,6 +105,8 @@ function AiWorkface() {
           },
         ]}
       />{" "}
+      <ContactForm />
+
       <OutcomesOfDeployment
         title="Outcomes of Deployment"
         outcomes={[

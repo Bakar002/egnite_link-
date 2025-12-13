@@ -19,6 +19,7 @@ import c3 from '../assets/images/stc3.png';
 import c4 from '../assets/images/stc2.png';
 import c5 from '../assets/images/stc5.png';
 import c6 from '../assets/images/stc6.png';
+import ContactForm from "../components/GetinTouch";
 
 const useCasesData = [
   { title: "Agencies", description: "AI reviews scopes, contracts, manages client communications", image: c1 },
@@ -56,7 +57,9 @@ const ProintellectSystem = () => {
       />
       <AIProfessionals />
       <CustomAIProfessionals />
-       <StrategicUseCases useCases={useCasesData} title={'Strategic Use Cases'} />
+      <StrategicUseCases useCases={useCasesData} title={'Strategic Use Cases'} />
+      <ContactForm />
+
       <OutcomesOfDeployment
         title="Outcomes of Deployment"
         outcomes={[
@@ -73,8 +76,8 @@ const ProintellectSystem = () => {
         title="Structure Begins With Smart Advisors"
         description="A Single AI Professional Can Replace Weeks Of Back-And-Forth — With Structured, Scenario-Based Logic At Your Fingertips."
         buttonText="Request Consultation"
-      />   
-         {/* <ProfessionalFooter /> */}
+      />
+      {/* <ProfessionalFooter /> */}
 
     </>
   );

@@ -27,11 +27,13 @@ const ContactForm = () => {
     console.log("Form submitted:", formData);
     alert("Message sent successfully!");
   };
-  
+
 
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center p-4 sm:p-6">
-      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+    <div
+      id="contact-section"
+      className="min-h-screen bg-black text-white flex items-center justify-center p-4 sm:p-6"
+    >      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Side - Contact Info */}
         <div className="space-y-6 sm:space-y-8">
           <div>
@@ -39,7 +41,7 @@ const ContactForm = () => {
               Get In Touch With Us
             </h1>
             <p className="text-gray-400 text-base sm:text-lg leading-relaxed">
-             Every E-Gnite deployment begins with a private consultation — designed to assess your infrastructure, identify friction, and map intelligent systems to your model.
+              Every E-Gnite deployment begins with a private consultation — designed to assess your infrastructure, identify friction, and map intelligent systems to your model.
             </p>
           </div>
 
@@ -83,14 +85,14 @@ const ContactForm = () => {
                   Email Us
                 </h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  contact@egnitelink.com       
+                  contact@egnitelink.com
                 </p>
               </div>
             </div>
           </div>
 
           {/* Social Icons */}
-          
+
           <div className="flex flex-wrap gap-3 pt-4">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"

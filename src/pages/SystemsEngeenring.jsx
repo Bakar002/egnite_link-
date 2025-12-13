@@ -29,6 +29,7 @@ import c3 from '../assets/images/stc3.png';
 import c4 from '../assets/images/stc2.png';
 import c5 from '../assets/images/stc5.png';
 import c6 from '../assets/images/stc6.png';
+import ContactForm from "../components/GetinTouch";
 
 
 const useCasesData = [
@@ -147,7 +148,9 @@ export default function SystemsEngeenring() {
           },
         ]}
       />
-       <StrategicUseCases useCases={useCasesData} title={'Strategic Use Cases'} />
+      <StrategicUseCases useCases={useCasesData} title={'Strategic Use Cases'} />
+      <ContactForm />
+
       <OwnershipLicensing
         title="Custom Ownership & Licensing"
         cards={cardsData}
@@ -157,7 +160,7 @@ export default function SystemsEngeenring() {
         title="You Don’t Need Another App. You Need a System."
         description="Let us architect the platform your business was meant to run on — and automate what others still chase manually."
         buttonText="Request Systems Engineering Audit"
-      />  
+      />
       {/* <ProfessionalFooter /> */}
     </>
   );

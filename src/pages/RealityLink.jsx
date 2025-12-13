@@ -12,6 +12,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import EgniteIntegration from '../components/RealtyLinkOverly';
 import ConnectionBanner from '../components/ConnectionBanner';
 import DigitalEvolutionHero from '../components/DigitalEvolutionHero';
+import ContactForm from '../components/GetinTouch';
 
 
 const RealityLink = () => {
@@ -58,6 +59,8 @@ const RealityLink = () => {
       <KeyOutcomeThemes title="Core Capabilities" themes={themesData} />
       <OutcomesDesign />
       <EgniteIntegration />
+      <ContactForm />
+
       <ConnectionBanner />
       <DigitalEvolutionHero />
       {/* <ProfessionalFooter /> */}

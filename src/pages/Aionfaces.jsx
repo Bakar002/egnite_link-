@@ -12,6 +12,7 @@ import InfluenceAtScale from "../components/Influence";
 import ProfessionalFooter from "../components/HomeFooter";
 import { Brain, Zap, Shield, Eye } from "lucide-react";
 import HeroSection from "../components/AionHero";
+import ContactForm from "../components/GetinTouch";
 
 const Aionfaces = () => {
   const customFeatures = [
@@ -91,7 +92,7 @@ const Aionfaces = () => {
   return (
     <>
       <Header />
-     <HeroSection />
+      <HeroSection />
       <AionFacesComponent />
       <AionModelLibrary />
       <CustomAiONCreation
@@ -104,6 +105,8 @@ const Aionfaces = () => {
         title="Custom Ownership & Licensing"
         cards={cardsData}
       />
+      <ContactForm />
+
       <OutcomesOfDeployment
         title="Outcomes of Deployment"
         outcomes={[

@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from "../components/Header";
 import MainBanner from '../components/MainBanner';
-import mainbg from "../assets/images/coresystem hero.png";
+import mainbg from "../assets/images/coresystem.png";
 import InfoSection from '../components/InfoSection';
-import photo from "../assets/images/coresystem 2nd.png";
+import photo from "../assets/images/ccccc.png";
 import CoreArchitecture from '../components/Core Architecture';
 import OperationalLogicLoop from '../components/OperationalLogicLoop';
 import EGniteIntegration from '../components/Integration';
@@ -14,6 +14,7 @@ import InfluenceAtScale from '../components/Influence';
 import CarlinkHero from '../components/Carlink';
 import ProfessionalFooter from '../components/HomeFooter';
 import Cards from '../components/Core-Architecture';
+import ContactForm from '../components/GetinTouch';
 
 const CoreSystem = () => {
   const leftContent = {
@@ -75,6 +76,8 @@ const CoreSystem = () => {
       />
       <BusinessImpact />
       <ScopeOfWork />
+      <ContactForm />
+
       <OutcomesOfDeployment
         title="Final Deliverables"
         outcomes={[

@@ -39,7 +39,7 @@ export default function CoreIntelligenceModules() {
             Core Intelligence Modules
           </h1>
           <p className="text-gray-400 text-sm max-w-md mx-auto leading-relaxed">
-            Each Intelligence System™ is equipped to optimize specific 
+            Each Intelligence System™ is equipped to optimize specific
             dimensions of your business logic.
           </p>
         </div>
@@ -50,13 +50,13 @@ export default function CoreIntelligenceModules() {
           {modules.slice(0, 3).map((module) => (
             <div
               key={module.id}
-              className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300"
+              className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 hover:-translate-y-1 transition-all duration-300"
             >
-               <div className="flex justify-center">
-  <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
-    <Zap className="w-6 h-6 text-white" />
-  </div>
-</div>
+              <div className="flex justify-center">
+                <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
+                  <Zap className="w-6 h-6 text-white" />
+                </div>
+              </div>
               <h3 className="text-white text-center font-semibold text-lg mb-3">
                 {module.title}
               </h3>
@@ -65,20 +65,20 @@ export default function CoreIntelligenceModules() {
               </p>
             </div>
           ))}
-          
+
           {/* Bottom Row - 2 cards centered */}
           <div className="md:col-span-3 flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl w-full">
               {modules.slice(3, 5).map((module) => (
                 <div
                   key={module.id}
-                  className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300"
+              className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 hover:-translate-y-1 transition-all duration-300"
                 >
                   <div className="flex justify-center">
-  <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
-    <Zap className="w-6 h-6 text-white" />
-  </div>
-</div>
+                    <div className="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-lg mb-4">
+                      <Zap className="w-6 h-6 text-white" />
+                    </div>
+                  </div>
                   <h3 className="text-white text-center font-semibold text-lg mb-3">
                     {module.title}
                   </h3>

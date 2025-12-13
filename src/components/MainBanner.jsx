@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 export default function MainBanner({ heading, subHeading, buttonText, backgroundImage }) {
   return (
     <div className="relative min-h-screen flex flex-col text-white overflow-hidden">
@@ -13,10 +12,11 @@ export default function MainBanner({ heading, subHeading, buttonText, background
         </p>
 
         {/* CTA Button */}
-        <Link
-          to={"/contact-us"}
+        <a
+          href="#contact-section"
           className="mt-6 sm:mt-8 inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-cyan-400 to-blue-600 text-white text-sm sm:text-base font-semibold rounded-full shadow-lg hover:opacity-90 transition"
         >
+
           {buttonText}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export default function MainBanner({ heading, subHeading, buttonText, background
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
-        </Link>
+        </a>
       </main>
 
       {/* Background Overlay */}

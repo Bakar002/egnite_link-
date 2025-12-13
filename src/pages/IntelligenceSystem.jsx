@@ -15,6 +15,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import FuturisticHero from "../components/Systems";
 import c5 from '../assets/images/c5 copy.png';
 import customImage from "../assets/images/mirrorimg.png";
+import ContactForm from "../components/GetinTouch";
 
 
 
@@ -40,6 +41,10 @@ const IntelligenceSystem = () => {
     },
     {
       icon: Package,
+      title: "Propose scenario corrections based on learned outcomes",
+      description: "",
+    }, {
+      icon: Award,
       title: "Propose scenario corrections based on learned outcomes",
       description: "",
     },
@@ -98,8 +103,10 @@ const IntelligenceSystem = () => {
           },
         ]}
       />
-       <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} image={customImage}/>
+      <CustomAIStaff aiStaffData={aiStaffData} main={mainHeading} description={mainDescription} image={customImage} />
       <AIAutomationComponent />
+      <ContactForm />
+
       <OutcomesOfDeployment
         title="Outcomes of Deployment"
         outcomes={[

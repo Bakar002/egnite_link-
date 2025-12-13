@@ -11,6 +11,7 @@ import OutcomesOfDeployment from '../components/Deployment';
 import BusinessLogic from '../components/BussinessLogic';
 import ProfessionalFooter from '../components/HomeFooter';
 import EGniteIntegration from '../components/Integration';
+import ContactForm from '../components/GetinTouch';
 
 const BizLink = () => {
   const leftContent = {
@@ -81,6 +82,8 @@ const BizLink = () => {
           },
         ]}
       />
+      <ContactForm />
+
       <OutcomesOfDeployment
         title="Outcomes of Evolution"
         outcomes={[

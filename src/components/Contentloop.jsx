@@ -1,7 +1,7 @@
 import React from 'react';
 import main1 from '../assets/images/main1.png';
 import main2 from '../assets/images/image 103.png';
-import main3 from '../assets/images/main3.png';
+import main3 from '../assets/images/2img.png';
 
 const ModernFeatureComponent = ({
   data = [
@@ -42,7 +42,7 @@ const ModernFeatureComponent = ({
                   <img
                     src={item?.mainImage}
                     alt="Main feature"
-                    className="w-full h-full object-cover opacity-90"
+                    className="w-auto h-full   opacity-90"
                   />
 
                   {/* Overlay with Code-like Interface */}

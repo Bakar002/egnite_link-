@@ -91,7 +91,7 @@ const FAQComponent = ({
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Left Sidebar */}
-          <div className="lg:col-span-1 lg:mt-9">
+          <div className="lg:col-span-1 lg:mt-19">
             <div className="mb-8">
               {/* Logo/Image Section */}
 
@@ -105,26 +105,7 @@ const FAQComponent = ({
             </div>
 
             {/* Support Buttons */}
-            <div className="space-y-3">
-              {supportButtons.map((button, index) => (
-                <div
-                  key={index}
-                  className="bg-[#2D2D2D] border border-gray-700/50 rounded-xl p-3 sm:p-4 hover:bg-gray-700/50 hover:border-gray-600/50 transition-all duration-200 cursor-pointer group backdrop-blur-sm"
-                >
-                  <div className="flex items-center gap-3 sm:gap-4">
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 shadow-lg">
-                      {getIcon(button.icon)}
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-white text-sm sm:text-base mb-1 group-hover:text-blue-300 transition-colors">
-                        {button.text}
-                      </h3>
-                      <p className="text-gray-400 text-xs sm:text-sm">{button.subtext}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+          
           </div>
 
           {/* Right Content - FAQ List */}

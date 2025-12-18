@@ -57,8 +57,7 @@ const ContactForm = () => {
                   Location
                 </h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                  New Jersey, US                </p>
               </div>
             </div>
 
@@ -96,28 +95,28 @@ const ContactForm = () => {
 
           <div className="flex flex-wrap gap-3 pt-4">
             <Link to='https://www.facebook.com/EGniteLinkAI/' target="blank">
-            <div
-              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
-            >
-              <img src={facebook} alt="" />
-            </div>
+              <div
+                className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+                style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
+              >
+                <img src={facebook} alt="" />
+              </div>
             </Link>
             <Link to="https://x.com/E_GniteLinkAI" target="_blank" rel="noopener noreferrer">
-            <div
-              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
-            >
-              <img src={twitter} alt="" />
-            </div>
+              <div
+                className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+                style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
+              >
+                <img src={twitter} alt="" />
+              </div>
             </Link>
             <Link to='https://www.instagram.com/e_gnitelinkai/' target="blank">
-            <div
-              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
-            >
-              <img src={instagram} alt="" />
-            </div>
+              <div
+                className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+                style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
+              >
+                <img src={instagram} alt="" />
+              </div>
             </Link>
             {/* linkdien */}
             {/* <div
@@ -127,12 +126,12 @@ const ContactForm = () => {
               <img src={linkedin} alt="" />
             </div> */}
             <Link to='https://www.youtube.com/@e-gnitelinkaisystems' target="blank">
-            <div
-              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
-            >
-              <img src={youtube} alt="" />
-            </div>
+              <div
+                className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+                style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
+              >
+                <img src={youtube} alt="" />
+              </div>
             </Link>
           </div>
         </div>

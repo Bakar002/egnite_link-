@@ -69,12 +69,24 @@ const ProfessionalFooter = () => {
             <h4 className="text-white font-semibold text-lg">Division Overview</h4>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
-              <li><Link to="/ai-influencer" className="text-gray-400 hover:text-cyan-400 text-sm">AI Influencer™</Link></li>
-              <li><Link to="/growth-method" className="text-gray-400 hover:text-cyan-400 text-sm">Growth Method</Link></li>
-              <li><Link to="/ai-workforce" className="text-gray-400 hover:text-cyan-400 text-sm">Workforce</Link></li>
-              <li><Link to="/prointellect" className="text-gray-400 hover:text-cyan-400 text-sm">ProIntellect™</Link></li>
-              <li><Link to="/intelligence-systems" className="text-gray-400 hover:text-cyan-400 text-sm">Intelligence Systems™</Link></li>
-              <li><Link to="/systems-engineering" className="text-gray-400 hover:text-cyan-400 text-sm">Systems Engineering™</Link></li>
+              <li>
+                <Link to="/growth-method" className="text-gray-400 hover:text-cyan-400 text-sm">Growth Method</Link></li>
+              <li>
+                <Link to="/prointellect" className="text-gray-400 hover:text-cyan-400 text-sm">ProIntellect™</Link></li>
+              <li>
+                <Link to="/ai-workforce" className="text-gray-400 hover:text-cyan-400 text-sm">Workforce</Link></li>
+              <li>
+                <Link to="/aion-faces" className="text-gray-400 hover:text-cyan-400 text-sm">Ai Influencers</Link></li>
+              <li>
+                <Link to="/intelligence-systems" className="text-gray-400 hover:text-cyan-400 text-sm">Intelligence Systems™</Link></li>
+              <li>
+                <Link to="/systems-engineering" className="text-gray-400 hover:text-cyan-400 text-sm">Systems Engineering™</Link></li>
+                <li>
+                <Link to="/core-system" className="text-gray-400 hover:text-cyan-400 text-sm">CARLink</Link></li>
+                <li>
+                <Link to="/realty-link" className="text-gray-400 hover:text-cyan-400 text-sm">REALTYLink</Link></li>
+                <li>
+                <Link to="/biz-link" className="text-gray-400 hover:text-cyan-400 text-sm">BizLink</Link></li>
             </ul>
           </div>
 

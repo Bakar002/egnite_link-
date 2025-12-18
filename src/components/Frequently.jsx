@@ -10,7 +10,7 @@ import faq from "../assets/images/faq.png.png";
 
 const FAQComponent = ({
   title = "Frequently Asked Questions",
-  subtitle = "Can't find the answer you're looking for? Reach out to our customer support team.",
+  subtitle = "Discover how E-Gnite Link AI Systems™ transforms operations, reach, and scalability through intelligent digital infrastructures, custom software engineering and application development",
   supportButtons = [
     {
       icon: "chat",
@@ -27,31 +27,42 @@ const FAQComponent = ({
   ],
   faqs = [
     {
-      question: "How To Change My Photo From Admin Dashboard?",
+      question: "How can E-Gnite improve my business performance and production?",
       answer:
-        "To change your photo from the admin dashboard, go to your profile settings and upload a new image. Navigate to the user management section and select your profile to update your display picture.",
+        "E-Gnite doesn’t just automate tasks — it engineers self-sufficient systems that optimize every layer of your workflow.Through our AI-driven infrastructures, we connect marketing, sales, and operations into one intelligent growth engine that learns, predicts, and acts — increasing efficiency and reducing manual intervention and marketing expenses.",
     },
     {
-      question: "How To Change My Password Easily?",
+      question: "How does E-Gnite enhance digital reach and marketing performance?",
       answer:
-        "You can change your password by going to settings > security > change password. Make sure to use a strong password with at least 8 characters including numbers and special characters.",
+        "Our Advanced Digital Marketing AI Framework builds autonomous outreach engines that evolve in real time.It analyzes audience behavior, market shifts, and engagement signals to optimize your reach automatically — ensuring your brand grows continuously while staying contextually relevant to every customer without expending in paid ads.",
     },
     {
       question: "How To Change My Administrator From Using PayPal?",
       answer:
-        "To change administrator settings for PayPal, navigate to payment settings and update the admin credentials. You'll need to verify your identity before making administrative changes.",
+        "E-Gnite is not a tool — it’s an AI ecosystem. Where others automate tasks, we build intelligent infrastructures that think, adapt, and scale themselves.Your business doesn’t just run on our system — it grows with it.",
     },
     {
       question: "How To Setup Two-Factor Authentication?",
       answer:
-        "Enable two-factor authentication by going to security settings and following the setup wizard. This adds an extra layer of security to your account.",
+        "Absolutely.We specialize in tailored digital architectures — from CRM systems and intelligent booking layers to fully autonomous AI agents.Every solution is engineered around your business model, ensuring seamless integration, maximum performance, and long-term scalability.",
     },
     {
-      question: "How To Reset My Account Settings?",
+      question: "Can E-Gnite integrate with my existing tools and platforms?",
       answer:
-        "Go to account settings and look for the reset option. You can restore default settings or selectively reset specific configurations as needed.",
+        "Yes.Our modular design allows smooth integration with CRMs, marketing platforms, payment systems, and analytics tools.Whether you use HubSpot, GoHighLevel, or any external API — E-Gnite connects, enhances, and extends them with intelligent orchestration.",
+    },
+    {
+      question: "How fast can we see results after implementation?",
+      answer:
+        "Most businesses experience measurable improvements within the first 30–60 days.From increased lead flow and conversion efficiency to optimized scheduling and predictive insights — E-Gnite systems evolve quickly, adapting to your business rhythm and audience behavior.",
+    },
+    {
+      question: "Does E-Gnite provide ongoing support and optimization?",
+      answer:
+        "Yes — every E-Gnite system includes continuous AI optimization.Our neural feedback models learn from real-world performance data to enhance outcomes daily.You’ll also have access to our live support and specialized AI engineers for ongoing strategy alignment.",
     },
   ],
+
 }) => {
   const [openFAQ, setOpenFAQ] = useState(null);
 
@@ -73,21 +84,17 @@ const FAQComponent = ({
   };
 
   return (
-   <div
-  className="text-white px-4 pt-30 py-6 sm:px-4 sm:py-6 md:p-25 lg:p-32 xl:p-40 2xl:p-48"
-  style={{ backgroundColor: "black" }}
->
+    <div
+      className="text-white px-4 pt-30 py-6 sm:px-4 sm:py-6 md:p-25 lg:p-32 xl:p-40 2xl:p-48"
+      style={{ backgroundColor: "black" }}
+    >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Left Sidebar */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-1 lg:mt-9">
             <div className="mb-8">
               {/* Logo/Image Section */}
-              <div className="flex absolute left-0 items-start justify-start gap-3 mb-6 sm:mb-8">
-                <div className="w-12 h-12 sm:w-24 sm:h-25 rounded-2xl flex items-start justify-start shadow-lg">
-                  <img src={faq} alt="" className="w-full h-full object-contain" />
-                </div>
-              </div>
+
 
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 {title}

@@ -15,14 +15,17 @@ import BizLink from "./pages/BizLink";
 import FAQComponent from "./components/Frequently";
 import ProfessionalFooter from "./components/HomeFooter";
 import ContactForm from "./components/GetinTouch";
-import ContactUs from "./components/Contact-hero";
 import ContactPage from "./pages/Contact-us";
 import FAQ from "./pages/FAQ";
+import TermCondition from "./pages/TermCondition";
+import ScrollToTopButton from "./components/ScrollTopButton";
+import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 
 const App = () => {
   return (
     <Router>
       <ScrollToTop/>
+      <ScrollToTopButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/systems-engineering" element={<SystemsEngeenring />} />
@@ -37,8 +40,9 @@ const App = () => {
         <Route path="/biz-link" element={< BizLink/>} />
         <Route path="/faqs" element={< FAQ/>} />
         {/* <Route path="/contact-us" element={< ContactPage/>} /> */}
-        
-        
+        <Route path="/terms-conditions" element={< TermCondition/>} />
+        <Route path="/privacy-policy" element={< PrivacyPolicyPage/>} />
+
       </Routes>
 
       <ProfessionalFooter />

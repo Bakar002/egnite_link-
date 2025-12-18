@@ -5,6 +5,7 @@ import twitter from '../assets/images/Twitter.png'
 import instagram from '../assets/images/Instagram.png'
 import linkedin from '../assets/images/LinkedIn.png'
 import youtube from '../assets/images/YouTube.png'
+import { Link } from "react-router-dom";
 //new upate 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -71,7 +72,7 @@ const ContactForm = () => {
                   Support
                 </h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  +1 800-000-0000                </p>
+                  +1 (908) 597-1760              </p>
               </div>
             </div>
 
@@ -85,7 +86,7 @@ const ContactForm = () => {
                   Email Us
                 </h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  contact@egnitelink.com
+                  egnitelinkaisystems@gmail.com
                 </p>
               </div>
             </div>
@@ -94,36 +95,45 @@ const ContactForm = () => {
           {/* Social Icons */}
 
           <div className="flex flex-wrap gap-3 pt-4">
+            <Link to='https://www.facebook.com/EGniteLinkAI/' target="blank">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={facebook} alt="" />
             </div>
+            </Link>
+            <Link to="https://x.com/E_GniteLinkAI" target="_blank" rel="noopener noreferrer">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={twitter} alt="" />
             </div>
+            </Link>
+            <Link to='https://www.instagram.com/e_gnitelinkai/' target="blank">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={instagram} alt="" />
             </div>
-            <div
+            </Link>
+            {/* linkdien */}
+            {/* <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={linkedin} alt="" />
-            </div>
+            </div> */}
+            <Link to='https://www.youtube.com/@e-gnitelinkaisystems' target="blank">
             <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={youtube} alt="" />
             </div>
+            </Link>
           </div>
         </div>
 

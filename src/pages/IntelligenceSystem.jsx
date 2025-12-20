@@ -68,15 +68,15 @@ const IntelligenceSystem = () => {
           <>
             Think of it as the AI Operating Brain for your entire infrastructure — measuring, learning, and modifying across the full lifecycle.This division functions as the real-time AI command core that manages:
           </>
-        }
+      }
         subDescription={
           <>
             Each deployment becomes its own infrastructure — <br /> tailored to
             how your business acquires, communicates, <br /> and delivers.
           </>
         }
-        buttonText="Book Your Consultation"
-        buttonLink="#"
+        // buttonText="Book Your Consultation"
+        // buttonLink="#contact-section"
         image1={photo}
       />
       <CoreIntelligenceModules />

@@ -56,7 +56,12 @@ export default function ChallengeCards() {
                 min-h-[230px] 
                 sm:min-h-[250px] 
                 md:min-h-[280px] /* md untouched */
-              "
+              hover:scale-[1.06] 
+              transition-transform 
+              duration-300 
+              hover:shadow-lg 
+              hover:shadow-cyan-400/20
+                "
               style={{
                 background:
                   "linear-gradient(148.43deg, #262628 29.96%, #4B4B4D 81.02%)"

@@ -40,9 +40,11 @@ const GrowthInfrastructureComponent = () => {
                 placeholder="Your Email address ..."
                 className="flex-1 bg-black border border-gray-700 rounded-lg sm:rounded-r-none px-4 py-3 text-white text-sm placeholder-white focus:outline-none focus:border-blue-500 transition-colors"
               />
+              <a href="/#contact-section">
               <button className="bg-[linear-gradient(97.56deg,#05BDF1_-44.89%,#01375F_95.32%)] hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg sm:rounded-l-none transition-all duration-300 text-sm whitespace-nowrap">
-                Join Now
+                Get Started
               </button>
+              </a>
             </div>
           </div>
         </div>

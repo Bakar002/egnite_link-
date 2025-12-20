@@ -61,7 +61,9 @@ export default function GrowthSystemsGrid() {
             <div
               key={index}
               className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 
-              hover:border-gray-600/50 transition-all duration-300 hover:bg-gray-800/70"
+              hover:border-gray-600/50 transition-all duration-300 hover:bg-gray-800/70
+              hover:scale-105 hover:shadow-[0_10px_40px_rgba(0,174,225,0.25)]
+              "
             >
               {/* Lightning Icon */}
               <div className="flex justify-center mb-6">

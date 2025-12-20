@@ -28,9 +28,11 @@ export default function WorkforceHero() {
                 </p>
 
                 {/* CTA Button */}
-                <button className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25">
-                    Request AI Workforce Consultation
-                </button>
+                <a href="#contact-section">
+                    <button className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25">
+                        Request AI Workforce Consultation
+                    </button>
+                </a>
             </div>
 
             {/* Decorative Elements */}

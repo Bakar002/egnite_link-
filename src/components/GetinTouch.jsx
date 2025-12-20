@@ -119,12 +119,12 @@ const ContactForm = () => {
               </div>
             </Link>
             {/* linkdien */}
-            {/* <div
+            <div
               className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
             >
               <img src={linkedin} alt="" />
-            </div> */}
+            </div>
             <Link to='https://www.youtube.com/@e-gnitelinkaisystems' target="blank">
               <div
                 className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"

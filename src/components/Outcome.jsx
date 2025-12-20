@@ -38,6 +38,7 @@ const KeyOutcomeThemes = ({ title, themes }) => {
                                 hover:bg-gray-600 
                                 border border-white/70 
                                 transition-colors duration-300
+                                hover:shadow-lg hover:shadow-cyan-400/20 hover:scale-[1.05] transition-transform duration-300
                             "
                         >
                             {/* Icon */}

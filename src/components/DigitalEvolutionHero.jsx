@@ -36,9 +36,11 @@ export default function DigitalEvolutionHero() {
           </p>
 
           {/* CTA Button */}
+          <a href="#contact-section">
           <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 sm:px-8 py-2 sm:py-3 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 text-sm sm:text-base md:text-base">
             Book Your Consultation
           </button>
+          </a>
         </div>
 
         {/* Bottom glow effect */}

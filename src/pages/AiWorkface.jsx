@@ -74,7 +74,7 @@ function AiWorkface() {
           </>
         }
         buttonText="Book Your Consultation"
-        buttonLink="#"
+        buttonLink="#contact-section"
         image1={photo} // bada wala upar
         image2={image} // chhota wala neeche overlap me
       />

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo copy.png";
+import logo from "../assets/images/e-gnitelogo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

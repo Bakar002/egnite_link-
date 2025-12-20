@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import MainBanner from '../components/MainBanner';
-import mainbg from "../assets/images/mainbg.png";
+import mainbg from "../assets/images/gowthm-hero.png";
 import InfoSection from '../components/InfoSection'
 import Features from '../components/Features'
 import GrowthMethodPhases from '../components/Growth';
@@ -45,7 +45,7 @@ const GrowthMethod = () => {
                 subDescription={
                     <>Each deployment becomes its own infrastructure — <br /> tailored to how your business acquires, communicates, <br /> and delivers.</>}
                 buttonText="Book Your Consultation"
-                buttonLink="#"
+                buttonLink="#contact-section"
                 image1={photo}
                 image2={image}
             />

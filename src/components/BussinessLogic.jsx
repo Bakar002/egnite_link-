@@ -34,9 +34,11 @@ export default function BusinessLogic() {
         </p>
 
         {/* CTA Button */}
+        <a href="#contact-section">
         <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 sm:px-8 py-2 sm:py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/50 text-sm sm:text-base">
           Begin Your Digital Evolution
         </button>
+        </a>
 
         {/* Glow effect behind button */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 sm:w-96 h-72 sm:h-96 bg-cyan-500/10 rounded-full blur-3xl -z-10" />

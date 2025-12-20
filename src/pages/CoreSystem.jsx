@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../components/Header";
 import MainBanner from '../components/MainBanner';
-import mainbg from "../assets/images/coresystem.png";
+import mainbg from "../assets/images/carlink.png";
 import InfoSection from '../components/InfoSection';
 import photo from "../assets/images/ccccc.png";
 import CoreArchitecture from '../components/Core Architecture';
@@ -58,7 +58,7 @@ const CoreSystem = () => {
           </>
         }
         buttonText="Book Your Consultation"
-        buttonLink="#"
+        buttonLink="#contact-section"
         image1={photo}
         image2={false}
       />

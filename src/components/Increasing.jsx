@@ -28,7 +28,7 @@ export default function OutcomesDesign() {
           gap-3 sm:gap-4 md:gap-3
         ">
           {/* Card 1 */}
-          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 transition-all duration-300"
+          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 hover:scale-[1.06] transition-transform duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
             style={{
               background: "linear-gradient(148.43deg, #262628 29.96%, #4B4B4D 81.02%)"
             }}>
@@ -39,7 +39,7 @@ export default function OutcomesDesign() {
           </div>
 
           {/* Card 2 */}
-          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 transition-all duration-300"
+          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 hover:scale-[1.06] transition-transform duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
             style={{
               background: "linear-gradient(291.02deg, #373737 0%, #000000 98.35%)"
             }}>
@@ -50,7 +50,7 @@ export default function OutcomesDesign() {
           </div>
 
           {/* Card 3 */}
-          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 transition-all duration-300"
+          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 hover:scale-[1.06] transition-transform duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
             style={{
               background: "linear-gradient(148.43deg, #262628 29.96%, #4B4B4D 81.02%)"
             }}>
@@ -61,7 +61,7 @@ export default function OutcomesDesign() {
           </div>
 
           {/* Card 4 */}
-          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 transition-all duration-300"
+          <div className="backdrop-blur-sm border border-gray-700/50 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-gray-600/50 hover:scale-[1.06] transition-transform duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
             style={{
               background: "linear-gradient(148.43deg, #262628 29.96%, #4B4B4D 81.02%)"
             }}>

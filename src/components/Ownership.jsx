@@ -46,7 +46,22 @@ export default function OwnershipLicensing({ title = "Ownership & Licensing", ca
         {/* Cards Container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {cardsData.map((card) => (
-            <div key={card.id} className="bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-4xl p-3  border border-white/60 hover:border-gray-600 transition-colors duration-300">
+            <div
+  key={card.id}
+  className="
+    bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)]
+    rounded-4xl
+    p-3
+    border border-white/60
+    transition-all duration-300 ease-out
+    hover:-translate-y-2
+    hover:scale-[1.03]
+    hover:border-white
+    hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]
+    cursor-pointer
+  "
+>
+            
               <div className="flex flex-col items-center text-center">
                 {/* Icon */}
                 <div className={`w-12 h-12 ${card.iconColor} rounded-full flex items-center justify-center mb-6`}>

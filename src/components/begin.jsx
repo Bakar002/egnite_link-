@@ -23,10 +23,11 @@ const Begin = ({ title, description, buttonText }) => {
         <p className="text-sm md:text-base text-gray-300 mb-6">
           {description}
         </p>
-
-        <button className="bg-[linear-gradient(339.19deg,#05BDF1_28.07%,#01375F_81.2%)] text-white px-7 py-4 rounded-full font-medium transition">
-          {buttonText}
-        </button>
+        <a href="#contact-section">
+          <button className="bg-[linear-gradient(339.19deg,#05BDF1_28.07%,#01375F_81.2%)] text-white px-7 py-4 rounded-full font-medium transition">
+            {buttonText}
+          </button>
+        </a>
       </div>
     </div>
   )

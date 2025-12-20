@@ -29,30 +29,27 @@ export default function InfluenceAtScale() {
           {/* Description text */}
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-12 leading-relaxed">
             Secure digital currency solutions, trusted worldwide and 
-            <br className="hidden md:block" />
+            <br className="" />
             delivering value to millions of users. Your digital future starts here.
           </p>
           
           {/* CTA Button */}
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
+          <a href="#contact-section">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
             Start your digital journey today
           </button>
+          </a>
         </div>
 
         {/* Decorative elements */}
-        <div className="absolute top-20 left-10 w-2 h-2 bg-blue-400 rounded-full opacity-60 animate-pulse"></div>
+        
         <div className="absolute top-40 right-20 w-1 h-1 bg-purple-400 rounded-full opacity-40 animate-pulse delay-1000"></div>
         <div className="absolute bottom-32 left-32 w-1.5 h-1.5 bg-blue-300 rounded-full opacity-50 animate-pulse delay-500"></div>
         <div className="absolute bottom-20 right-40 w-1 h-1 bg-purple-300 rounded-full opacity-30 animate-pulse delay-700"></div>
         
         {/* Grid pattern overlay */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
-            backgroundSize: '50px 50px'
-          }}></div>
+       
         </div>
       </div>
-    </div>
   );
 }

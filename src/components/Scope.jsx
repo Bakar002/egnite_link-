@@ -45,7 +45,7 @@ export default function ScopeOfWork() {
           <div
             key={item.id}
             className="bg-[#111418] rounded-2xl p-7 shadow-lg border border-white/50
-            relative overflow-hidden w-full"
+            relative overflow-hidden w-full hover:scale-[1.06] transition-transform duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
           >
             <div className="absolute top-5 left-5 bg-[#00AEEF] text-white px-4 py-1 rounded-lg text-sm font-semibold">
               {item.id}
@@ -63,7 +63,7 @@ export default function ScopeOfWork() {
           <div
             key={item.id}
             className="bg-[#111418] rounded-2xl p-7 shadow-lg border border-white/50
-            relative overflow-hidden w-full"
+            relative overflow-hidden w-full hover:scale-[1.06] transition-transform duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
           >
             <div className="absolute top-5 left-5 bg-[#00AEEF] text-white px-4 py-1 rounded-lg text-sm font-semibold">
               {item.id}

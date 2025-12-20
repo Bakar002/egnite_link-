@@ -21,10 +21,11 @@ export default function CarlinkHero() {
             system — creating a new generation of AI-powered dealerships built for
             enduring digital leadership.
           </p>
-
-          <button className="mt-4 bg-gradient-to-r from-cyan-400 to-blue-600 text-white text-sm md:text-base px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition">
-            Request CARLink Core Systems™ Strategy Session
-          </button>
+          <a href="#contact-section">
+            <button className="mt-4 bg-gradient-to-r from-cyan-400 to-blue-600 text-white text-sm md:text-base px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition">
+              Request CARLink Core Systems™ Strategy Session
+            </button>
+          </a>
         </div>
       </div>
     </div>

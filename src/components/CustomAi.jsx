@@ -58,13 +58,14 @@ export default function CustomAIProfessionals() {
               <span className="text-gray-200 text-xs sm:text-sm">Secured within your AI Workspace™</span>
             </div>
           </div>
-
+          <a href="#contact-section">
           <button className="w-full sm:w-auto bg-[linear-gradient(360.19deg,#05BDF1_28.07%,#01375F_81.2%)] hover:bg-cyan-600 text-white font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-[91.6854px] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/30 text-sm sm:text-base">
             Inquire About Custom AI Deployment
             <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </button>
+          </a>
         </div>
       </div>
     </div>

@@ -61,7 +61,7 @@ const IgniteLinkComponent = ({
 
             {/* CTA BUTTON */}
             <div className="pt-4">
-              <Link to="/realty-link">
+              <Link to="/growth-method">
               <button className="group relative inline-flex items-center gap-2 sm:gap-3 bg-[linear-gradient(339.19deg,#05BDF1_28.07%,#01375F_81.2%)] hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-600 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/30 active:scale-95 w-full sm:w-auto">
                 <span className="text-center flex-1 sm:flex-none">{data.buttonText}</span>
 

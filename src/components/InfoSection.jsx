@@ -36,7 +36,7 @@ export default function InfoSection({
           {image1 && (
             <img
               src={image1}
-              className="w-72 md:w-80 lg:w-96 rounded-lg shadow-lg relative z-10"
+              className="w-72 md:w-80 lg:w-100 rounded-lg shadow-lg relative z-10"
             />
           )}
 

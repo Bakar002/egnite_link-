@@ -1,5 +1,5 @@
 import React from 'react';
-import main1 from '../assets/images/main1.png';
+import main1 from '../assets/images/fff copy.jpg';
 import main2 from '../assets/images/image 103.png';
 import main3 from '../assets/images/2img.png';
 
@@ -34,7 +34,7 @@ const ModernFeatureComponent = ({
             <div className="relative h-[400px] sm:h-[450px] lg:h-[500px] order-2 lg:order-1">
 
               {/* Main Central Image with Glow */}
-              <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-80 sm:w-72 sm:h-88 lg:w-80 lg:h-96">
+              <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-80 sm:w-72 sm:h-88 lg:w-130 lg:h-100">
 
 
                 {/* Main Image Container */}
@@ -42,55 +42,20 @@ const ModernFeatureComponent = ({
                   <img
                     src={item?.mainImage}
                     alt="Main feature"
-                    className="w-auto h-full   opacity-90"
+                    className="w-full h-full  opacity-90"
                   />
 
                   {/* Overlay with Code-like Interface */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-slate-900/20">
-                    {/* Code Lines Simulation */}
-                    <div className="absolute top-2 left-2 sm:top-4 sm:left-4 space-y-1 sm:space-y-2">
-                      <div className="flex items-center gap-1 sm:gap-2">
-                        <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-red-400"></div>
-                        <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-yellow-400"></div>
-                        <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-400"></div>
-                      </div>
-                    </div>
-
-                    {/* Bottom Interface */}
-                    <div className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 space-y-1 sm:space-y-2">
-                      <div className="h-0.5 sm:h-1 bg-blue-400/60 rounded w-3/4"></div>
-                      <div className="h-0.5 sm:h-1 bg-blue-400/40 rounded w-1/2"></div>
-                      <div className="h-0.5 sm:h-1 bg-blue-400/30 rounded w-2/3"></div>
-                    </div>
-                  </div>
+                
                 </div>
               </div>
 
-              {/* Top Left Small Image */}
-              <div className="absolute top-4 left-4 sm:top-6 sm:left-6 lg:top-8 lg:left-8 w-16 h-14 sm:w-20 sm:h-16 lg:w-24 lg:h-20 rounded-lg overflow-hidden border border-blue-400/40 bg-slate-800/50 backdrop-blur-sm shadow-lg hover:scale-105 transition-transform duration-300">
-                <img
-                  src={item?.smallImage1}
-                  alt="Feature 1"
-                  className="w-full h-full object-cover opacity-80"
-                />
-                {/* Small glow indicator */}
-                <div className="absolute top-0.5 right-0.5 sm:top-1 sm:right-1 w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-400 rounded-full shadow-lg shadow-blue-400/50"></div>
-              </div>
-
-              {/* Bottom Right Small Image */}
-              <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 lg:bottom-8 lg:right-8 w-16 h-14 sm:w-20 sm:h-16 lg:w-24 lg:h-20 rounded-lg overflow-hidden border border-blue-400/40 bg-slate-800/50 backdrop-blur-sm shadow-lg hover:scale-105 transition-transform duration-300">
-                <img
-                  src={item?.smallImage2}
-                  alt="Feature 2"
-                  className="w-full h-full object-cover opacity-80"
-                />
-                {/* Small glow indicator */}
-                <div className="absolute top-0.5 right-0.5 sm:top-1 sm:right-1 w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full shadow-lg shadow-purple-400/50"></div>
-              </div>
+             
+         
 
               {/* Floating Elements */}
-              <div className="absolute top-1/4 right-1/3 w-1 h-1 bg-blue-400 rounded-full animate-pulse"></div>
-              <div className="absolute bottom-1/3 left-1/4 w-1.5 h-1.5 bg-purple-400 rounded-full animate-pulse delay-1000"></div>
+              
+             
             </div>
 
             {/* RIGHT COLUMN - Content */}

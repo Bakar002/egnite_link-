@@ -5,6 +5,7 @@ import twitter from '../assets/images/Twitter.png'
 import instagram from '../assets/images/Instagram.png'
 import linkedin from '../assets/images/LinkedIn.png'
 import youtube from '../assets/images/YouTube.png'
+import googlemybusiness from '../assets/images/google-removebg-preview.png'  
 import { Link } from "react-router-dom";
 //new upate 
 const ContactForm = () => {
@@ -118,14 +119,8 @@ const ContactForm = () => {
                 <img src={instagram} alt="" />
               </div>
             </Link>
-            {/* linkdien */}
-            <div
-              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
-            >
-              <img src={linkedin} alt="" />
-            </div>
-            <Link to='https://www.youtube.com/@e-gnitelinkaisystems' target="blank">
+            {/* youtube */}
+             <Link to='https://www.youtube.com/@e-gnitelinkaisystems' target="blank">
               <div
                 className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
                 style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
@@ -133,6 +128,24 @@ const ContactForm = () => {
                 <img src={youtube} alt="" />
               </div>
             </Link>
+            {/* linkdien */}
+            <div
+              className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+              style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
+            >
+              <img src={linkedin} alt="" />
+            </div>
+           
+            {/* google my bussiness */}
+            <Link to='https://share.google/rRWZLdf9NZ6Nq6IsY' target="blank">
+              <div
+                className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+                style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
+              >
+                <img src={googlemybusiness} alt="" />
+              </div>
+            </Link>
+            
           </div>
         </div>
 

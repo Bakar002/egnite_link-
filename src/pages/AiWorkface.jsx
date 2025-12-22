@@ -14,6 +14,7 @@ import WorkforceHero from "../components/Build Your";
 import { Brain, Calendar, Users, FileText, MessageCircle, BookOpen, Smile, Upload, Award, Shield, UserCheck, Package, Truck } from 'lucide-react';
 import standard from '../assets/images/aileft.png';
 import ContactForm from "../components/GetinTouch";
+import Begin from "../components/begin";
 
 function AiWorkface() {
   const mainHeading = ' Custom AI Staff'
@@ -116,7 +117,14 @@ function AiWorkface() {
           "Fulfillment becomes automated, but personalized",
           "Internal consistency increases across every department"
         ]}
-      />      <WorkforceHero />
+      />
+      {/* <WorkforceHero /> */}
+      <Begin
+        title="BUILD YOUR WORKFORCE"
+        description="Every System Needs Operators. These Ones Don't Sleep.
+"
+        buttonText="Request Ai Workforce Consultation"
+      />
       {/* <ProfessionalFooter /> */}
     </>
   );

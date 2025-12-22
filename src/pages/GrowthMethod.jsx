@@ -9,7 +9,7 @@ import GrowthSystemsGrid from '../components/GrowthSystem';
 import WhoItsFor from '../components/Whosection';
 import OutcomesOfDeployment from '../components/Deployment';
 import GrowthMethodBanner from '../components/Private';
-import photo from '../assets/images/photo copy.png'
+import photo from '../assets/images/aaaaaaaaaaaa.jpg'
 import image from '../assets/images/grwoth photo2.png'
 import one from '../assets/images/IMG.png';
 import ProfessionalFooter from '../components/HomeFooter';
@@ -47,7 +47,7 @@ const GrowthMethod = () => {
                 buttonText="Book Your Consultation"
                 buttonLink="#contact-section"
                 image1={photo}
-                image2={image}
+                image2={false}
             />
             <Features
                 title="Key System Features"

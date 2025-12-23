@@ -43,7 +43,15 @@ const EmpowerBusinessComponent = ({
         author: "Michael Thompson",
         rating: 5,
         avatar: "MT"
-      }
+      },
+       {
+        id: 1,
+        title: "Learn Advanced AI/ML",
+        description: "\"I have been thoroughly impressed with the level of vision and execution provided by E‑Gnite. The system builds itself around our infrastructure without the constant patchwork other platforms require. This isn’t automation — this is architecture\"",
+        author: "Jason Richardson",
+        rating: 5,
+        avatar: "JR"
+      },
     ]
   }
 }) => {

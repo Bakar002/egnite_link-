@@ -5,7 +5,7 @@ import twitter from '../assets/images/Twitter.png'
 import instagram from '../assets/images/Instagram.png'
 import linkedin from '../assets/images/LinkedIn.png'
 import youtube from '../assets/images/YouTube.png'
-import googlemybusiness from '../assets/images/google-removebg-preview.png'  
+import googlemybusiness from '../assets/images/googleff-Photoroom.png'  
 import { Link } from "react-router-dom";
 //new upate 
 const ContactForm = () => {

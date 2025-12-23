@@ -164,7 +164,7 @@ const ProfessionalFooter = () => {
 
           {/* Company Info */}
           <div className="space-y-4">
-            <img src={logo} alt="E-Gnite Link AI Systems Logo" />
+            <Link to="/"><img src={logo} alt="E-Gnite Link AI Systems Logo" /></Link>
 
             <p className="text-gray-400 text-sm leading-relaxed">
               Intelligent Infrastructure for Business Growth.
@@ -191,9 +191,9 @@ const ProfessionalFooter = () => {
                   <Youtube className="w-4 h-4" />
                 </div>
               </a>
-                <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
-                  <Linkedin className="w-4 h-4" />
-                </div>
+              <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
+                <Linkedin className="w-4 h-4" />
+              </div>
             </div>
           </div>
 
@@ -228,7 +228,7 @@ const ProfessionalFooter = () => {
             <h4 className="font-semibold text-lg">Contact Us</h4>
 
             <div className="flex items-center space-x-2">
-               <MapPin className="w-4 h-4 text-cyan-400" />
+              <MapPin className="w-4 h-4 text-cyan-400" />
               <a
                 href="https://www.google.com/maps/search/?api=1&query=New+Jersey,+USA"
                 target="_blank"

@@ -18,7 +18,9 @@ import img2 from '../assets/images/keysystem c2.png';
 import img3 from '../assets/images/keysystemc3.png';
 import img4 from '../assets/images/keysystemc4.png';
 import img5 from '../assets/images/keysystemc5.png';
+import img6 from '../assets/images/card6.png';
 import ContactForm from '../components/GetinTouch';
+import GrowthHero from '../components/Growthhero';
 
 
 const GrowthMethod = () => {
@@ -33,7 +35,7 @@ const GrowthMethod = () => {
                 backgroundImage={mainbg}
             />
             <InfoSection
-                title="What It Is"
+                title="What It Is?"
                 description={
                     <>
                         The E-Gnite Growth Method is a proprietary AI-powered
@@ -76,7 +78,12 @@ const GrowthMethod = () => {
                         title: "Human-AI Hybrid Logic",
                         description: "Inserted where strategic value requires it",
                         image: img5,
+                    },{
+                        title: "Predictive Decision Engine",
+                        description: "AI-driven insights for proactive strategy",
+                        image: img6,
                     },
+                    
                 ]}
             />
 
@@ -95,8 +102,9 @@ const GrowthMethod = () => {
             <ContactForm />
 
             < OutcomesOfDeployment />
-            <GrowthMethodBanner
-            />
+            <GrowthHero />
+            {/* <GrowthMethodBanner
+            /> */}
             {/* <ProfessionalFooter /> */}
 
 

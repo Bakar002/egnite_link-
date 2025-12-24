@@ -40,7 +40,7 @@ const ProintellectSystem = () => {
         backgroundImage={mainbg}
       />
       <InfoSection
-        title="Why ProIntellect Exists"
+        title="Why ProIntellect Exists?"
         description={
           <>
             Automation without intelligence becomes faster chaos. <br /> Intelligence without structure becomes indecision. <br /> ProIntellect Systems™ integrates deployable, domain - <br />specific AI into your business architecture — empowering <br /> operations with professional logic across high- risk, <br />   high-value functions. This is how AI stops answering and starts  advising

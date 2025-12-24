@@ -16,7 +16,7 @@ const Begin = ({ title, description, buttonText }) => {
 
       {/* Content */}
       <div className=" z-10 max-w-2xl px-4">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+        <h2 className="text-3xl md:text-5xl font-semibold mb-4">
           {title}
         </h2>
 

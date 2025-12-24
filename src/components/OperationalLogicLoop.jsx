@@ -22,7 +22,7 @@ export default function OperationalLogicLoop() {
   ];
 
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center p-8">
+    <div className=" bg-black flex items-center justify-center p-8">
       <div className="w-full max-w-6xl">
         {/* Title */}
         <h1 className="text-white text-4xl font-light text-center mb-16">
@@ -34,7 +34,8 @@ export default function OperationalLogicLoop() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className=" from-zinc-800 to-zinc-900 rounded-3xl p-5 hover:from-zinc-700 hover:to-zinc-800 transition-all duration-300 border border-zinc-700/50" style={{
+              className=" from-zinc-800 to-zinc-900 rounded-3xl p-5 hover:from-zinc-700 hover:to-zinc-800 transition-all duration-300 border border-zinc-700/50 hover:scale-105 hover:shadow-md transition-all duration-300 hover:shadow-blue-500/50"
+              style={{
                 background: "linear-gradient(335.99deg, #252525 9.77%, #424242 89.74%)"
               }}
             >

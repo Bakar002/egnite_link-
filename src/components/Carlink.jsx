@@ -2,7 +2,7 @@ import React from "react";
 import carlinkBg from "../assets/images/Frame 1707480369.png";
 export default function CarlinkHero() {
   return (
-    <div className="w-full min-h-screen bg-[#020304] flex items-center justify-center p-4">
+    <div className="w-full  bg-[#020304] flex items-center justify-center p-4">
       <div className="w-full max-w-4xl bg-[#050607] rounded-3xl p-10 shadow-2xl relative overflow-hidden border border-white/10">
         {/* Top Glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-40 bg-cyan-500/20 blur-3xl" />

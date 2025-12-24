@@ -5,7 +5,7 @@ import twitter from '../assets/images/Twitter.png'
 import instagram from '../assets/images/Instagram.png'
 import linkedin from '../assets/images/LinkedIn.png'
 import youtube from '../assets/images/YouTube.png'
-import googlemybusiness from '../assets/images/googleff-Photoroom.png'  
+import googlemybusiness from '../assets/images/google.png'  
 import { Link } from "react-router-dom";
 //new upate 
 const ContactForm = () => {
@@ -142,7 +142,7 @@ const ContactForm = () => {
                 className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
                 style={{ backgroundColor: "#32ADE6", borderRadius: '5.51371px' }}
               >
-                <img src={googlemybusiness} alt="" />
+                <img src={googlemybusiness} alt="Google My Business" className="w-auto h-5" />
               </div>
             </Link>
             

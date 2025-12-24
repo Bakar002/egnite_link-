@@ -45,7 +45,7 @@ const Features = ({ title, description, features = [] }) => {
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {features.slice(0, 5).map((feature, id) => (
+          {features.map((feature, id) => (
             <FeatureCard
               key={id}
               title={feature.title}

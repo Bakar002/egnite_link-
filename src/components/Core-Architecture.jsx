@@ -41,9 +41,9 @@ export default function Cards() {
   ];
 
   return (
-    <div className=" bg-black flex items-center justify-center p-8">
+    <div className=" bg-black flex items-start justify-center p-8">
       <div className="max-w-6xl w-full">
-        <h1 className="text-white text-3xl font-semibold text-center mb-12">
+        <h1 className="text-white text-5xl font-semibold text-center ">
           Core Architecture
         </h1>
         
@@ -51,9 +51,9 @@ export default function Cards() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className={`flex   ${card.position === 'right' ? 'justify-end' : 'justify-start'}`}
+              className={`flex   ${card.position === 'right' ? 'justify-end' : 'justify-start'} hover:scale-105 transition-transform duration-300 `}
             >
-              <div className="relative bg-gray-800 rounded-2xl p-6 mt-5 w-full max-w-md shadow-xl">
+              <div className="relative bg-gray-800 rounded-2xl p-6 mt-5 mx-8 w-full max-w-lg shadow-xl">
                 {/* Icon Badge */}
                 
                 

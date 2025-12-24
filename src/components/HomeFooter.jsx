@@ -153,6 +153,8 @@ import {
   Linkedin
 } from 'lucide-react';
 import logo from '../assets/images/logo.png';
+import googlemybusiness from '../assets/images/google.png'  
+
 
 const ProfessionalFooter = () => {
   return (
@@ -171,31 +173,39 @@ const ProfessionalFooter = () => {
             </p>
 
             <div className="flex space-x-3">
-              <a href="https://www.facebook.com/EGniteLinkAI/" target="_blank" rel="noopener noreferrer">
+              <Link to="https://www.facebook.com/EGniteLinkAI/" target="_blank" rel="noopener noreferrer">
                 <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
                   <Facebook className="w-4 h-4" />
                 </div>
-              </a>
-              <a href="https://x.com/E_GniteLinkAI" target="_blank" rel="noopener noreferrer">
+              </Link>
+              <Link to="https://x.com/E_GniteLinkAI" target="_blank" rel="noopener noreferrer">
                 <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
                   <Twitter className="w-4 h-4" />
                 </div>
-              </a>
-              <a href="https://www.instagram.com/e_gnitelinkai/" target="_blank" rel="noopener noreferrer">
+              </Link>
+              <Link to="https://www.instagram.com/e_gnitelinkai/" target="_blank" rel="noopener noreferrer">
                 <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
                   <Instagram className="w-4 h-4" />
                 </div>
-              </a>
-              <a href="https://www.youtube.com/@e-gnitelinkaisystems" target="_blank" rel="noopener noreferrer">
+              </Link>
+              <Link to="https://www.youtube.com/@e-gnitelinkaisystems" target="_blank" rel="noopener noreferrer">
                 <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
                   <Youtube className="w-4 h-4" />
                 </div>
+              </Link>
+              <a href="https://www.linkedin.com/company/e-gnite-link-ai/" target="_blank" rel="noopener noreferrer">
+                <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
+                  <Linkedin className="w-4 h-4" />
+                </div>
               </a>
-              <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
-                <Linkedin className="w-4 h-4" />
-              </div>
+            <Link to='https://share.google/rRWZLdf9NZ6Nq6IsY' target="blank">
+                <div className="w-8 h-8 rounded flex items-center justify-center bg-[#32ADE6]">
+                  <img src={googlemybusiness} alt="Google My Business" className="w-auto h-5" />
+                </div>
+              </Link>
             </div>
           </div>
+
 
           {/* Division Overview (FAQs moved here) */}
           <div className="space-y-4">

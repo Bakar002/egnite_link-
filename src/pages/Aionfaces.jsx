@@ -13,6 +13,7 @@ import ProfessionalFooter from "../components/HomeFooter";
 import { Brain, Zap, Shield, Eye } from "lucide-react";
 import HeroSection from "../components/AionHero";
 import ContactForm from "../components/GetinTouch";
+import AionLast from "../components/AionLast";
 
 const Aionfaces = () => {
   const customFeatures = [
@@ -117,7 +118,8 @@ const Aionfaces = () => {
           "Multi-platform ready — from SMS to YouTube to CRM",
         ]}
       />{" "}
-      <InfluenceAtScale />
+      <AionLast />
+      {/* <InfluenceAtScale /> */}
       {/* <ProfessionalFooter /> */}
     </>
   );

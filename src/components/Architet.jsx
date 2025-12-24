@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import k from '../assets/images/k.png';
+import k from '../assets/images/homeimg.png';
 
 const GrowthInfrastructureComponent = () => {
   return (

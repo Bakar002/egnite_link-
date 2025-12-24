@@ -30,7 +30,7 @@ const cardData = [
 
 const CoreArchitecture = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950 py-16 px-4 sm:px-6 lg:px-8">
+    <div className=" bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <h2 className="text-center text-white text-3xl md:text-4xl font-bold mb-16 tracking-wide uppercase text-shadow">

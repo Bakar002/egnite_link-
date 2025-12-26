@@ -15,6 +15,8 @@ import CarlinkHero from '../components/Carlink';
 import ProfessionalFooter from '../components/HomeFooter';
 import Cards from '../components/Core-Architecture';
 import ContactForm from '../components/GetinTouch';
+import Integration from '../components/Integration';
+import IntegrationCore from '../components/IntegrationCore';
 
 const CoreSystem = () => {
   const leftContent = {
@@ -65,7 +67,7 @@ const CoreSystem = () => {
       <Cards />
       {/* <CoreArchitecture /> */}
       <OperationalLogicLoop />
-      <EGniteIntegration
+      <IntegrationCore
         mainTitle="Integration with E-Gnite Link AI Systems™"
         leftColumn={leftContent}
         rightColumn={rightContent}

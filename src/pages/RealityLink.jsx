@@ -55,7 +55,7 @@ const RealityLink = () => {
       />
       <PropertyHero />
       <ChallengeCards />
-      <REALTYLinkModel />
+      {/* <REALTYLinkModel /> */}
       <KeyOutcomeThemes title="Core Capabilities" themes={themesData} />
       <OutcomesDesign />
       <EgniteIntegration />

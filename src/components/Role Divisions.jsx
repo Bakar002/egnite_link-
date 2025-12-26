@@ -2,8 +2,8 @@ import React from 'react';
 import role from "../assets/images/RoleIcons.png";
 const DivisionRoleDesign = () => {
   return (
-    <div className="pt-9 bg-black text-white flex items-center">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+    <div className="pt-5 bg-black text-white flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left side - Text content */}
           <div className="text-center lg:text-left">

@@ -1,5 +1,5 @@
 import React from 'react';
-import cardoverly from '../assets/images/bgimagecardovely.png';
+import cardoverly from '../assets/images/bgimagecheck.jpeg';
 import oneicon from '../assets/images/car1icon.png';
 import twoicon from '../assets/images/car2icon.png';
 import threeicon from '../assets/images/car3icon.png';
@@ -13,10 +13,10 @@ export default function EgniteIntegration() {
   ];
 
   return (
-    <div className="bg-black flex items-start justify-center relative overflow-hidden p-2 sm:p-4 md:p-0">
+    <div className=" flex items-start justify-center relative overflow-hidden p-2 sm:p-4 md:p-0">
       {/* Animated Background Pattern */}
-      <div className="absolute">
-        <img src={cardoverly} alt="" />
+      <div className="absolute inset-0">
+        <img src={cardoverly} alt="" className="w-full h-full object-cover" />
       </div>
 
       <div className="relative z-10 max-w-6xl w-full">

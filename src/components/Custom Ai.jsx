@@ -108,8 +108,8 @@ export default function CustomAIStaff({ aiStaffData, main, description, image })
             className="min-h-screen  relative overflow-hidden"
             style={{
                 backgroundImage: `url(${image})`,
-                backgroundSize: "100% 100%",
-                backgroundPosition: "center",
+                backgroundSize: "cover",
+                backgroundPosition: "cover",
                 backgroundRepeat: "no-repeat",
             }}
         >

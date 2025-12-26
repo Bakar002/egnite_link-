@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../assets/images/bg.jpeg';
+import bg from '../assets/images/systemare.png';
 export default function FuturisticHero() {
   return (
     <div className="relative w-full min-h-screen overflow-hidden bg-black">

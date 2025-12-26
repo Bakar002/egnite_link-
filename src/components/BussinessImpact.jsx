@@ -28,6 +28,9 @@ export default function BusinessImpact() {
   return (
     <div className=" bg-black flex items-start justify-center p-8">
       <div className="max-w-7xl w-full">
+         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center pb-5">
+            Business Impact
+          </h1>
         
 
         <div

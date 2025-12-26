@@ -80,6 +80,7 @@
 // }
 
 import React from "react";
+import bg from '../assets/images/scopeofworkbg.png';
 
 const dataTop = [
   {
@@ -114,8 +115,11 @@ const dataBottom = [
 
 export default function ScopeOfWork() {
   return (
-    <div className="w-full min-h-screen bg-black text-white py-20 px-6 flex flex-col items-center">
-      
+    <div
+      className="w-full  bg-black text-white py-10 px-6 flex flex-col items-center bg-cover  bg-no-repeat"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
+
       <h1 className="text-center text-3xl md:text-4xl font-semibold mb-16">
         Scope of Work
       </h1>
@@ -125,7 +129,7 @@ export default function ScopeOfWork() {
         {dataTop.map((item) => (
           <div
             key={item.id}
-            className="relative bg-[#111418] rounded-3xl p-8 shadow-xl border border-white/20 overflow-hidden 
+            className="relative bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-3xl p-8 shadow-xl border border-white/20 overflow-hidden 
             transform transition-all duration-500 hover:scale-105 hover:shadow-cyan-500/40 hover:translate-y-[-5px]"
           >
             <div className="absolute top-5 left-5 bg-[#00AEEF] text-white px-4 py-1 rounded-full text-sm font-semibold">
@@ -142,7 +146,7 @@ export default function ScopeOfWork() {
         {dataBottom.map((item) => (
           <div
             key={item.id}
-            className="relative bg-[#111418] rounded-3xl p-8 shadow-xl border border-white/20 overflow-hidden 
+            className="relative bg-[linear-gradient(148.43deg,#262628_29.96%,#4B4B4D_81.02%)] rounded-3xl p-8 shadow-xl border border-white/20 overflow-hidden 
             transform transition-all duration-500 hover:scale-105 hover:shadow-cyan-500/40 hover:translate-y-[-5px]"
           >
             <div className="absolute top-5 left-5 bg-[#00AEEF] text-white px-4 py-1 rounded-full text-sm font-semibold">

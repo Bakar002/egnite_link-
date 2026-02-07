@@ -8,7 +8,7 @@ export default function MainBanner({ heading, subHeading, buttonText, background
           {heading}
         </h1>
         <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-gray-300 max-w-sm sm:max-w-2xl lg:max-w-3xl px-2 sm:px-0">
-          {subHeading}
+          {subHeading}  
         </p>
 
         {/* CTA Button */}

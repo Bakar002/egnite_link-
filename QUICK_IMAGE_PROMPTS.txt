@@ -1,0 +1,86 @@
+================================================================================
+QUICK COPY-PASTE IMAGE GENERATION PROMPTS
+Intelligent Websites Landing Page - Professional Image Prompts
+================================================================================
+
+Copy these prompts directly into your image generation tool (Midjourney, DALL-E, 
+Stable Diffusion, etc.) for professional, realistic images.
+
+================================================================================
+IMAGE 1: HERO BACKGROUND IMAGE
+================================================================================
+Dimensions: 1920x1080px
+File: intelligent-websites-hero-bg.png
+
+PROMPT:
+Professional abstract visualization of intelligent network systems, dark sophisticated background with subtle cyan and blue lighting, neural network nodes connected by glowing pathways, knowledge graph structure with interconnected data points, futuristic technology infrastructure, cinematic lighting with depth of field, high contrast between dark background and bright cyan/blue accents, professional 3D render or high-end photography style, minimal and elegant, no human figures, systems-focused aesthetic, abstract intelligence representation, web-native architecture visualization, premium technology visualization, depth and dimension, subtle motion blur on connections, professional color grading, dark theme with cyan #00AEEF and blue #0066CC accents, 4K quality, photorealistic rendering, architectural photography style, 1920x1080
+
+NEGATIVE:
+no text, no human figures, no stock photo, no generic, no cliché, no cartoon, no illustration style
+
+================================================================================
+IMAGE 2: VISUAL COMPARISON IMAGE
+================================================================================
+Dimensions: 1400x800px
+File: intelligent-websites-comparison.png
+
+PROMPT:
+Professional split-screen comparison diagram showing traditional chatbot architecture versus intelligent website architecture, left side: simple chatbot widget floating above static website pages, disconnected elements, basic chat interface, right side: integrated intelligence system woven into website structure, seamless architecture, unified system, professional infographic style, clean modern design, dark background with cyan accents, technical diagram aesthetic, architectural blueprint style, minimal text labels, professional illustration, 3D isometric or flat design, high contrast, clear visual distinction between old and new approach, systems architecture visualization, professional technology comparison, clean lines, geometric shapes, 1400x800, vector illustration style or professional 3D render, photorealistic quality
+
+NEGATIVE:
+no text overlays, no human figures, no stock photo style, no generic icons, no cartoon style, no marketing graphics
+
+================================================================================
+IMAGE 3: PROCESS FLOW IMAGE
+================================================================================
+Dimensions: 1400x600px
+File: intelligent-websites-process.png
+
+PROMPT:
+Professional process flow diagram showing five interconnected capabilities of intelligent websites: understanding intent, conversational communication, dynamic adaptation, taking real actions, and signaling intelligence to AI systems, circular or linear workflow visualization, connected nodes with flowing pathways, each capability represented as distinct module, arrows showing data flow and interaction, professional technical diagram style, dark sophisticated background, cyan and blue accent colors, modern infographic design, clean geometric shapes, professional illustration, 3D isometric or flat vector style, high-quality rendering, minimal text, visual-first approach, systems architecture diagram, workflow visualization, professional technology illustration, 1400x600, elegant and minimal design, photorealistic or professional vector style
+
+NEGATIVE:
+no text labels, no human figures, no generic flowchart icons, no cartoon style, no marketing graphics, no cluttered design
+
+================================================================================
+IMAGE 4: TECHNOLOGY ARCHITECTURE DIAGRAM
+================================================================================
+Dimensions: 1400x700px
+File: intelligent-websites-architecture.png
+
+PROMPT:
+Professional technology stack architecture diagram showing layered system: top layer labeled "IntLive - Intelligence Layer" with AI and reasoning capabilities visualization, bottom layer labeled "E-Gnite Link AI Systems - Infrastructure & Governance" with foundation and architectural elements, layered stack visualization, professional technical architecture diagram, dark sophisticated background, cyan and blue gradient accents, modern technology illustration, clean geometric layers, professional 3D render or vector illustration, high-quality technical diagram, systems architecture visualization, infrastructure layers clearly separated, professional color coding, minimal elegant design, depth and dimension, professional technology stack visualization, 1400x700, architectural blueprint aesthetic, clean lines and shapes, photorealistic rendering
+
+NEGATIVE:
+no text overlays (labels should be subtle or implied), no human figures, no generic icons, no cartoon style, no marketing graphics, no cluttered design
+
+================================================================================
+COLOR PALETTE FOR ALL IMAGES
+================================================================================
+- Primary Background: Black (#000000) to Dark Navy (#000b13, #020304)
+- Accent Colors: Cyan (#00AEEF, #22D3EE) and Blue (#0066CC, #2563EB)
+- Text/Labels: White or Light Gray (if text needed)
+- High Contrast: Dark backgrounds with bright accents
+
+================================================================================
+STYLE GUIDELINES
+================================================================================
+- Professional, high-end, executive-level aesthetic
+- Minimal, clean, uncluttered, focused
+- Modern, contemporary design language
+- Technical, architecture/system-focused
+- Elegant, sophisticated, premium feel
+- Abstract, conceptual rather than literal
+- Systems-oriented: Infrastructure > features, systems > humans
+
+================================================================================
+FILE LOCATIONS
+================================================================================
+Save all images to: e-gnite-link/src/assets/images/
+
+Image 1: intelligent-websites-hero-bg.png
+Image 2: intelligent-websites-comparison.png
+Image 3: intelligent-websites-process.png
+Image 4: intelligent-websites-architecture.png
+
+================================================================================

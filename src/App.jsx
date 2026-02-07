@@ -20,6 +20,7 @@ import FAQ from "./pages/FAQ";
 import TermCondition from "./pages/TermCondition";
 import ScrollToTopButton from "./components/ScrollTopButton";
 import PrivacyPolicyPage from "./pages/PrivacyPolicy";
+import IntelligentWebsites from "./pages/IntelligentWebsites";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
         {/* <Route path="/contact-us" element={< ContactPage/>} /> */}
         <Route path="/terms-conditions" element={< TermCondition/>} />
         <Route path="/privacy-policy" element={< PrivacyPolicyPage/>} />
+        <Route path="/intelligent-websites-category" element={< IntelligentWebsites/>} />
 
       </Routes>
 

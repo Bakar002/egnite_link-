@@ -45,6 +45,7 @@ const Header = () => {
 
         {/* Nav Items */}
         <nav className="flex flex-col space-y-4 text-lg font-medium">
+          <Link onClick={toggleMenu} to="/intelligent-websites-category" className="hover:text-cyan-400 border-b border-gray-700 pb-2 mb-2 font-semibold">Intelligent Websites</Link>
           <Link onClick={toggleMenu} to="/growth-method" className="hover:text-cyan-400">Growth Method</Link>
           <Link onClick={toggleMenu} to="/prointellect" className="hover:text-cyan-400">ProIntellect Systems</Link>
           <Link onClick={toggleMenu} to="/ai-workforce" className="hover:text-cyan-400">AI Workforce</Link>
@@ -54,7 +55,6 @@ const Header = () => {
           <Link onClick={toggleMenu} to="/core-system" className="hover:text-cyan-400">Car Link</Link>
           <Link onClick={toggleMenu} to="/realty-link" className="hover:text-cyan-400">Realty Link</Link>
           <Link onClick={toggleMenu} to="/biz-link" className="hover:text-cyan-400">Biz Link</Link>
-          
         </nav>
       </div>
           

@@ -87,14 +87,15 @@ const IntelligentWebsites = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex flex-col items-center justify-center text-white overflow-hidden bg-[#000010]">
         {/* Animated Background */}
-        <div className="absolute inset-0 -z-10">
-          {/* Hero Background Image - Image 1a */}
-          <img 
-            src="/1a.png" 
-            alt="Intelligent Websites Hero Background" 
-            className="w-full h-full object-cover opacity-40 animate-[fadeIn_2s_ease-in-out]"
+        <div className="absolute inset-0 z-0">
+          {/* Hero Background Image */}
+          <img
+            src="/bg.jpg"
+            alt="Intelligent Websites Hero Background"
+            className="w-full h-full object-cover"
+            style={{ opacity: 0.6 }}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#000000cc] via-[#05002688] to-[#000000cc]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#00000070] via-[#05002640] to-[#00000070]" />
           
           {/* Grid Pattern Overlay */}
           <div className="absolute inset-0 opacity-[0.03] animate-[fadeIn_3s_ease-in-out]" style={{
@@ -103,11 +104,11 @@ const IntelligentWebsites = () => {
           }}></div>
         </div>
         
-        <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1 z-10 max-w-7xl mx-auto">
+        <main className="relative z-20 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex-1 max-w-7xl mx-auto">
           {/* Animated Glow Effect Behind Text */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-3xl -z-10 animate-[pulse_4s_ease-in-out_infinite]"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-3xl z-0 animate-[pulse_4s_ease-in-out_infinite]"></div>
           
-          <div className="relative z-10">
+          <div className="relative z-30">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 sm:mb-8 bg-gradient-to-r from-white via-cyan-100 to-white bg-clip-text text-transparent tracking-tight animate-[slideDown_1s_ease-out]">
               Intelligent Websites
             </h1>
